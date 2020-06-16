@@ -1,0 +1,19 @@
+.header__container
+  .left.inline-flex
+    .logo
+      img(src="svg/bbva_logo.svg", alt="")
+    .tab__menu.flex.flex-align-center.margin-top_5
+      include ../c-tab-menu/c-tab-menu.pug
+  .right
+    ul.header__menu
+      li.first.header__search
+        i.ico-search
+      li.header__notifier
+        i.ico-alarm
+        .dot-notified
+      li.user-profile
+        .bground-text
+          span JS
+        //-include ../c-user-dropdown/c-user-dropdown.pug
+      li.last.header__button-dropdown
+        i.ico-tiled-view

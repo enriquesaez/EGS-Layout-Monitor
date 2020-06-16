@@ -1,0 +1,83 @@
+/* C-DROPDOWN COMPONENT */
+
+.label_c-dropdown {
+  margin-bottom: 8px;
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.c-dropdown {
+  position: relative;
+  width: 100%;
+  .dropbtn {
+    padding: 12px 14px;
+    width: 100%;
+    font-family: "Benton Sans Book BBVA";
+    text-align: left;
+    font-size: 15px;
+    color: var(--tertiary);
+    border: 0;
+    border-bottom: 1px solid var(--tertiary);
+    background-color: var(--first);
+    height: 48px;
+    cursor: pointer;
+    background-image: url(../svg/Unfold.svg);
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      background-color: var(--first);
+    }
+  }
+  .c-dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: var(--first);
+    max-height: 190px;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    z-index: 1;
+    border: 1px solid var(--sixth);
+    .countryList {
+      padding-left: 20px;
+      padding-right: 20px;
+      .country {
+        border-bottom: 1px solid var(--border-primary);
+        padding-top: 18px;
+        padding-bottom: 18px;
+      }
+    }
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+    /* Track */
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0px 0px 4px grey;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: rgb(24, 113, 181);
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: rgb(63, 163, 240);
+    }
+  }
+  .show {
+    display: block;
+  }
+}
+
+.c-dropdown a:hover {
+  background-color: var(--bground-first);
+}
+
+/* END C-DROPDOWN COMPONENT */

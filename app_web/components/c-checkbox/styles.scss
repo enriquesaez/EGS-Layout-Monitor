@@ -1,0 +1,61 @@
+.c-checkbox{
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+
+    /* Base for label styling */
+  [type="checkbox"]:not(:checked),
+  [type="checkbox"]:checked {
+    visibility: hidden;
+  }
+  [type="checkbox"]:not(:checked) + label,
+  [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 1.95em;
+    color: var(--tertiary);
+    font-family: 'Benton Sans Book BBVA';
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  /* checkbox aspect */
+  [type="checkbox"]:not(:checked) + label:before,
+  [type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--tertiary);
+    background-color: var(--first);
+    border-radius: 1px;
+  }
+  /* checked mark aspect */
+  [type="checkbox"]:not(:checked) + label:after,
+  [type="checkbox"]:checked + label:after {
+    content: '\e90b';
+    font-family: 'bbva-one-bank';
+    color: var(--fifth);
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    font-size: 13px;
+    transition: all 0.2s;
+  }
+  /* checked mark aspect changes */
+  [type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+  }
+  [type="checkbox"]:checked + label:after {
+    opacity: 1;
+    transform: scale(1);
+  }
+  /* disabled checkbox */
+  [type="checkbox"]:disabled:not(:checked) + label:before,
+  [type="checkbox"]:disabled:checked + label:before {
+    background-color: var(--third);
+  }
+}

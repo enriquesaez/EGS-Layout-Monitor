@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>38950BE7-93D7-4CDF-AEFA-8BB13609A0A0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 Z M17.0416667,6.95833333 L9.70833333,14.2916667 L6.95833333,11.5416667 L5.58333333,12.9166667 L9.70833333,17.0416667 L18.4166667,8.33333333 L17.0416667,6.95833333 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation/Settings-1-Symbols/Checkmark/Filled">
+            <polygon id="Bounding-Box" points="0 0 24 0 24 24 0 24"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="🎨-Color-Fill-Primary/Medium-Blue/Medium-Blue" mask="url(#mask-2)" fill="#1973B8">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

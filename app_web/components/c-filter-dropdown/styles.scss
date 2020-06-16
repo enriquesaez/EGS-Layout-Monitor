@@ -1,0 +1,24 @@
+/* C-FILTER-DROPDOWN COMPONENT */
+
+.c-filter-dropdown {
+  background-color: var(--third);
+  padding: 25px 40px;
+  .row {
+    .col-4 {
+      div{
+        width: 100%;
+      }
+      div:first-child{
+        margin-right: 16px;
+      }
+    }
+  }
+  .c-link label{
+    font-size: 15px;
+  }
+  .c-link i:before {
+    content: $ico-trash;
+  }
+}
+
+/* END C-FILTER-DROPDOWN COMPONENT */

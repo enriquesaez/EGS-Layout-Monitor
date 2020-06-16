@@ -1,0 +1,27 @@
+/* C-TABLE-HEADER COMPONENT */
+
+.c-table-header{
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  padding: 0 16px 0 16px;
+  height: 56px;
+  .flex{
+    div{
+      .c-search{
+        input:first-of-type{
+          margin-right: 24px;
+          min-width: 209px;
+        }
+      }
+    }
+  } 
+}
+
+/* END C-TABLE-HEADER COMPONENT */

@@ -1,0 +1,26 @@
+doctype html
+html(lang='en')
+  head
+    include components/head-content/head-content.pug
+  body
+    header
+      include components/c-header/c-header.pug
+    section.subHeader
+      include components/c-subheader/c-subheader.pug      
+    section.app__container      
+      .c-tab-menu-traceability
+        div
+          button
+            span Descuento
+        div
+          button
+            i.ico-disabled.ico-path-3-1
+            span Errores
+        div.traceability--active
+          button
+            span Activity Log
+      include components/c-files-detail-activity-log/c-files-detail-activity-log.pug      
+    include components/c-footer/c-footer.pug
+include js/c-select-js.pug
+include js/c-dropdown-js.pug
+include js/c-accordion-js.pug

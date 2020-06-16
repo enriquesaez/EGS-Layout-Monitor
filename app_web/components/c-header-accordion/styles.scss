@@ -1,0 +1,56 @@
+/* C-HEADER-ACCORDION COMPONENT */
+
+.c-header-accordion{
+  border-top: 1px solid #D3D3D3;
+  width: 100%;
+  padding: 12px 0;
+  display: inline-flex;
+  box-shadow: 0px 0px 4px 0 rgba(0,0,0,0.04);
+  
+  span{
+    color: var(--tertiary);
+    font-family: 'Benton Sans Book BBVA';
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  div{
+    width: 5%;
+  }
+
+  .accordionHeader-date{
+    margin-right: 1%;
+    width: 10%;
+  }
+
+  .accordionHeader-request{
+    margin-right: 1%;
+    width: 25%;
+  }
+
+  .accordionHeader-contract{
+    margin-right: 1%;
+    width: 10%;
+  }
+
+  .accordionHeader-client{
+    margin-right: 1%;
+    width: 10%;
+  }
+
+  .accordionHeader-files{
+    margin-right: 1%;
+    width: 10%;
+  }
+
+  .accordionHeader-lastFile{
+    margin-right: 1%;
+    width: 15%;
+  }
+
+  .accordionHeader-requestStatus{
+    width: 15%;
+  }
+}
+
+/* END C-HEADER-ACCORDION COMPONENT */

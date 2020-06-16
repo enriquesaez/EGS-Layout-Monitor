@@ -1,0 +1,112 @@
+/* C-TABLE COMPONENT */
+
+.c-table {
+  width: 100%;
+  margin-bottom:40px;
+  th,
+  td {
+    height: 48px;
+    vertical-align: middle;
+    padding: 0 0 0 20px;
+  }
+  th {
+    text-transform: uppercase;
+    text-align: left;
+    &.last {
+      text-align: right;
+    }
+    p {
+      color: var(--tertiary);
+      font-size: 12px;
+    }
+    .icon-arrow-down {
+      width: 0;
+      height: 0;
+      position: relative;
+      left: 5px;
+      top: 9px;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 5px solid var(--tertiary);
+      cursor: pointer;
+    }
+  }
+  td {
+    &.last {
+      text-align: right;
+    }
+    p {
+      color: var(--data-first);
+      font-size: 14px;
+      font-family: "Benton Sans Book BBVA";
+      &.client-file {
+        color: var(--fifth);
+        font-family: "Benton Sans Medium BBVA";
+      }
+      &.date {
+        color: var(--data-first);
+      }
+      &.medium,
+      &.client-file,
+      &.date,
+      &.service,
+      &.status,
+      &.status--rejected,
+      &.status--partial,
+      &.status--timeout,
+      &.status--paid,
+      &.status--future {
+        margin-bottom: 4px;
+        margin-top: 4px;
+      }
+      &.status--rejected,
+      &.status--partial,
+      &.status--timeout,
+      &.status--paid,
+      &.status--future {
+        font-family: "Benton Sans Medium BBVA";
+      }
+      &.status--rejected {
+        color: var(--text-rejected);
+      }
+      &.status--partial {
+        color: var(--text-partial);
+      }
+      &.status--timeout {
+        color: var(--text-timeout);
+      }
+      &.status--paid {
+        color: var(--text-paid);
+      }
+      &.status--future {
+        color: var(--tertiary);
+      }      
+    }
+    span {
+      font-family: "Benton Sans BookItalic BBVA";
+      font-size: 12px;
+      color: var(--tertiary);
+    }
+    i {
+      outline: none;
+      cursor: pointer;
+    }
+  }
+  tr {
+    border-bottom: 2px solid #d3d3d3;
+    &.th-table {
+      -webkit-box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      -moz-box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      border: none;
+      &:hover {
+        background: none;
+      }
+    }
+    &:hover {
+      background: var(--bground-first);
+      transition-duration: 0.3s;
+    }
+  }
+}
+/* END C-TABLE COMPONENT */

@@ -1,0 +1,135 @@
+/* C-TABLE-ORDER COMPONENT */
+
+.c-table-order {
+  width: 100%;
+  margin-bottom: 40px;
+  th,
+  td {
+    vertical-align: middle;
+    padding: 0 0 0 20px;
+    &.td-dropdown {
+      padding: 0;
+    }
+    .c-checkbox {
+      display: inline-flex;
+      display: -webkit-inline-flex;
+      align-items: center;
+      vertical-align: middle;
+      position: relative;
+
+      /* Base for label styling */
+      [type="checkbox"]:not(:checked),
+      [type="checkbox"]:checked {
+        visibility: hidden;
+      }
+      [type="checkbox"]:not(:checked) + label,
+      [type="checkbox"]:checked + label {
+        position: relative;
+        padding-left: 1.95em;
+        color: var(--tertiary);
+        font-family: "Benton Sans Book BBVA";
+        font-size: 15px;
+        cursor: pointer;
+      }
+
+      /* checkbox aspect */
+      [type="checkbox"]:not(:checked) + label:before,
+      [type="checkbox"]:checked + label:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -10px;
+        width: 18px;
+        height: 18px;
+        border: 1px solid var(--tertiary);
+        background-color: var(--first);
+        border-radius: 1px;
+      }
+      /* checked mark aspect */
+      [type="checkbox"]:not(:checked) + label:after,
+      [type="checkbox"]:checked + label:after {
+        content: "\e90b";
+        font-family: "bbva-one-bank";
+        color: var(--fifth);
+        position: absolute;
+        top: -6px;
+        left: 2px;
+        font-size: 13px;
+        transition: all 0.2s;
+      }
+      /* checked mark aspect changes */
+      [type="checkbox"]:not(:checked) + label:after {
+        opacity: 0;
+        transform: scale(0);
+      }
+      [type="checkbox"]:checked + label:after {
+        opacity: 1;
+        transform: scale(1);
+      }
+      /* disabled checkbox */
+      [type="checkbox"]:disabled:not(:checked) + label:before,
+      [type="checkbox"]:disabled:checked + label:before {
+        background-color: var(--third);
+      }
+    }
+  }
+  th {
+    height: 32px;
+    text-transform: uppercase;
+    text-align: left;
+    &.last {
+      padding: 0 16px 0px 0px;
+      text-align: right;
+    }
+    p {
+      color: var(--tertiary);
+      font-size: 12px;
+    }
+    .icon-arrow-down {
+      width: 0;
+      height: 0;
+      position: relative;
+      left: 5px;
+      top: 9px;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 5px solid var(--tertiary);
+      cursor: pointer;
+    }
+  }
+  td {
+    height: 40px;
+    &.last {
+      padding: 0 16px 0px 0px;
+      text-align: right;
+    }
+    p {
+      color: var(--data-first);
+      font-size: 13px;
+      font-family: "Benton Sans Book BBVA";
+      &.num-order {
+        color: var(--fifth);
+        font-family: "Benton Sans Medium BBVA";
+      }
+    }
+  }
+  tr {
+    cursor: pointer;
+    border-bottom: 1px solid #d3d3d3;
+    &.th-table {
+      -webkit-box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      -moz-box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      border: none;
+      &:hover {
+        background: none;
+      }
+    }
+    &:hover {
+      background: var(--bground-first);
+      transition-duration: 0.3s;
+    }
+  }
+}
+
+/* END C-TABLE-ORDER COMPONENT */

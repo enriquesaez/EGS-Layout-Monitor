@@ -1,0 +1,115 @@
+<!-- this "button#myBtn" down here is just for layout purpose -->
+<!-- must be deleted in develop -->
+button#myBtnModifyEjecDate Press me to render the modal
+#myModalModifyEjecDate.c-modal-modify-ejec-date
+    .c-modal-modify-ejec-date-content
+        .c-modal-modify-ejec-date-content_header
+            p.c-modal-modify-ejec-date-title Modificar fecha de ejecución
+            span.closeModifyEjecDate ×
+        .c-modal-modify-ejec-date-content_body
+            .c-modal-modify-ejec-date-leftPanel
+                .c-modal-modify-ejec-date-c-datepicker-simple
+                    .row.c-modal-modify-ejec-date-calendar-simple-container
+                        .col.c-modal-modify-ejec-date-calendar-simple
+                            .c-modal-modify-ejec-date-month-cal
+                                ul
+                                    li.prev(tabindex='0', role='button')
+                                        i.ico-roundBack(tabindex='0', role='button')
+                                    li
+                                        | Enero
+                                        span 2020
+                                        i.ico-unfold(tabindex='0', role='button')
+                                    li.next(tabindex='0', role='button')
+                                        i.ico-roundNext(tabindex='0', role='button')                        
+                            ul.weekdays
+                                li L
+                                li M
+                                li X
+                                li J
+                                li V
+                                li S
+                                li D
+                            .days
+                                .frame-day
+                                    span 1
+                                .frame-day
+                                    span 2
+                                .frame-day
+                                    span 3
+                                .frame-day
+                                    span 4
+                                .frame-day
+                                    span 5
+                                .frame-day
+                                    span 6
+                                .frame-day
+                                    span 7
+                                .frame-day
+                                    span 8
+                                .frame-day
+                                    span 9
+                                .frame-day
+                                    span 10
+                                .frame-day
+                                    span 11
+                                .frame-day
+                                    span 12
+                                .frame-day
+                                    span 13
+                                .frame-day
+                                    span 14
+                                .frame-day
+                                    span 15
+                                .frame-day
+                                    span 16
+                                .frame-day
+                                    span 17
+                                .frame-day.active
+                                    span 18
+                                .frame-day
+                                    span 19
+                                .frame-day
+                                    span 20
+                                .frame-day
+                                    span 21
+                                .frame-day
+                                    span 22
+                                .frame-day
+                                    span 23
+                                .frame-day
+                                    span 24
+                                .frame-day
+                                    span 25
+                                .frame-day
+                                    span 26
+                                .frame-day
+                                    span 27
+                                .frame-day
+                                    span 28
+                                .frame-day
+                                    span 29
+                                .frame-day
+                                    span 30
+                                .frame-day
+                                    span 31
+            .c-modal-modify-ejec-date-rightPanel
+                .c-modal-modify-ejec-date-select
+                    .c-modal-modify-ejec-date-originalEjecDate
+                        span Fecha original de ejecución: 15/01/19
+                    .c-modal-modify-ejec-date-choose-date
+                        .c-modal-modify-ejec-date-c-date-filter
+                            .from
+                                span fecha de ejecución
+                                span 15/11/2018
+                .c-modal-modify-ejec-date-attach-files-button(tabindex='0', role='button')
+                    img(src="../svg/attached.svg", alt="")
+                    span Adjuntar archivos
+        .c-modal-modify-ejec-date-attached
+            .attached-file
+                p Operaciones Argentina_vto igual o posterior al 01112019 (1).xlm
+            .attached-file
+                p Operaciones Argentina_vto igual o posterior al 01112019 (2).xlm
+
+        .c-modal-modify-ejec-date-content_footer
+            include ../c-link/c-link.pug
+            include ../c-button/c-button.pug

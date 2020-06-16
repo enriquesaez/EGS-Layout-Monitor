@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon-trash</title>
+    <desc>Created with Sketch.</desc>
+    <g id="MONITOR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FILTROS" transform="translate(-906.000000, -734.000000)">
+            <g id="Group-13" transform="translate(148.000000, 431.000000)">
+                <g id="Group-11" transform="translate(0.000000, 56.000000)">
+                    <g id="Group-25" transform="translate(754.000000, 232.000000)">
+                        <g id="Group-3" transform="translate(0.000000, 12.000000)">
+                            <g id="icon-trash">
+                                <g id="Icons/26/Grid" opacity="0">
+                                    <g id="grid-26" transform="translate(-0.923077, -0.923077)">
+                                        <g id="grid-26-thin">
+                                            <rect id="divider-vertical" fill="#D3D3D3" opacity="0.5" x="13.5" y="1" width="1" height="26"></rect>
+                                            <rect id="divider-horizontal" fill="#D3D3D3" opacity="0.5" x="1" y="13.5" width="26" height="1"></rect>
+                                            <line x1="1.05950928" y1="1.0635083" x2="26.9351587" y2="26.935968" id="diagonal" stroke="#D3D3D3" opacity="0.5"></line>
+                                            <line x1="1.07041138" y1="26.9368091" x2="26.9344128" y2="1.07298218" id="diagonal" stroke="#D3D3D3" opacity="0.5"></line>
+                                            <path d="M27.5,27.5 L0.5,27.5 L0.5,0.5 L27.5,0.5 L27.5,27.5 Z" id="outer-box" stroke="#BDBDBD" opacity="0.5"></path>
+                                            <path d="M2.05168919,5.64758604 L25.3584566,5.05125171 L25.9483107,22.3524132 L2.64154342,22.9487483 L2.05168919,5.64758604 Z" id="landscape-box" stroke="#BDBDBD" stroke-width="0.1" opacity="0.800000012"></path>
+                                            <path d="M5.05125171,2.64154343 L22.352414,2.05168919 L22.9487483,25.3584566 L5.64758604,25.9483108 L5.05125171,2.64154343 Z" id="portrait-box" stroke="#BDBDBD" stroke-width="0.1" opacity="0.800000012"></path>
+                                            <rect id="middle-box" stroke="#BDBDBD" stroke-width="0.1" opacity="0.800000012" x="3.05" y="3.05" width="21.9" height="21.9" rx="0.8"></rect>
+                                            <circle id="inner-circle" stroke="#BDBDBD" stroke-width="0.1" opacity="0.800000012" cx="14" cy="14" r="4.95"></circle>
+                                            <circle id="middle-circle" stroke="#BDBDBD" stroke-width="0.1" opacity="0.800000012" cx="14" cy="14" r="7.95"></circle>
+                                            <circle id="outerest-circle" stroke="#BDBDBD" stroke-width="0.1" opacity="0.800000012" cx="14" cy="14" r="11.95"></circle>
+                                        </g>
+                                    </g>
+                                </g>
+                                <path d="M14.259222,3 C14.8064136,3 15.25,3.44266033 15.25,3.99895656 L15.25,4.5 L20.5,4.5 L20.5,6.75 L19,6.75 L19,19.9926891 C19,20.5490115 18.5508308,21 18.0073128,21 L6.49268723,21 C5.94444121,21 5.5,20.5586649 5.5,19.9926891 L5.5,6.75 L4,6.75 L4,4.5 L9.25,4.5 L9.25,3.99895656 C9.25,3.44724809 9.70097518,3 10.240778,3 L14.259222,3 Z M9.25,12 L7.75,12 L7.75,17.25 L9.25,18.75 L9.25,12 Z M13,12 L11.5,12 L11.5,17.25 L13,18.75 L13,12 Z M16.75,12 L15.25,12 L15.25,17.25 L16.75,18.75 L16.75,12 Z" fill="#2A86CA"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

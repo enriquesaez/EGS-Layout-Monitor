@@ -1,0 +1,28 @@
+.c-confirm-modify-ejec-date
+  .c-confirm-modify-ejec-date-container
+    .c-confirm-modify-ejec-date-c-alert
+      .c-confirm-modify-ejec-date-c-alert_container
+          .c-confirm-modify-ejec-date-c-alert_body
+            i.ico-alert
+            div
+              span Confirma que quieres autorizar la modificación de fecha de ejecución
+              p Se modificará la fecha de ejecuciónn de  las 4 remesas y las 499 órdenes
+          .c-confirm-modify-ejec-date-c-alert_footer
+            include ../c-link/c-link.pug
+            include ../c-button/c-button.pug
+    .c-confirm-modify-ejec-date-information
+      .c-confirm-modify-ejec-date-information-container
+        img(src="../svg/illustration.svg", alt="")
+        .hr-table-customer
+          table.c-confirm-modify-ejec-date-information-c-table
+            tbody
+              tr.th-table
+                th 
+                  p F. ejecución previa
+                th 
+                  p Nueva F. de ejecución 
+              tr
+                td 
+                  p.actual 15/01/19
+                td
+                  p.new 15/01/19

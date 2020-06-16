@@ -1,0 +1,15 @@
+.c-files-detail-activity-log {
+  width: 100%;
+  padding: 20px 40px;
+  height: auto;
+  background-color: var(--third);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  .activity-log-title {
+    font-family: "Benton Sans Book BBVA";
+    font-size: 13px;
+    color: var(--data-first);
+    margin-bottom: 24px;
+  }
+}

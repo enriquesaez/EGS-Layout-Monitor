@@ -1,0 +1,55 @@
+<!-- this "button#myBtn" down here is just for layout purpose -->
+<!-- must be deleted in develop -->
+button#myBtnattach Press me to render the modal
+#myModalattach.c-modal-attach
+    .modal-attach_content
+        .modal-attach-content_header
+            p.c-modal-attach-title Confirma que quieres cancelar las 2 órdenes seleccionadas
+            span.closeattach ×
+        .modal-attach-content_body
+            .hr-table-customer
+            table.c-table-order
+                tbody
+                    tr.th-table
+                        th 
+                            p id orden
+                        th 
+                            p f.ejecución
+                        th 
+                            p tipo de pago
+                        th.last 
+                            p importe
+                    tr
+                        td 
+                            p.num-order 10221605PackARPE01-2/001/0111
+                        td
+                            p 15/01/19
+                        td 
+                            p CIE
+                        td.last
+                            p.amount 2.000,00  EUR
+                    tr
+                        td 
+                            p.num-order 10221605PackARPE01-2/001/0111
+                        td
+                            p 15/01/19
+                        td 
+                            p CIE
+                        td.last
+                            p.amount 2.000,00  EUR
+            .attach-files-box
+                span.attach-file-name Correo de confirmación.pdf
+                i.ico-close(tabindex='0', role='button')
+            .attach-files-box
+                span.attach-file-name Operaciones Argentina_vto igual o posterior al 01112019 (1).xml
+                i.ico-close(tabindex='0', role='button')
+            .attach-files-box
+                span.attach-file-name Operaciones Argentina_cancelaciones pendientes.pdf
+                i.ico-close(tabindex='0', role='button')
+            .attach-files-button(tabindex='0', role='button')
+                img(src="../svg/attached.svg", alt="")
+                span Adjuntar documentación de la cancelación
+
+        .modal-attach-content_footer
+            include ../c-link/c-link.pug
+            include ../c-button/c-button.pug

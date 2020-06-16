@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>1DE1F87D-0EBC-4993-AF7B-2E336908C508</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M14.6963856,0.923076923 C15.2464182,0.923076923 15.6923077,1.37582632 15.6923077,1.93201623 L15.6921538,2.76907692 L22.1538462,2.76923077 L22.1538462,5.53846154 L20.3071538,5.53807692 L20.3076923,22.0698615 C20.3076923,22.6260462 19.8632709,23.0769231 19.3057434,23.0769231 L4.69425658,23.0769231 C4.14089549,23.0769231 3.69230769,22.633882 3.69230769,22.0698615 L3.69215385,5.53807692 L1.84615385,5.53846154 L1.84615385,2.76923077 L8.30715385,2.76907692 L8.30769231,1.93201623 C8.30769231,1.37479444 8.74751869,0.923076923 9.3036144,0.923076923 L14.6963856,0.923076923 Z M8.30769231,12 L6.46153846,12 L6.46153846,18.4615385 L8.30769231,20.3076923 L8.30769231,12 Z M12.9230769,12 L11.0769231,12 L11.0769231,18.4615385 L12.9230769,20.3076923 L12.9230769,12 Z M17.5384615,12 L15.6923077,12 L15.6923077,18.4615385 L17.5384615,20.3076923 L17.5384615,12 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/26/BBVA-Medium-blue/download-icon-Icons-/-trash-icon">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="🎨-Color-Fill-Color-/-Primary-/-Medium-Blue-/-Medium-Blue-Link" mask="url(#mask-2)" fill="#1973B8">
+                <g transform="translate(0.000000, 0.923077)" id="Rectangle">
+                    <rect x="0" y="0" width="24" height="22.1538467"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

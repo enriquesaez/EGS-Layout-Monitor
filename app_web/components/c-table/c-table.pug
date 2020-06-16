@@ -1,0 +1,156 @@
+include ../c-table-header/c-table-header.pug
+include ../c-filter-selected/c-filter-selected.pug
+include ../c-filter-dropdown/c-filter-dropdown.pug
+.hr-table-customer
+table.c-table
+  tbody
+    tr.th-table
+      th 
+        p.medium F. recibido
+          i.icon-arrow-down(tabindex='0', role='button')
+      th 
+        p Fichero / Cliente
+      th 
+        p Destino
+      th 
+        p Servicio
+      th 
+        p Estado
+      th.last 
+        p Importe
+      th
+    tr
+      td 
+        p.date 15/01/19
+        span 12:34
+      td 
+        p.client-file PAIN0101_IBDLES2B_BBVAESMM_2020011…
+        span Iberdrola IBERMMXX
+      td 
+        p.destination México
+      td 
+        p.service Pago a proveedores
+        span 82 pagos
+      td 
+        p.status En proceso
+        span El fichero procede adecuadamente
+      td.last
+        p.amount 31.714,22EUR
+      td
+        i.ico-configuration(tabindex='0', role='button')
+    tr
+      td 
+        p.date 16/01/19
+        span 18:56
+      td 
+        p.client-file NINTENDOTST4453
+        span Nintendo España - NINTENAXXX
+      td 
+        p.destination Colombia
+      td 
+        p.service Pago a proveedores
+        span 543 pagos
+      td 
+        p.status--rejected Rechazado
+        span No superó las validaciones de Global Hub.
+      td.last
+        p.amount 12.000.000.000 EUR
+      td
+        i.ico-configuration(tabindex='0', role='button')
+    tr
+      td 
+        p.date 23/01/20
+        span 08:04
+      td 
+        p.client-file REPYESMMXXX_ES_00813475_CAN_xml
+        span Repsol España - REPYESMMXXX
+      td 
+        p.destination Colombia
+      td 
+        p.service Pago a proveedores
+        span 649 pagos
+      td 
+        p.status--partial Parcial
+        span Algunos pagos no llegarán a destino.
+      td.last
+        p.amount 25.037,01 EUR
+      td
+        i.ico-configuration(tabindex='0', role='button')
+    tr
+      td 
+        p.date 27/01/20
+        span 22:00
+      td 
+        p.client-file BCMCGICT_BVAFR409521005329424201821
+        span Booking - BOOKNL2AXXX
+      td 
+        p.destination Chile
+      td 
+        p.service Pago a proveedores
+        span 543 pagos
+      td 
+        p.status--timeout Timeout
+        span Superado el tiempo medio recomendado.
+      td.last
+        p.amount 30.422,36 EUR
+      td
+        i.ico-configuration(tabindex='0', role='button')
+    tr
+      td 
+        p.date 16/01/19
+        span 18:56
+      td 
+        p.client-file NINTENDOTST4453
+        span Nintendo España - NINTENAXXX
+      td 
+        p.destination Colombia
+      td 
+        p.service Pago a proveedores
+        span 543 pagos
+      td 
+        p.status--rejected Rechazado
+        span No superó las validaciones de Global Hub.
+      td.last
+        p.amount 12.000.000.000 EUR
+      td
+        i.ico-configuration(tabindex='0', role='button')
+    tr
+      td 
+        p.date 15/01/19
+        span 12:34
+      td 
+        p.client-file PAIN0101_IBDLES2B_BBVAESMM_2020011…
+        span Iberdrola IBERMMXX
+      td 
+        p.destination México
+      td 
+        p.service Pago a proveedores
+        span 82 pagos
+      td 
+        p.status En proceso
+        span El fichero procede adecuadamente
+      td.last
+        p.amount 31.714,22EUR
+      td
+        i.ico-configuration(tabindex='0', role='button')
+    tr
+      td 
+        p.date 15/01/19
+        span 12:34
+      td 
+        p.client-file PAIN0101_IBDLES2B_BBVAESMM_2020011…
+        span Iberdrola IBERMMXX
+      td 
+        p.destination México
+      td 
+        p.service Pago a proveedores
+        span 82 pagos
+      td 
+        p.status--paid Pagado
+        span El fichero procede adecuadamente
+      td.last
+        p.amount 31.714,20EUR
+      td
+        i.ico-configuration(tabindex='0', role='button')                                                                                            
+.flex-asis
+  include ../c-pagination/c-pagination.pug

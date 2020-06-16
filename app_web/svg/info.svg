@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>2D22C47F-4F3F-49D4-808D-7DBC2E013935</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="21.9953657%" y1="-2.66907721%" x2="75.6363292%" y2="98.2149355%" id="linearGradient-1">
+            <stop stop-color="#192647" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#192647" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.53985%" y1="49.9999994%" x2="-0.00401329666%" y2="49.9999994%" id="linearGradient-2">
+            <stop stop-color="#043263" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#043263" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="HOME/DASHBOARD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DASHBOARD" transform="translate(-756.000000, -645.000000)">
+            <g id="RATES-Copy-2" transform="translate(736.000000, 625.000000)">
+                <g id="Notifications/Info-Copy" transform="translate(16.000000, 16.000000)">
+                    <g id="Info">
+                        <g id="Cuadrados_Blancos">
+                            <rect id="Rectangle" x="0" y="0" width="56" height="56"></rect>
+                        </g>
+                        <g id="Capa_2" transform="translate(4.666667, 4.666667)" fill-rule="nonzero">
+                            <circle id="Oval" fill="url(#linearGradient-1)" cx="28.3733333" cy="28.28" r="22.96"></circle>
+                            <circle id="Oval" fill="#1464A5" cx="22.96" cy="22.96" r="22.96"></circle>
+                            <path d="M33.9480796,2.8 L12.4133333,43.3368653 C23.6582104,49.1778335 37.5125432,44.776921 43.3367424,33.5256475 C49.0936908,22.4358859 44.9104887,8.77555444 33.9480796,2.8 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                            <polygon id="Path" fill="#2DCCCD" points="20.72 31.5793148 20.72 17.64 24.8266667 17.64 24.8266667 35.56 24.6916166 35.56"></polygon>
+                            <path d="M20.53343,12.8132943 C20.5444676,11.4508359 21.6553112,10.3538978 23.017798,10.36 C24.3802847,10.3661533 25.4812168,11.4730388 25.48,12.8355414 C25.4787812,14.198044 24.3758724,15.3029598 23.0133768,15.3066667 C22.3526298,15.3089283 21.7184832,15.046534 21.2525229,14.5780539 C20.7865626,14.1095739 20.5275915,13.4740207 20.53343,12.8132943 L20.53343,12.8132943" id="Path" fill="#2DCCCD"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

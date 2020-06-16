@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Symbols/Plus/Filled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="DEV_ASSETS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICONOS" transform="translate(-32.000000, -663.000000)">
+            <g id="Symbols/Plus/Filled" transform="translate(32.000000, 663.000000)">
+                <polygon id="Bounding-Box" points="0 0 16 0 16 16 0 16"></polygon>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="Secondary/300-#D3D3D3" mask="url(#mask-2)" fill="#237ABA" fill-rule="evenodd">
+                    <path d="M8,0.666666667 C12.0500882,0.666666667 15.3333333,3.94991183 15.3333333,8 C15.3333333,12.0500882 12.0500882,15.3333333 8,15.3333333 C3.94991183,15.3333333 0.666666667,12.0500882 0.666666667,8 C0.666666667,3.94991183 3.94991183,0.666666667 8,0.666666667 Z M8.61111111,4.33333333 L7.38888889,4.33333333 L7.38888889,7.38888889 L4.33333333,7.38888889 L4.33333333,8.61105 L7.38888889,8.61105 L7.38888889,11.6666667 L8.61111111,11.6666667 L8.61111111,8.61105 L11.0554944,8.61105 L12.2777167,7.38888889 L8.61111111,7.38888889 L8.61111111,4.33333333 Z" id="path-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

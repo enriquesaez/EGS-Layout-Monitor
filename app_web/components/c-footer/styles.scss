@@ -1,0 +1,30 @@
+/* C-FOOTER COMPONENT */
+
+footer{
+  height: 56px;
+  background-color: var(--second);
+  .footer__container{
+    height: 100%;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -ms-flex-pack: justify;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    .text{
+      span{
+        font-family: "Benton Sans Book BBVA";
+        -webkit-font-smoothing: antialiased;
+        color: var(--first);
+        font-size: 12px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+/* END C-FOOTER COMPONENT */

@@ -1,0 +1,15 @@
+script.
+    var modalConfirmOrder = document.getElementById("myModalConfirmOrder");
+    var btnConfirmOrder = document.getElementById("myBtnConfirmOrder");
+    var spanConfirmOrder = document.getElementsByClassName("closeConfirmOrder")[0];
+    btnConfirmOrder.onclick = function() {
+        modalConfirmOrder.style.display = "block";
+    }
+    spanConfirmOrder.onclick = function() {
+        modalConfirmOrder.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalConfirmOrder) {
+            modalConfirmOrder.style.display = "none";
+        }
+    }

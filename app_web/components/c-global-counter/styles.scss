@@ -1,0 +1,55 @@
+/* C-GLOBAL-COUNTER COMPONENT */
+
+.c-global-counter {
+  width: 100%;
+  height: 76px;
+  background-color: var(--first);
+  box-shadow: 0 1px 2px 0 rgba(18, 18, 18, 0.2);
+  display: inline-flex;
+
+  .separate--vertical {
+    margin-top: 2%;
+    height: 60%;
+  }
+
+  .c-global-counter--selected {
+    border-bottom: 3px solid var(--border-counter-selected);
+  }
+}
+/* Layout JUST for GSCF Monitor */
+.row {
+  .col-3 {
+    .c-global-counter {
+      height: 100%;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      div:first-of-type {
+        width: 50%;
+        border-bottom: 3px solid var(--border-counter-selected);
+        .files-status {
+          padding: 23px 23px 27px 23px;          
+          div {
+            border-bottom: 0;
+            i {
+              visibility: hidden;
+            }
+          }
+        }
+      }
+      div:last-of-type {
+        width: 50%;
+        border-bottom: 0;
+        div {
+          border-bottom: 0;
+          .files-status {
+            padding: 23px 23px 27px 23px;
+          }
+        }
+      }
+    }
+  }
+}
+/* END Layout JUST for GSCF Monitor */
+
+/* END C-GLOBAL-COUNTER COMPONENT */

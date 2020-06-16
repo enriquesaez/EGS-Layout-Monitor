@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <path d="M15.8837875,14.1508082 L15.0989284,16 L2,16 L2,14.1508082 L15.8837875,14.1508082 Z M15.9038099,10.0753671 L15.121563,11.9245589 L2.01718282,11.9245589 L2.01718282,10.0753671 L15.9038099,10.0753671 Z M16,6 L15.9276771,6.19083659 L15.2260791,7.84919176 L2.03543498,7.84919176 L2.03543498,6 L16,6 Z M16,2 L15.9276771,2.19083659 L15.2260791,3.84919176 L2.03543498,3.84919176 L2.03543498,2 L16,2 Z" id="path-1"></path>
+    </defs>
+    <g id="MONITOR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GESTIÓN-CLIENTES-01" transform="translate(-164.000000, -294.000000)">
+            <g id="CONTROL-DE-MANDO" transform="translate(0.000000, 72.000000)">
+                <g id="REPSOL" transform="translate(148.000000, 209.000000)">
+                    <g id="Symbols/X/Unflilled" transform="translate(16.000000, 13.000000)">
+                        <g id="Group-5">
+                            <polygon id="Bounding-Box" points="0 0 18 0 18 18 0 18"></polygon>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#1973B8" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

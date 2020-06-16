@@ -1,0 +1,151 @@
+//- Funcionamiento:
+
+//- Cuando se da el caso en que se muestra solo un card .filecard
+//- en cada columna, entonces se coloca la clase .width-100 junto a .left-side y .right-side.
+
+//- Cuando se da el caso en que hay más de un card .file-card en una columna,
+//- entonces se incluye la clase .filecard--slide-case junto a .filecard 
+//- y se suprime .width-100, tanto de .left-side como de .right-side.
+
+//- CARD "ENABLED"
+//- .filecard_header--enabled
+//- .file-title--enabled
+//- .ico-flag.active / ico-globe.active / ico-(cualquier otro).active
+//- span
+
+//- CARD "ACTIVE"
+//- .filecard_header
+//- .file-title
+//- .ico-flag / ico-globe / ico- (cualquier otro)
+//- span
+
+.c-file-card
+    .left-side
+        .file-cards_container
+            .filecard
+                .filecard_header
+                    .file-title
+                        i.ico-globe
+                        span Global Hub
+                .filecard_body
+                    .file-client
+                        p.title-card Fichero cliente
+                        .inline-flex
+                            span.data-label 4
+                                span Remesas
+                        .inline-flex
+                            span.data-label 4
+                                span Pagos
+                        .total-import
+                            p Importe total
+                            span 36.775,54
+                        hr
+                        .error-notifications
+                            .error-complete
+                                span 1
+                                i.ico-path-3-1
+                            .error-partial
+                                span 10
+                                i.ico-path-3-2
+    .separate_card
+    .right-side
+        .navigation_arrow_prev
+            i.ico-back.active
+        .navigation_arrow_next
+            i.ico-next
+        .file-cards_container
+            .filecard.filecard--slide-case
+                .filecard_header--enabled
+                    .file-title--enabled
+                        i.ico-flag.enabled
+                        span.enabled Destinos (1)
+                .filecard_body
+                    .file-client.border-bottom-none
+                        p.title-card Fichero cliente
+                        .inline-flex
+                            span.data-label 4
+                                span Remesas
+                        .inline-flex
+                            span.data-label 4
+                                span Pagos
+                        .total-import
+                            p Importe total
+                            span 36.775,54
+                        hr
+                        .error-notifications
+                            .error-complete.opacity-30
+                                span 23
+                                i.ico-path-3-1
+                            .error-partial.opacity-30
+                                span 14
+                                i.ico-path-3-2
+
+            .filecard.filecard--slide-case
+                .filecard_header--enabled
+                    //- Se eliminan textos de header a partir de la segunda card
+                    //- .file-title--enabled
+                    //-     i.ico-flag.enabled
+                    //-     span.active Destinos (1)
+                .filecard_body
+                    .file-client.border-bottom-none
+                        p.title-card Fichero cliente
+                        .inline-flex
+                            span.data-label 4
+                                span Remesas
+                        .inline-flex
+                            span.data-label 4
+                                span Pagos
+                        .total-import
+                            p Importe total
+                            span 36.775,54
+                        hr                            
+                        .error-notifications
+                            .error-complete--rejected
+                                span.literal  Rechazados
+                                span 3
+                            .error-partial--partials
+                                span.literal Parciales
+                                span 56
+            .filecard.filecard--slide-case
+                .filecard_header--enabled
+                    //- Se eliminan textos de header a partir de la segunda card
+                    //- .file-title--enabled
+                    //-     i.ico-flag.enabled
+                    //-     span.active Destinos (1)
+                .filecard_body
+                    .file-client.border-bottom-none
+                        p.title-card Fichero cliente
+                        .inline-flex
+                            span.data-label 4
+                                span Remesas
+                        .inline-flex
+                            span.data-label 4
+                                span Pagos
+                        .total-import
+                            p Importe total
+                            span 36.775,54
+                        hr
+            .filecard.filecard--slide-case
+                .filecard_header--enabled
+                    //- Se eliminan textos de header a partir de la segunda card
+                    //- .file-title--enabled
+                    //-     i.ico-flag.enabled
+                    //-     span.active Destinos (1)
+                .filecard_body
+                    .file-client.border-bottom-none
+                        p.title-card Fichero cliente
+                        .inline-flex
+                            span.data-label 4
+                                span Remesas
+                        .inline-flex
+                            span.data-label 4
+                                span Pagos
+                        .total-import
+                            p Importe total
+                            span 36.775,54
+                        hr
+        .navigation_dots
+            .dots
+                i.ico-dot-active
+                i.ico-dot-idle
+                i.ico-dot-idle

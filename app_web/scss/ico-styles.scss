@@ -1,0 +1,269 @@
+/* BBVA ICONS */
+
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('../#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ignzp1');
+  src:  url('../#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ignzp1#iefix') format('embedded-opentype'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ignzp1') format('truetype'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ignzp1') format('woff'),
+    url('../#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ignzp1##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+////////////// IMPORTANT !!! COPY THE FONTS DIRECTORY IN COMPILED /////////////////
+.ico-attached {
+  &:before {
+    content: $ico-attached;     
+    color: #1973b8;
+  }
+}
+.ico-goto-splunk {
+  &:before {
+    content: $ico-goto-splunk;     
+    color: #1973b8;
+  }
+}
+.ico-move-tag {
+  &:before {
+    content: $ico-move-tag;     
+    color: #1973b8;
+  }
+}
+.ico-dot-idle {
+  &:before {
+    content: $ico-dot-idle;     
+    color: #1973b8;
+  }
+}
+.ico-dot-active {
+  &:before {
+    content: $ico-dot-active;     
+    color: #1973b8;
+  }
+}
+.ico-roundBack {
+  &:before {
+    content: $ico-roundBack;     
+    color: #1973b8;
+  }
+}
+.ico-roundNext {
+  &:before {
+    content: $ico-roundNext;     
+    color: #1973b8;
+  }
+}
+.ico-flag {
+  &:before {
+    content: $ico-flag;     
+    color: #bdbdbd;
+  }
+}
+.ico-alert {
+  &:before {
+    content: $ico-alert;     
+    color: #c65302;
+  }
+}
+.ico-checkmark {
+  &:before {
+    content: $ico-checkmark;     
+    color: #1973b8;
+  }
+}
+.ico-close {
+  &:before {
+    content: $ico-close;     
+    color: #1973b8;
+  }
+}
+.ico-trash {
+  &:before {
+    content: $ico-trash;     
+    color: #2a86ca;
+  }
+}
+.ico-alarm {
+  &:before {
+    content: $ico-alarm;     
+    color: #fff;
+  }
+}
+.ico-back {
+  &:before {
+    content: $ico-back;     
+    color: #1973b8;
+  }
+}
+.ico-bbva_logo {
+  &:before {
+    content: $ico-bbva_logo;     
+    color: #fff;
+  }
+}
+.ico-calendar {
+  &:before {
+    content: $ico-calendar;     
+    color: #1973b8;
+  }
+}
+.ico-collapse {
+  &:before {
+    content: $ico-collapse;     
+    color: #1973b8;
+  }
+}
+.ico-configuration {
+  &:before {
+    content: $ico-configuration;     
+    color: #1973b8;
+  }
+}
+.ico-download {
+  &:before {
+    content: $ico-download;     
+    color: #1973b8;
+  }
+}
+.ico-edit {
+  &:before {
+    content: $ico-edit;     
+    color: #1973b8;
+  }
+}
+.ico-expand {
+  &:before {
+    content: $ico-expand;     
+    color: #1973b8;
+  }
+}
+.ico-fold {
+  &:before {
+    content: $ico-fold;     
+    color: #1973b8;
+  }
+}
+.ico-globe {
+  &:before {
+    content: $ico-globe;     
+    color: #1973b8;
+  }
+}
+.ico-group .path1 {
+  &:before {
+    content: $ico-group-path1;  
+    color: rgb(244, 244, 244);
+  }
+}
+.ico-group .path2 {
+  &:before {
+    content: $ico-group-path2;  
+    margin-left: -1em;  
+    color: rgb(218, 56, 81);
+  }
+}
+.ico-next {
+  &:before {
+    content: $ico-next;     
+    color: #1973b8;
+  }
+}
+.ico-path-3-1 {
+  &:before {
+    content: $ico-path-3-1;     
+    color: #da3851;
+  }
+}
+.ico-path-3-2 {
+  &:before {
+    content: $ico-path-3-2;     
+    color: #f7893b;
+  }
+}
+.ico-path-3-3 {
+  &:before {
+    content: $ico-path-3-3;     
+    color: #c49735;
+  }
+}
+.ico-path-3-4 {
+  &:before {
+    content: $ico-path-3-4;     
+    color: #666;
+  }
+}
+.ico-return {
+  &:before {
+    content: $ico-return;     
+    color: #1973b8;
+  }
+}
+.ico-search-secondary {
+  &:before {
+    content: $ico-search-secondary;     
+    color: #1973b8;
+  }
+}
+.ico-search-tertiary {
+  &:before {
+    content: $ico-search-tertiary;     
+    color: #bdbdbd;
+  }
+}
+.ico-search {
+  &:before {
+    content: $ico-search;     
+    color: #fff;
+  }
+}
+.ico-settings {
+  &:before {
+    content: $ico-settings;     
+    color: #1973b8;
+  }
+}
+.ico-show {
+  &:before {
+    content: $ico-show;     
+    color: #1973b8;
+  }
+}
+.ico-filter {
+  &:before {
+    content: $ico-filter;     
+    color: #1973b8;
+  }
+}
+.ico-tiled-view {
+  &:before {
+    content: $ico-tiled-view;     
+    color: #fff;
+  }
+}
+.ico-unfold {
+  &:before {
+    content: $ico-unfold;     
+    color: #1973b8;
+  }
+}
+

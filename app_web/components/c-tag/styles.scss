@@ -1,0 +1,31 @@
+/* C-TAG COMPONENT */
+
+.c-tag {
+    height: 22px;
+    width: auto;
+    padding: 0 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+
+    span {
+        color: var(--first);
+        font-family: "Benton Sans Medium BBVA";
+        font-size: 13px;
+    }
+    &.tag--integrated{
+        background-color: var(--bground-integrated);
+    }
+    &.tag--development{
+        background-color: var(--bground-development);
+    }
+    &.tag--quality{
+        background-color: var(--bground-quality);
+    }
+    &.tag--production{
+        background-color: var(--bground-production);
+    }
+}
+
+/* END C-TAG COMPONENT */

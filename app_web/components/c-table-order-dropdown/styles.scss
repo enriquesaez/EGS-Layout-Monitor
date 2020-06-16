@@ -1,0 +1,68 @@
+/* C-TABLE-ORDER-DROPDOWN COMPONENT */
+
+.c-table-order-dropdown {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: "header header header";
+  width: 100%;
+  height: auto;
+  padding: 20px 40px;
+  background-color: rgba(212, 237, 252, 0.2);
+  cursor: default;
+  .grid-header,
+  .grid-cel {
+    height: 30px;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+  }
+  .grid-header {
+    grid-area: header;
+    span {
+      color: var(--tertiary);
+      font-family: "Benton Sans Medium BBVA", sans-serif;
+      font-size: 15px;
+    }
+  }
+  .grid-cel {
+    span {
+      font-family: "Benton Sans Light BBVA", sans-serif;
+      font-size: 13px;
+      color: var(--data-first);
+      &.question {
+        margin-right: 5px;
+        font-family: "Benton Sans Medium BBVA", sans-serif;
+      }
+      &.status-canceled {
+        font-family: "Benton Sans Medium BBVA", sans-serif;
+      }
+    }
+    .associated-files {
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      cursor: pointer;
+      outline: none;
+      color: var(--fifth);
+      i {
+        margin-right: 6px;
+      }
+      label {
+        font-family: "Benton Sans Medium BBVA", sans-serif;
+        font-size: 13px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/* END C-TABLE-ORDER-DROPDOWN COMPONENT */

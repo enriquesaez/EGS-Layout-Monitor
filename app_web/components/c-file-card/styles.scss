@@ -1,0 +1,310 @@
+/* C-FILE-CARD COMPONENT */
+.c-file-card {
+  width: auto;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  height: 268px;
+  padding: 20px 40px;
+  background-color: var(--third);
+  .left-side,
+  .right-side {
+    position: relative;
+    overflow: hidden;
+    width: unset;
+    &.width-100 {
+      width: 100%;
+    }
+    .file-cards_container {
+      max-width: 670px;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      justify-content: space-between;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      .filecard {
+        width: 100%;
+        min-width: 360px;
+        height: 200px;
+        &.filecard--slide-case {
+          min-width: 330px;
+          width: unset;
+        }
+        .filecard_header {
+          height: 95px;
+          padding: 16px 0 0 16px;
+          background-color: var(--fifth);
+          transition: background 0.4s ease;
+          .file-title {
+            display: flex;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            .ico-globe,
+            .ico-flag {
+              margin-right: 6px;
+              &:before {
+                color: var(--first);
+                font-size: 25px;
+              }
+              &.active {
+                &:before {
+                  color: var(--fourth);
+                }
+              }
+            }
+            span {
+              color: var(--first);
+              font-family: "Benton Sans Light BBVA";
+              font-size: 15px;
+              line-height: 24px;
+              &.active {
+                color: var(--data-first);
+              }
+            }
+          }
+          &--enabled {
+            height: 95px;
+            padding: 16px 0 0 16px;
+            background-color: var(--sixth);
+            transition: background 0.4s ease;
+            .file-title--enabled {
+              display: flex;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              align-items: center;
+              -ms-flex-align: center;
+              -webkit-align-items: center;
+              .ico-globe,
+              .ico-flag {
+                margin-right: 6px;
+                &.enabled {
+                  &:before {
+                    color: var(--fourth);
+                    font-size: 25px;
+                  }
+                }
+              }
+              .enabled {
+                font-family: "Benton Sans Light BBVA";
+                font-size: 15px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+        .filecard_body {
+          position: relative;
+          top: -60px;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          justify-content: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          .file-client {
+            height: auto;
+            min-height: 116px;
+            width: 228px;
+            padding: 16px 16px 10px 16px;
+            background-color: var(--first);
+            box-shadow: 0 2px 4px 0 rgba(18, 18, 18, 0.2);
+            border-bottom: 4px solid var(--border-counter-selected);
+            cursor: pointer;
+            transition: border 0.1s ease;
+            &--disabled {
+              height: 140px;
+              width: 280px;
+              background-color: var(--first);
+              box-shadow: 0 1px 2px 0 rgba(18, 18, 18, 0.2);
+            }
+            .title-card {
+              color: var(--seventh);
+              font-family: "Benton Sans Medium BBVA";
+              font-size: 18px;
+              line-height: 20px;
+              margin-bottom: 12px;
+            }
+            .inline-flex {
+              width: 40%;
+              margin-bottom: 10px;
+              .data-label {
+                opacity: 0.82;
+                color: #000000;
+                font-family: "Benton Sans Medium BBVA";
+                font-size: 16px;
+                line-height: 23px;
+                span {
+                  color: #000000;
+                  font-family: "Benton Sans Light BBVA";
+                  font-size: 13px;
+                  line-height: 15px;
+                  margin-left: 5px;
+                }
+              }
+            }
+            .total-import {
+              display: flex;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              justify-content: space-between;
+              -ms-flex-pack: justify;
+              -webkit-justify-content: space-between;
+              align-items: center;
+              -ms-flex-align: center;
+              -webkit-align-items: center;
+              p {
+                color: #000000;
+                font-family: "Benton Sans Light BBVA";
+                font-size: 12px;
+                line-height: 14px;
+              }
+              span {
+                color: #000000;
+                font-family: "Benton Sans Light BBVA";
+                font-size: 15px;
+                line-height: 21px;
+              }
+            }
+            hr {
+              border-top: 1px solid var(--sixth);
+              margin-block-end: 0.4em;
+            }
+            .error-notifications {
+              display: flex;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              justify-content: flex-end;
+              -ms-flex-pack: end;
+              -webkit-justify-content: flex-end;
+              .error-complete,
+              .error-partial {
+                display: flex;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                align-items: flex-end;
+                -ms-flex-align: end;
+                -webkit-align-items: flex-end;
+                &.opacity-30 {
+                  opacity: 0.3;
+                }
+              }
+              .error-complete {
+                span {
+                  color: var(--data-first);
+                  font-family: "Benton Sans MediumItalic BBVA";
+                  font-size: 16px;
+                  margin-right: 5px;
+                }
+              }
+              .error-complete--rejected {
+                &.opacity-30 {
+                  opacity: 0.3;
+                }
+                span {
+                  color: var(--data-first);
+                  font-family: "Benton Sans MediumItalic BBVA";
+                  font-size: 16px;
+                  margin-right: 5px;
+                  color: var(--status-error);
+                  &.literal {
+                    font-family: "Benton Sans Light BBVA";
+                    font-size: 12px;
+                    font-style: italic;
+                    margin-right: 6px;
+                  }
+                }
+              }
+              .error-partial {
+                margin-left: 26px;
+                span {
+                  color: var(--data-first);
+                  font-family: "Benton Sans MediumItalic BBVA";
+                  font-size: 16px;
+                  margin-right: 5px;
+                }
+              }
+              .error-partial--partials {
+                margin-left: 26px;
+                &.opacity-30 {
+                  opacity: 0.3;
+                }
+                span {
+                  font-family: "Benton Sans MediumItalic BBVA";
+                  font-size: 16px;
+                  margin-right: 5px;
+                  color: var(--text-partial);
+                  &.literal {
+                    font-family: "Benton Sans Light BBVA";
+                    font-size: 12px;
+                    font-style: italic;
+                    margin-right: 6px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .navigation_arrow_prev {
+      cursor: pointer;
+      position: absolute;
+      top: 56%;
+      user-select: none;
+      z-index: 1;
+      i {
+        &:before {
+          font-size: 24px;
+        }
+        &.active {
+          &:before {
+            color: var(--fourth);
+          }
+        }
+      }
+    }
+    .navigation_arrow_next {
+      cursor: pointer;
+      position: absolute;
+      top: 56%;
+      user-select: none;
+      z-index: 1;
+      right: 0;
+      i {
+        &:before {
+          font-size: 24px;
+        }
+        &.active {
+          &:before {
+            color: var(--fourth);
+          }
+        }
+      }
+    }
+    .navigation_dots {
+      width: 100%;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      font-size: 8px;
+      .dots {
+        margin: 14px auto 0;
+        i {
+          padding-right: 14px;
+
+          &:last-child {
+            padding-right: 0px;
+          }
+        }
+      }
+    }
+  }
+  .separate_card {
+    height: 200px;
+    width: 1px;
+    margin: 0 24px;
+    border-left: 1px solid var(--tertiary);
+  }
+}
+/* END OF C-FILE-CARD COMPONENT */

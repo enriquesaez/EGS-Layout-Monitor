@@ -1,0 +1,149 @@
+/* C-NOTIFICATIONS COMPONENT */
+
+.c-notifications {
+  height: auto;
+  max-width: 400px;
+  width: 400px;
+  padding: 5px 8px 24px 24px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  user-select: none;
+  background-color: var(--first);
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+  .notifications-arrow {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 12px solid var(--first);
+    z-index: 1;
+    top: -17px;
+    left: 364px;
+  }
+  .notifications-content {
+    max-height: 363px;
+    height: auto;
+    .notifications-header {
+      width: auto;
+      margin-bottom: 18px;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      justify-content: space-between;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      .notifications-title {
+        color: var(--data-first);
+        font-family: "Benton Sans Medium BBVA";
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 24px;
+      }
+      img {
+        margin-right: 30px;
+        cursor: pointer;
+        outline: none;
+      }
+      .splunk-slot {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        span {
+          margin-right: 10px;
+          color: var(--fifth);
+          font-family: "Benton Sans Medium BBVA", sans-serif;
+          font-size: 15px;
+        }
+      }
+    }
+    .notifications-body {
+      overflow: auto;
+      overflow-x: hidden;
+      max-height: 320px;
+      height: auto;
+      &::-webkit-scrollbar {
+        width: 4px;
+      }
+      /* Track */
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0px 0px 4px grey;
+        border-radius: 10px;
+      }
+
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: rgb(24, 113, 181);
+        border-radius: 10px;
+      }
+
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: rgb(63, 163, 240);
+      }
+      .notifications-slot {
+        height: 89px;
+        width: 100%;
+        margin-top: 8px;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: space-between;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        .description {
+          display: -ms-grid;
+          display: grid;
+          .time-elapsed {
+            color: var(--tertiary);
+            font-family: "Benton Sans Light BBVA", sans-serif;
+            font-style: italic;
+            font-size: 12px;
+            line-height: 16px;
+          }
+          .response {
+            color: var(--fifth);
+            font-family: "Benton Sans Medium BBVA", sans-serif;
+            font-size: 15px;
+            line-height: 15px;
+          }
+          .file-name {
+            color: var(--data-first);
+            font-family: "Benton Sans Light BBVA";
+            font-size: 12px;
+            line-height: 12px;
+          }
+          .client-name {
+            color: var(--tertiary);
+            font-family: "Benton Sans Medium BBVA", sans-serif;
+            font-size: 11px;
+            line-height: 12px;
+          }
+        }
+        .importance-level {
+          width: 30px;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          align-items: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+        }
+      }
+      .separate-line {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        height: 1px;
+        width: 85%;
+        margin-top: 4px;
+        border-bottom: 1px solid #d3d3d3;
+      }
+    }
+  }
+}
+
+/* END C-NOTIFICATIONS COMPONENT */

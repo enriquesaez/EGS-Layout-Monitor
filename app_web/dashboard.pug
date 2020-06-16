@@ -1,0 +1,152 @@
+doctype html
+html(lang='en')
+  head
+    include components/head-content/head-content.pug
+  body.background--third
+    header
+      include components/c-header/c-header.pug
+    .container-width_100
+      section.app__container
+        .flex.margin-bottom_8
+          div
+            include components/c-title/c-title.pug        
+          div
+            include components/c-tag/c-tag.pug
+        .row
+          .col
+            include components/c-update/c-update.pug
+        .row.margin-bottom_30.margin-top_20
+          .col
+            .row 
+              .col-6.margin-right_30
+                .c-card-dashboard
+                  .row.rowUp
+                    .col.colUp-left
+                      img(src="../svg/compass.svg", alt="")
+                      span Proveedores
+                    .col.colUp-right
+                      div
+                        span.number 7
+                        span.requests Solicitudes
+                  .row.rowDown
+                    .col.colDown
+                      .status-box
+                        div
+                          span.number 0
+                          .status-with-ico
+                            i.ico-path-3-1
+                            p.with-error Con errores
+                      .separate-v
+                      .status-box
+                        div
+                          span.number 1
+                          .status-with-ico
+                            i.ico-path-3-4
+                            p.with-error En proceso
+                      .separate-v
+                      .status-box
+                        div
+                          span.number 0
+                          .status-with-ico
+                            i.ico-path-3-4.green
+                            p.with-error Finalizadas
+              .col-6
+                .c-card-dashboard
+                  .row.rowUp
+                    .col.colUp-left
+                      img(src="../svg/refund.svg", alt="")
+                      span Descuentos
+                    .col.colUp-right
+                      div
+                        span.number 18
+                        span.requests Solicitudes
+                  .row.rowDown
+                    .col.colDown
+                      .status-box
+                        div
+                          span.number 2
+                          .status-with-ico
+                            i.ico-path-3-1
+                            p.with-error Con errores
+                      .separate-v
+                      .status-box
+                        div
+                          span.number 104
+                          .status-with-ico
+                            i.ico-path-3-4
+                            p.with-error En proceso
+                      .separate-v
+                      .status-box
+                        div
+                          span.number 23
+                          .status-with-ico
+                            i.ico-path-3-4.green
+                            p.with-error Finalizadas
+        .row
+          .col
+            .row 
+              .col-6.margin-right_30
+                .c-card-dashboard
+                  .row.rowUp
+                    .col.colUp-left
+                      img(src="../svg/charts.svg", alt="")
+                      span Rates
+                    .col.colUp-right
+                      div
+                        span.number 127
+                        span.requests Solicitudes
+                  .row.rowDown
+                    .col.colDown
+                      .status-box
+                        div
+                          span.number 0
+                          .status-with-ico
+                            i.ico-path-3-1
+                            p.with-error Con errores
+                      .separate-v
+                      .status-box
+                        div
+                          span.number 15
+                          .status-with-ico
+                            i.ico-path-3-4
+                            p.with-error En proceso
+                      .separate-v
+                      .status-box
+                        div
+                          span.number 256
+                          .status-with-ico
+                            i.ico-path-3-4.green
+                            p.with-error Finalizadas
+              .col-6
+                .c-card-dashboard
+                  .row.rowUp
+                    .col.colUp-left
+                      img(src="../svg/currency.svg", alt="")
+                      span FX Rates
+                    .col.colUp-right
+                      div
+                        span.number 1678
+                        span.requests Solicitudes
+                  .row.rowDown
+                    .col.colDown
+                      .status-box
+                        div
+                          span.number 0
+                          .status-with-ico
+                            i.ico-path-3-1
+                            p.with-error Con errores
+                      .separate-v
+                      .status-box
+                        div
+                          span.number 1234
+                          .status-with-ico
+                            i.ico-path-3-4
+                            p.with-error En proceso
+                      .separate-v
+                      .status-box
+                        div
+                          span.number 5
+                          .status-with-ico
+                            i.ico-path-3-4.green
+                            p.with-error Finalizadas
+    

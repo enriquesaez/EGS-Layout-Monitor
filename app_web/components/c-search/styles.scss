@@ -1,0 +1,24 @@
+/* C-SEARCH COMPONENT */
+
+.c-search {
+  display: inline-flex;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  align-items: center;
+  input {
+    line-height: 24px;
+    font-size: 13px;
+    outline: none;
+    border: 0;
+    height: 24px;
+    color: var(--tertiary);
+    font-family: "Benton Sans BookItalic BBVA";
+    text-overflow: ellipsis;
+  }
+  i{
+    font-size: 16px;
+    outline: none;
+  }
+}
+
+/* END C-SEARCH COMPONENT */

@@ -1,0 +1,84 @@
+/* CONTAINER GRID SYSTEM */
+
+@mixin grid {
+    $numRows: 12;
+    $width: 100%;
+    $gutter: 0;
+
+    .row {
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-flow: row;
+        width: 100%;
+        &.wrap {
+            flex-wrap: wrap;
+        }
+    }
+
+    .col {
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-flow: column;
+        width: 100%;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: $width;
+    }
+
+    .col-1 {
+        width: ($width / 12);
+    }
+    .col-2 {
+        width: ($width / 6);
+    }
+    .col-3 {
+        width: ($width / 4);
+    }
+    .col-4 {
+        width: ($width / 3);
+    }
+    .col-5 {
+        width: ($width / (12 / 5));
+    }
+    .col-6 {
+        width: ($width / 2);
+    }
+    .col-7 {
+        width: ($width / (12 / 7));
+    }
+    .col-8 {
+        width: ($width / (12 / 8));
+    }
+    .col-9 {
+        width: ($width / (12 / 9));
+    }
+    .col-10 {
+        width: ($width / (12 / 10));
+    }
+    .col-11 {
+        width: ($width / (12 / 11));
+    }
+    .col-12 {
+        width: $width;
+    }
+
+    @for $i from 1 through $numRows {
+        .col-#{$i}-lg {
+            width: (100 / $numRows) * $i#{'%'};
+        }
+    }
+}

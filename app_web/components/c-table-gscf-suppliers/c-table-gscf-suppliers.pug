@@ -1,0 +1,101 @@
+include ../c-table-header/c-table-header.pug
+.hr-table-customer
+table.c-table
+  tbody
+    tr.th-table
+      th 
+        p Tipo de interés
+      th 
+        p Periodicidad
+      th 
+        p País
+      th 
+        p Divisa
+      th.last 
+        p Tasa
+    tr
+      td 
+        p TIIE 28
+      td 
+        p 8 meses
+      td 
+        p MEX
+        span Mexico
+      td 
+        p MXN
+      td.last
+        p.amount 8.753
+    tr
+      td 
+        p TIIE 91
+      td 
+        p 12 meses
+      td 
+        p MEX
+        span Mexico
+      td 
+        p MXN
+      td.last
+        p.amount 8.789 
+    tr
+      td 
+        p EURIBOR
+      td 
+        p 7 meses
+      td 
+        p ESP
+        span España
+      td 
+        p EUR
+      td.last
+        p.amount 3.098
+    tr
+      td 
+        p EURIBOR
+      td 
+        p 28 días
+      td 
+        p ESP
+        span España
+      td 
+        p EUR
+      td.last
+        p.amount 0.4
+    tr
+      td 
+        p EURIBOR
+      td 
+        p 91 días
+      td 
+        p ESP
+        span España
+      td 
+        p EUR
+      td.last
+        p.amount 0.6 
+    tr
+      td 
+        p LIBOR
+      td 
+        p 9 meses
+      td 
+        p ESP
+        span España
+      td
+        p EUR
+      td.last
+        p.amount 0.9
+    tr
+      td 
+        p LIBOR
+      td 
+        p 6 meses
+      td 
+        p ESP
+        span España
+      td 
+        p EUR
+      td.last
+        p.amount 0.13                                                                                            
+.flex-asis
+  include ../c-pagination/c-pagination.pug

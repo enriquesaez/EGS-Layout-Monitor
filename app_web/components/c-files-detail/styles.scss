@@ -1,0 +1,46 @@
+.c-files-detail {
+  width: 100%;
+  padding: 20px 10px 0 52px;
+  height: 205px;
+  background-color: var(--background-third);
+  border-bottom: 1px solid #bdbdbd;
+  .dl-title {
+    font-family: "Benton Sans Medium BBVA";
+    font-size: 15px;
+    color: var(--tertiary);
+    margin-bottom: 15px;
+  }
+  dl {
+    .flex {
+      margin-bottom: 20px;
+      dt,
+      dd {
+        font-family: "Benton Sans Medium BBVA";
+        font-size: 13px;
+        padding-right: 5px;
+      }
+      dd {
+        font-family: "Benton Sans Light BBVA";
+      }
+      &.end {
+        margin-bottom: 0;
+      }
+    }
+    &.last {
+      padding-right: 40px;
+    }
+  }
+  hr {
+    border-top: 1px solid var(--fourth);
+  }
+  p {
+    font-family: "Benton Sans Medium BBVA";
+    font-size: 15px;
+    color: var(--seventh);
+    span {
+      font-size: 13px;
+      color: var(--fifth);
+      padding-left: 5px;
+    }
+  }
+}

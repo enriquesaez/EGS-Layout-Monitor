@@ -1,0 +1,50 @@
+/* C-TAB COMPONENT */
+
+.c-tab-menu {
+  display: inline-flex;
+
+  li {
+      &.first{
+          margin-left: 0px;
+      }
+      &.last{
+        margin-right: 0px;
+    }      
+    margin: 0 12px 0 12px;
+    .c-tab-menu-border {
+      position: relative;
+      height: 10px;
+      width: 23px;
+      border-bottom: 1px solid #ffffff;
+      visibility: hidden;
+    }
+    &:hover {
+        button {
+          opacity: 0.7;
+          transition-duration: 0.4s;
+        }
+      }
+    &.li--active {
+      button {
+        opacity: 1;
+      }
+      .c-tab-menu-border {
+        visibility: visible;
+      }
+    }
+    button {
+      background-color: inherit;
+      border: none;
+      outline: none;
+      padding: 0px;
+      color: var(--first);
+      text-decoration: none;
+      text-align: left;
+      font-size: 15px;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+}
+
+/* END C-TAB COMPONENT */

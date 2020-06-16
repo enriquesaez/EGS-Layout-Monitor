@@ -1,0 +1,81 @@
+/* C-HEADER COMPONENT */
+
+.header__container {
+  height: 100%;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+
+  .left {
+    .logo {
+      margin-right: 60px;
+    }
+  }
+
+  ul.header__menu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      width: 100%;
+      margin: 0 20px 0 20px;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      &.first {
+        margin-left: 0;
+      }
+      &.last {
+        margin-right: 0;
+      }
+      .dot-notified {
+        height: 8px;
+        width: 8px;
+        background-color: var(--text-rejected);
+        border-radius: 50%;
+        position: relative;
+        top: 9px;
+        right: 6px;
+        z-index: 1;
+      }
+      .ico-search,
+      .ico-alarm,
+      .ico-tiled-view {
+        font-size: 24px;
+      }
+      .bground-text {
+        background: var(--icon-gradient);
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        span {
+          font-size: 15px;
+          color: var(--first);
+          font-family: "Benton Sans Medium BBVA";
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+/* END C-HEADER COMPONENT */

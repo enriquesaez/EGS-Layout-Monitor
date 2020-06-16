@@ -1,0 +1,50 @@
+.subHeader__container
+  .flex.margin-bottom_8
+    div
+      include ../c-title/c-title.pug
+    div
+      include ../c-tag/c-tag.pug
+  .row
+    .col
+      include ../c-update/c-update.pug
+  .row.flex-justify-between.margin-top_20
+    .col-8
+      //- Restore and deleted this block -> DON'T COMMIT THIS
+      .c-file-data
+          .flex.flex-justify-between
+            dl
+              .flex
+                  dt Cliente:
+                  dd INDITEX
+              .flex
+                  dt Código contrato:
+                  dd 12345678A
+            dl
+              .flex
+                  dt Emisor:
+                  dd Global Hub
+              .flex
+                  dt Destino:
+                  dd México
+            dl
+              .flex
+                  dt Proveedores:
+                  dd 5
+              .flex
+                  dt Estado del fichero:
+                  dd KO
+            .files-status
+              div
+                span 14
+              div
+                i.ico-path-3-1
+                p Lorem                      
+                    
+      //- Restore and deleted this block -> DON'T COMMIT THIS
+
+
+      //- Restore c-date-filter -> DON'T COMMIT THIS
+      //-include ../c-date-filter/c-date-filter.pug
+      //-include ../c-datepicker/c-datepicker.pug
+    .col-3
+      include ../c-global-counter/c-global-counter.pug

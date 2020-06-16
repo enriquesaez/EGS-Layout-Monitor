@@ -1,0 +1,310 @@
+/* C-MODAL-MODIFY-EJEC-DATE COMPONENT */
+
+/* this "button#myBtnModifyEjecDate" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtnModifyEjecDate {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.c-modal-modify-ejec-date {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  .c-modal-modify-ejec-date-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 550px;
+    width: 670px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: var(--first);
+    padding: 32px 35px 48px 48px;
+    .c-modal-modify-ejec-date-content_header {
+      margin-bottom: 40px;
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      justify-content: space-between;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      .c-modal-modify-ejec-date-title {
+        letter-spacing: 0;
+        font-size: 22px;
+        margin: 0 auto;
+        color: var(--data-first);
+      }
+      .closeModifyEjecDate {
+        color: var(--fifth);
+        font-size: 30px;
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .c-modal-modify-ejec-date-content_body {
+      display: inline-flex;
+      padding-right: 13px;
+      height: 300px;
+
+      .c-modal-modify-ejec-date-leftPanel{
+        width: 280px;
+        margin-right: 70px;
+        .c-modal-modify-ejec-date-c-datepicker-simple {
+          height: auto;
+          min-height: unset;
+          width: 280px;
+          padding: 0;
+          z-index: 1;
+          border-radius: 0;
+          box-shadow: none;
+          position: absolute;
+          .row {
+            &.c-modal-modify-ejec-date-calendar-simple-container {
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              .col {
+                &.c-modal-modify-ejec-date-calendar-simple {
+                  width: 280px;
+                  padding-left: 0;
+                  * {
+                    box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                  }
+                  .c-modal-modify-ejec-date-month-cal {
+                    width: 100%;
+                    text-align: center;
+                    padding: 0 0 20px 0;
+                    text-align: center;
+                    ul {
+                      margin: 0;
+                      padding: 0;
+        
+                      li {
+                        display: inline;
+                        font-family: "Benton Sans Medium BBVA";
+                        color: var(--fifth);
+                        font-size: 15px;
+                        span {
+                          margin-left: 5px;
+                        }
+                        .ico-unfold {
+                          font-size: 24px;
+                          position: relative;
+                          top: 5px;
+                          cursor: pointer;
+                          outline: none;
+                        }
+                        i {
+                          font-size: 24px;
+                          outline: none;
+                        }
+                      }
+                    }
+        
+                    .prev,
+                    .next {
+                      padding-top: 6px;
+                      cursor: pointer;
+                      outline: none;
+                    }
+                    .prev {
+                      float: left;
+                    }
+                    .next {
+                      float: right;
+                    }
+                  }
+        
+                  .weekdays {
+                    margin: 0;
+                    padding: 10px 0;
+        
+                    li {
+                      font-family: "Benton Sans Medium BBVA";
+                      font-size: 15px;
+                      color: var(--data-first);
+                      display: inline-block;
+                      width: 13%;
+                      /* Important: for development, this width maybe must be:
+                      width: 14.2%; */
+                      text-align: center;
+                    }
+                  }
+        
+                  .days {
+                    padding: 10px 0;
+                    margin: 0;
+                    display: flex;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    flex-wrap: wrap;
+                    width: 280px;
+                    .frame-day {
+                      display: flex;
+                      display: -ms-flexbox;
+                      display: -webkit-flex;
+                      justify-content: center;
+                      -ms-flex-pack: center;
+                      -webkit-justify-content: center;
+                      align-items: center;
+                      -ms-flex-align: center;
+                      -webkit-align-items: center;
+                      width: 40px;
+                      height: 40px;
+                      cursor: pointer;
+                      span {
+                        font-size: 15px;
+                        color: var(--tertiary);
+                        font-family: "Benton Sans Medium BBVA";
+                      }
+                      &.active {
+                        background: var(--fifth);
+                        span {
+                          color: var(--first);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .c-modal-modify-ejec-date-rightPanel{
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-direction: column;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        justify-content: space-between;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        .c-modal-modify-ejec-date-select{
+          .c-modal-modify-ejec-date-originalEjecDate{
+            margin-bottom: 32px;
+            height: 30px;
+            display: flex;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            justify-content: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            span{
+              font-family: "Benton Sans Book BBVA", Helvetica, Arial, sans-serif;
+              font-size: 13px;
+            }
+          }
+          .c-modal-modify-ejec-date-choose-date{
+            cursor: pointer;
+            .c-modal-modify-ejec-date-c-date-filter {
+              width: 220px;
+              height: 50px;
+              background-color: var(--third);
+              border-bottom: 1px solid var(--tertiary);
+              display: inline-flex;
+            
+              .from {
+                width: 125px;
+                margin: 8px 16px;
+                display: inline-grid;
+                align-items: center;
+            
+                span {
+                  font-size: 15px;
+                }
+            
+                span:first-child {
+                  color: var(--tertiary);
+                  font-size: 12px;
+                }
+              }
+            }
+          }
+        }
+        .c-modal-modify-ejec-date-attach-files-button{
+          outline: none;
+          cursor: pointer;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          align-items: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          img {
+            height: 22px;
+            width: 15px;
+            margin-right: 10px;
+          }
+          span {
+            color: var(--fifth);
+            font-family: "Benton Sans Medium BBVA", sans-serif;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+    .c-modal-modify-ejec-date-attached{
+      margin: 32px 13px 0 0;
+      .attached-file{
+        margin-bottom: 8px;
+        padding: 0px 0px 0px 12px;
+        height: 40px;
+        background-color: var(--third);
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        p{
+          font-family: "Benton Sans Book BBVA", Helvetica, Arial, sans-serif;
+          font-size: 13px;
+        }
+      }
+    }
+    .c-modal-modify-ejec-date-content_footer {
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      justify-content: flex-end;
+      -ms-flex-pack: end;
+      -webkit-justify-content: flex-end;
+      margin: 48px 13px 0 0;
+      .c-link {
+        margin-right: 45px;
+      }
+      .c-button {
+        width: 176px;
+        height: 48px;        
+      }
+    }
+  }
+}
+
+/* END OF C-MODAL-MODIFY-EJEC-DATE COMPONENT */

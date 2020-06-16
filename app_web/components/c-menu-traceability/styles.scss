@@ -1,0 +1,52 @@
+/* C-TAB COMPONENT */
+
+.c-tab-menu-traceability {
+  width: 100%;
+  height: 47px;
+  display: inline-flex;
+  border-bottom: 0.5px solid #bdbdbd;
+  //margin-bottom: 30px;
+  margin-top: 20px;
+  div {
+    button {
+      min-width: 200px;
+      cursor: pointer;
+      text-decoration: none;
+      background-color: inherit;
+      border: none;
+      outline: none;
+      text-align: center;
+      span {
+        color: var(--tertiary);
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+      }
+      i {
+        margin-right: 8px;
+        &.ico-disabled {
+          opacity: 0.5;
+        }
+      }
+      p {
+        color: var(--fourth);
+        line-height: 16px;
+        font-size: 12px;
+      }
+    }
+    &.traceability--active {
+      border-bottom: 2px solid #004481;
+      button {
+        span {
+          color: var(--data-first);
+          font-weight: 500;
+        }
+        p {
+          color: var(--tertiary);
+        }
+      }
+    }
+  }
+}
+
+/* END C-TAB COMPONENT */

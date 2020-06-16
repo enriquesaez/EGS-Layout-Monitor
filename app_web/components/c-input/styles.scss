@@ -1,0 +1,38 @@
+/* C-INPUT COMPONENT */
+.c-label-c-input {
+  margin-bottom: 8px;
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 12px;
+}
+.c-input {
+  width: 100%;
+  display: inline-grid;
+  display: -moz-inline-grid;
+  display: -ms-inline-grid;
+
+  .no_label {
+    display: none;
+  }
+  input {
+    outline: none;
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid var(--tertiary);
+    border-radius: 0px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    color: var(--tertiary);
+    font-family: "Benton Sans Book BBVA", Helvetica, Arial, sans-serif;
+  }
+}
+
+/* END C-INPUT COMPONENT */

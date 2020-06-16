@@ -1,0 +1,28 @@
+/* C-UPDATE COMPONENT */
+
+.c-update {
+  height: 16px;
+  width: auto;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  align-items: center;
+  .updateDate {
+    margin-right: 8px;
+    color: var(--tertiary);
+    span {
+      font-family: "Benton Sans BookItalic BBVA";
+      font-size: 12px;
+    }
+  }
+  .updateButton {
+    color: var(--fifth);
+    label {
+      font-family: "Benton Sans Medium BBVA";
+      font-size: 12px;
+      cursor: pointer;
+    }
+  }
+}
+
+/* END C-UPDATE COMPONENT */

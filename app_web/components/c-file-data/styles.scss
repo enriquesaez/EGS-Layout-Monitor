@@ -1,0 +1,40 @@
+/* -FILE-DATA COMPONENT */
+.c-file-data {
+  width: 100%;
+  padding: 20px 40px 0 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: auto;
+  background-color: var(--first);
+  border-bottom: 1px solid #bdbdbd;
+  dl {
+    .flex {
+      margin-bottom: 24px;
+      dt,
+      dd {
+        font-family: "Benton Sans Medium BBVA";
+        font-size: 13px;
+        padding-right: 5px;
+      }
+      dd {
+        font-family: "Benton Sans Light BBVA";
+        &.status--rejected {
+          color: var(--text-rejected);
+          font-family: "Benton Sans Medium BBVA";
+        }
+        &.status--partial {
+          color: var(--text-partial);
+        }
+        &.status--paid {
+          color: var(--text-paid);
+          font-family: "Benton Sans Medium BBVA";
+        }
+      }
+      &.end {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+/* END OF C-FILE-DATA COMPONENT */

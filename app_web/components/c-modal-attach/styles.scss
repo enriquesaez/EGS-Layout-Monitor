@@ -1,0 +1,148 @@
+/* C-MODAL-ATTACH COMPONENT */
+
+/* this "button#myBtnattach" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtnattach {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.c-modal-attach {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  .modal-attach_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 750px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: var(--first);
+    padding: 40px;
+    border-bottom: 1px solid;
+    .modal-attach-content_header {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      min-width: 640px;
+      min-height: 100px;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      justify-content: space-between;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      .c-modal-attach-title {
+        padding: 0 50px;
+        color: var(--tertiary);
+        font-family: "Benton Sans Book BBVA", sans-serif;
+        font-size: 22px;
+        line-height: 29px;
+        text-align: center;
+      }
+      .closeattach {
+        color: var(--fifth);
+        font-size: 30px;
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .modal-attach-content_body {
+      min-height: 150px;
+      width: auto;
+      .attach-files-box {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        height: 40px;
+        width: 672px;
+        background-color: var(--backgound-second);
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: space-between;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        margin-bottom: 8px;
+        padding: 10px 16px;
+        .attach-file-name {
+          color: var(--data-first);
+          font-family: "Benton Sans Light BBVA", sans-serif;
+          font-size: 13px;
+        }
+        .ico-close {
+          outline: none;
+          cursor: pointer;
+          &:before {
+            font-size: 13px;
+            color: var(--fourth);
+          }
+        }
+      }
+      .attach-files-button {
+        width: 350px;
+        height: 55px;
+        margin-bottom: 20px;
+        outline: none;
+        cursor: pointer;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        img {
+          height: 22px;
+          width: 15px;
+          margin-right: 10px;
+        }
+        span {
+          color: var(--fifth);
+          font-family: "Benton Sans Medium BBVA", sans-serif;
+          font-size: 13px;
+        }
+      }
+    }
+    .modal-attach-content_footer {
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      justify-content: flex-end;
+      -ms-flex-pack: end;
+      -webkit-justify-content: flex-end;
+      .c-link {
+        justify-content: unset;
+        align-items: unset;
+        margin-right: 45px;
+      }
+      .c-button {
+        width: 226px;
+        height: 48px;        
+      }
+    }
+  }
+}
+
+/* END OF C-MODAL-ATTACH COMPONENT */

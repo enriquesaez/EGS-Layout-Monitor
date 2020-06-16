@@ -1,0 +1,16 @@
+script.
+    function contextualFunction() {
+        document.getElementById("contextualDropdown").classList.toggle("contextual-show");
+    }
+    window.onclick = function(event) {
+        if (!event.target.matches('.kebab')) {
+            var dropdowns = document.getElementsByClassName("contextual-dropdown-content");
+            var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('contextual-show')) {
+                    openDropdown.classList.remove('contextual-show');
+                }
+            }
+        }
+    }

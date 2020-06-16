@@ -1,0 +1,141 @@
+/* C-CARD-DASHBOARD COMPONENT */
+
+.c-card-dashboard {
+  height: 152px;
+  width: 556px;
+  padding: 16px;
+  background-color: var(--first);
+  box-shadow: 0 1px 2px 0 rgba(18, 18, 18, 0.2);
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  .row {
+    &.rowUp {
+      height: 50%;
+      .colUp-left,
+      .colUp-right {
+        flex-flow: unset; // This is to override flex-flow inheritance in the generic ".col" class
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+      }
+      .colUp-left {
+        width: 65%;
+        img {
+          margin-right: 16px;
+        }
+        span {
+          color: var(--data-first);
+          font-family: "Benton Sans Light BBVA", sans-serif;
+          font-size: 28px;
+          letter-spacing: 0;
+          line-height: 40px;
+        }
+      }
+      .colUp-right {
+        width: 35%;
+        justify-content: flex-end;
+        -ms-flex-pack: end;
+        -webkit-justify-content: flex-end;
+        > div {
+          padding-right: 10px;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          align-items: flex-end;
+          -ms-flex-align: end;
+          -webkit-align-items: flex-end;
+          .number,
+          .requests {
+            color: var(--data-first);
+            font-family: "Benton Sans Light BBVA", sans-serif;
+          }
+          .number {
+            font-size: 32px;
+            margin-right: 6px;
+          }
+          .requests {
+            font-size: 14px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+  .row {
+    &.rowDown {
+      height: 50%;
+      .colDown {
+        flex-flow: unset; // This is to override flex-flow inheritance in the generic ".col" class
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        justify-content: flex-end;
+        -ms-flex-pack: end;
+        -webkit-justify-content: flex-end;
+        .status-box {
+          width: auto;
+          min-width: 112px;
+          height: 100%;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          align-items: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          margin-top: 10px;
+          padding-right: 8px;
+          > div {
+            display: flex;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            .number {
+              font-family: "Benton Sans Light BBVA", sans-serif;
+              font-size: 32px;
+              margin-right: 6px;
+              padding-top: 5px;
+            }
+            .with-error,
+            .in-progress,
+            .finished {
+              font-family: "Benton Sans Light BBVA", sans-serif;
+              font-size: 13px;
+              line-height: 17px;
+              letter-spacing: normal;
+              color: var(--tertiary);
+            }
+            .status-with-ico {
+              margin-top: 3px;
+              i {
+                position: relative;
+                top: 3px;
+              }
+              i.ico-path-3-4 {
+                &.green {
+                  &:before {
+                    color: var(--status-finalized);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .separate-v {
+        margin-top: 2%;
+        height: 40%;
+        border-left: 1px solid var(--sixth);
+        padding: 8px;
+      }
+    }
+  }
+}
+
+/* END C-CARD-DASHBOARD COMPONENT */

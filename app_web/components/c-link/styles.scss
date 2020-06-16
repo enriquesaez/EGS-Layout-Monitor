@@ -1,0 +1,27 @@
+/* C-LINK COMPONENT */
+
+.c-link {
+  height: 24px;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--fifth);
+  
+  i {
+    margin-right: 8px;
+  }
+
+  label {
+    font-family: "Benton Sans Medium BBVA";
+    font-size: 13px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+}
+
+/* END C-LINK COMPONENT */

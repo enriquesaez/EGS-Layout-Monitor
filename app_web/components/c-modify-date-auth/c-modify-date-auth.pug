@@ -1,0 +1,56 @@
+.c-modif-date-auth
+  .c-modif-date-auth-container
+    .c-modif-date-auth-c-alert
+      .c-modif-date-auth-c-alert_container
+          .c-modif-date-auth-c-alert_body
+            i.ico-alert
+            div
+              span Modificación de fecha pendientes de autorizar
+          .c-modif-date-auth-c-alert_footer
+            include ../c-link/c-link.pug
+    .c-modif-date-auth-information
+      .c-modif-date-auth-information-container
+        .hr-table-customer
+          table.c-table-order-auth
+            tbody
+              tr.th-table
+                th 
+                  .c-checkbox
+                    input#checkmark(type="checkbox")
+                    label(for='checkmark')
+                th 
+                  p id orden
+                th 
+                  p cta.beneficiaria
+                th 
+                  p f.ejecución previa
+                th 
+                  p nueva f. de ejecución
+                th 
+                  p tipo de pago
+                th.import
+                  p importe
+                th.last
+              tr
+                td
+                  .c-checkbox
+                    input#checkmark(type="checkbox")
+                    label(for='checkmark')
+                td
+                  p.num-order 10221605PackARPE01-2/001/0111
+                td 
+                  p ****1122
+                td 
+                  p 15/01/19
+                td 
+                  p.new 25/01/19
+                td
+                  p CIE
+                td.import
+                  p.amount 2.000,00  EUR
+                td.last
+                  img(src="../svg/ico-kebab.svg", alt="")
+        .c-modif-date-auth-footer
+          //-classes for status button: '.c-button--enabled' or '.c-button--disabled'
+          .c-button.c-button--enabled
+              span Autorizar

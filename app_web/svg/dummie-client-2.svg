@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>8354A90E-3F42-47D0-95D7-BFD83EEC582B</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="DEV_ASSETS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ICONOS" transform="translate(-121.000000, -737.000000)">
+            <g id="Clientes2" transform="translate(121.000000, 737.000000)">
+                <g id="Fondo">
+                    <path d="M23.1248131,1.9910799 C20.8763589,0.723324931 18.280226,0 15.5151515,0 C6.94636994,0 -4.13406683e-14,6.94636994 -4.13406683e-14,15.5151515 C-4.13406683e-14,21.5508393 3.44646041,26.7815631 8.47876107,29.3467028 C23.1020227,2.04686239 8.46406973,29.3879535 23.1248131,1.9910799 Z" id="Oval" fill="#1973B8"></path>
+                    <path d="M31.5639458,3.96271932 C29.3154916,2.69496435 26.7193587,1.97163941 23.9542842,1.97163941 C15.3855027,1.97163941 8.43913273,8.91800936 8.43913273,17.4867909 C8.43913273,23.5224787 11.8855931,28.7532025 16.9178938,31.3183422 C31.5411555,4.01850181 16.9032025,31.3595929 31.5639458,3.96271932 Z" id="Oval-Copy" fill="#1464A5" transform="translate(20.001539, 16.644991) rotate(-180.000000) translate(-20.001539, -16.644991) "></path>
+                </g>
+                <text id="Inicial-compañía" font-family="BentonSansBBVA-Medium, Benton Sans BBVA" font-size="15" font-weight="400" line-spacing="24" fill="#FFFFFF">
+                    <tspan x="11.445" y="22">S</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

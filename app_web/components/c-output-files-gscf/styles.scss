@@ -1,0 +1,61 @@
+/* C-OUTPUT-FILES*/
+
+.c-output-files {
+  width: 100%;
+  margin-bottom: 40px;
+  tr {
+    &.th-table {
+      -webkit-box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      -moz-box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+      border: none;
+    }
+  }
+  th,
+  td {
+    height: 35px;
+    vertical-align: middle;
+    padding: 0 0 0 6px;
+  }
+  th {
+    text-transform: uppercase;
+    text-align: left;
+    &.last {
+      text-align: right;
+    }
+    p {
+      color: var(--tertiary);
+      font-size: 12px;
+    }
+  }
+  td {
+    &.flex {    position: relative;
+      top: 9px;}
+    &.last {
+      text-align: right;
+    }
+    p {
+      font-family: "Benton Sans Medium BBVA";
+      color: var(--tertiary);
+      font-size: 12px;
+      &.client-file {
+        color: var(--fifth);
+        font-family: "Benton Sans Medium BBVA";
+      }
+    }
+    img {
+      outline: none;
+      cursor: pointer;
+    }
+
+    span {
+      &.dashed-line {
+        border-color: #8c8c8c !important;
+        height: 100% !important;
+        border-style: dashed !important;
+        border-right-width: 1px !important;
+      }
+    }
+  }
+}
+/* END C-OUTPUT-FILES */

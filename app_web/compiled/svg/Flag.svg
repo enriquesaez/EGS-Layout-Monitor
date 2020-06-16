@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>ACC91B78-9DC0-40CA-9FAA-C3CAEC43B6C1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M2,1 L2,23 L5,23 L5,14.0999 L12.0688,14.0999 L14,16.0999 L22,16.0999 L22,3 L16,3 L14,1 L2,1 Z M5,4 L13,12 L5,12 L5,4 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Objects/Flag-Copy-Objects/Flag">
+            <polygon id="Bounding-Box" points="0 0 24 0 24 24 0 24"></polygon>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g id="🎨-Color-Fill-Secondary/400-#BDBDBD" mask="url(#mask-2)" fill="#1973B8">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

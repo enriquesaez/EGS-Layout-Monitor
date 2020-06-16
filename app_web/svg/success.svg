@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="275px" height="275px" viewBox="0 0 275 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Actions/Success</title>
+    <defs>
+        <linearGradient x1="26.5229514%" y1="5.84420898%" x2="73.477826%" y2="94.1565274%" id="linearGradient-1">
+            <stop stop-color="#1C2645" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#1C2645" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5)-Pantallas-/-Confirmación" transform="translate(-1097.000000, -297.000000)">
+            <g id="Actions/Success" transform="translate(1072.000000, 272.000000)">
+                <g id="Succes">
+                    <g id="Cuadrados_Blancos">
+                        <rect id="Rectangle" x="0" y="0" width="300" height="300"></rect>
+                    </g>
+                    <g id="Capa_5" transform="translate(25.000000, 25.000000)" fill-rule="nonzero">
+                        <g id="Group">
+                            <circle id="Oval" fill="url(#linearGradient-1)" cx="152.785" cy="152.785" r="122.215"></circle>
+                            <g id="Path">
+                                <path d="M244.445,122.16 C244.445,189.68 189.75,244.425 122.285,244.425 C54.82,244.425 0.02,189.785 0.02,122.32 C0.02,54.855 54.66,0.05 122.13,-3.42536969e-05 C189.6,-0.05 244.395,54.645 244.445,122.16" fill="#28AD68"></path>
+                                <path d="M97.005,176.75 C94.23,176.75 91.56,175.65 89.625,173.66 L51.99,136.025 C47.905,131.94 47.905,125.295 51.99,121.215 C56.075,117.135 62.72,117.13 66.8,121.215 L97.055,151.47 L177.71,70.76 C181.795,66.675 188.44,66.675 192.52,70.76 C196.6,74.845 196.605,81.49 192.52,85.57 L104.385,173.665 C102.45,175.655 99.78,176.75 97.005,176.75 L97.005,176.75 Z" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+script.
+    var modalModifyEjecDate = document.getElementById("myModalModifyEjecDate");
+    var btnModifyEjecDate = document.getElementById("myBtnModifyEjecDate");
+    var spanModifyEjecDate = document.getElementsByClassName("closeModifyEjecDate")[0];
+    btnModifyEjecDate.onclick = function() {
+        modalModifyEjecDate.style.display = "block";
+    }
+    spanModifyEjecDate.onclick = function() {
+        modalModifyEjecDate.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalModifyEjecDate) {
+            modalModifyEjecDate.style.display = "none";
+        }
+    }

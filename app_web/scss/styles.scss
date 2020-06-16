@@ -1,0 +1,40 @@
+/* MAIN STYLES */
+
+@charset "UTF-8";
+html {
+  body {
+    &.background--third {
+      background-color: var(--third);
+    }
+    font-family: "Benton Sans Book BBVA", Helvetica, Arial, sans-serif;
+    .container-width_100 {
+      padding-top: 20px;
+      width: 100%;
+    }
+    .header__container,
+    .subHeader__container,
+    .app__container,
+    .footer__container {
+      margin: 0 auto;
+      width: 1144px;
+    }
+    .separate--vertical {
+      border-left: 1px solid var(--sixth);
+    }
+
+    .hr-table-customer {
+      border-top: 2px solid #d3d3d3;
+    }
+    header {
+      height: 72px;
+      background-color: var(--second);
+    }
+    .subHeader {
+      background-color: var(--third);
+      margin-bottom: 17px;
+    }
+    .app__container {
+      min-height: 600px;
+    }
+  }
+}

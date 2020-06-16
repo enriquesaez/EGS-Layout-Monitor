@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Navigation/Settings 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.8194444,9.24242424 L19.1666667,13.7878788 L13.8194444,18.3333333 L13.8194444,15.3030303 L4.65277778,15.3030303 L7.70833333,12.2727273 L13.8194444,12.2727273 L13.8194444,9.24242424 Z M6.18055556,1.66666667 L6.18055556,4.6969697 L15.3472222,4.6969697 L12.2916667,7.72727273 L6.18055556,7.72727273 L6.18055556,10.7575758 L0.833333333,6.21212121 L6.18055556,1.66666667 Z" id="path-1"></path>
+    </defs>
+    <g id="FICHERO---caso-real" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="R_BANCO---CLIENTE-TOOLTIP" transform="translate(-1086.000000, -642.000000)">
+            <g id="Group-24" transform="translate(-0.000000, 72.000000)">
+                <g id="TABLA" transform="translate(148.000000, 381.000000)">
+                    <g id="TOOLTIP-BANCO-CLIENTE" transform="translate(922.000000, 98.000000)">
+                        <g id="Group-17" transform="translate(16.000000, 24.000000)">
+                            <g id="Group-18" transform="translate(0.000000, 64.000000)">
+                                <g id="Transactions/Transfer" transform="translate(0.000000, 2.000000)">
+                                    <polygon id="Bounding-Box" points="0 0 20 0 20 20 0 20"></polygon>
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                    <g id="Primary/Medium-Blue/Medium-Blue" mask="url(#mask-2)" fill="#1973B8" fill-rule="evenodd">
+                                        <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

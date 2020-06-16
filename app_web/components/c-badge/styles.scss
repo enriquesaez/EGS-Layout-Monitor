@@ -1,0 +1,29 @@
+/* C-BADGE COMPONENT */
+
+.c-badge{
+  margin-right: 14px;
+  border-radius: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  height: 32px;
+  background-color: var(--first);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  cursor: pointer;
+
+  span{
+    margin-right: 10px;
+    color: var(--tertiary);
+    font-family: "Benton Sans Book BBVA";
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  i{
+    font-size: 12px;
+    outline: none;
+  }
+}
+
+/* END C-BADGE COMPONENT */

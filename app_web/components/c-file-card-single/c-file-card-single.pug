@@ -1,0 +1,62 @@
+//- Funcionamiento:
+
+//- Cuando se da el caso en que se muestra solo un card .filecard
+//- en cada columna, entonces se coloca la clase .width-100 junto a .left-side y .right-side.
+
+//- Cuando se da el caso en que hay más de un card .file-card en una columna,
+//- entonces se incluye la clase .filecard--slide-case junto a .filecard 
+//- y se suprime .width-100, tanto de .left-side como de .right-side.
+
+//- CARD "ENABLED"
+//- .filecard_header--enabled
+//- .file-title--enabled
+//- .ico-flag.active / ico-globe.active / ico-(cualquier otro).active
+//- span
+
+//- CARD "ACTIVE"
+//- .filecard_header
+//- .file-title
+//- .ico-flag / ico-globe / ico- (cualquier otro)
+//- span
+.c-file-card
+    .left-side.width-100
+        .file-cards_container
+            .filecard
+                .filecard_header--enabled
+                    .file-title--enabled
+                        i.ico-globe.enabled
+                        span.enabled Global Hub
+                .filecard_body
+                    .file-client.border-bottom-none
+                        p.title-card Fichero cliente
+                        .inline-flex
+                            span.data-label 4
+                                span Remesas
+                        .inline-flex
+                            span.data-label 4
+                                span Pagos
+                        .total-import
+                            p Importe total
+                            span 36.775,54
+                        hr
+    .separate_card
+    .right-side.width-100
+        .file-cards_container
+            .filecard
+                .filecard_header
+                    .file-title
+                        i.ico-flag
+                        span Destinos (1)
+                .filecard_body
+                    .file-client
+                        p.title-card Fichero cliente
+                        .inline-flex
+                            span.data-label 4
+                                span Remesas
+                        .inline-flex
+                            span.data-label 4
+                                span Pagos
+                        .total-import
+                            p Importe total
+                            span 36.775,54
+                        hr

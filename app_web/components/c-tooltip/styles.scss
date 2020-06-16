@@ -1,0 +1,65 @@
+/* C-TOOLTIP COMPONENT */
+
+.c-tooltip {
+  height: auto;
+  width: 224px;
+  padding: 0 16px 16px 16px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  user-select: none;
+  border-radius: 1px 0 1px 1px;
+  background-color: var(--second);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  .tooltip-arrow-up-right,
+  .tooltip-arrow-up-left,
+  .tooltip-arrow-down-right,
+  .tooltip-arrow-down-left,
+  .tooltip-arrow-up-right-side {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 14px solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 14px solid var(--second);
+    z-index: 1;
+  }
+  .tooltip-arrow-up-right {
+    top: -14px;
+    left: 194px;
+  }
+  .tooltip-arrow-up-left {
+    top: -14px;
+    left: -16px;
+    transform: rotate(-268deg);
+    -webkit-transform: rotate(-268deg);
+  }
+  .tooltip-arrow-down-left {
+    top: 64px;
+    left: -16px;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+  }
+  .tooltip-arrow-down-right {
+    top: 64px;
+    left: 194px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+  }
+  .tooltip-arrow-up-right-side {
+    top: 0;
+    left: 208px;
+    transform: rotate(-540deg);
+    -webkit-transform: rotate(-540deg);
+  }
+  .tooltip-text {
+    span {
+      color: var(--first);
+      font-family: "Benton Sans Light BBVA";
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+}
+
+/* END C-TOOLTIP COMPONENT */

@@ -1,0 +1,31 @@
+/* C-TABLE-ACTIVITY-LOG COMPONENT */
+
+.c-table-activity-log {
+  width: 60%;
+  margin-bottom: 30px;
+  th {
+    text-transform: uppercase;
+    text-align: left;
+    vertical-align: middle;
+    height: 30px;
+    border-bottom: 1px solid var(--fourth);
+    p {
+      color: var(--tertiary);
+      font-size: 12px;
+    }
+  }
+  td {
+    padding: 10px 0 10px 0;
+    p {
+      color: var(--data-first);
+      font-size: 12px;
+      font-family: "Benton Sans Book BBVA";
+      &.file-name {
+        font-family: "Benton Sans Medium BBVA";
+        color: var(--fifth);
+        font-size: 13px;
+      }
+    }
+  }
+}
+/* END C-TABLE-ACTIVITY-LOG COMPONENT */

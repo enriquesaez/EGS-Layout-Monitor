@@ -1,0 +1,66 @@
+/* C-USER-DROPDOWN COMPONENT */
+.c-user-dropdown {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 176px;
+  min-height: 119px;
+  padding: 16px;
+  background-color: var(--second);
+  border-top: 2px solid var(--sixth);
+  user-select: none;
+  position: absolute;
+  top: 72px;
+  z-index: 1000;
+  .user-name {
+    margin-bottom: 8px;
+    span {
+      color: var(--first);
+      &.name {
+        font-size: 15px;
+        font-family: "Benton Sans Book BBVA", sans-serif;
+        color: var(--sixth);
+        text-transform: capitalize;
+        line-height: 20px;
+      }
+    }
+  }
+  .user-code {
+    margin-bottom: 8px;
+    span {
+      &.xe-user {
+        opacity: 0.55;
+        color: var(--sixth);
+        font-family: "Benton Sans Light BBVA";
+        font-size: 14px;
+        letter-spacing: 0;
+      }
+    }
+  }
+  .simple-divider {
+    height: 1px;
+    width: 144px;
+    margin: 14px 0 14px;
+    border-top: 1px solid var(--sixth);
+    opacity: 0.55;
+  }
+  .language {
+    font-size: 12px;
+    font-family: "Benton Sans Book BBVA";
+    color: var(--first);
+    .lan-active,
+    .lan-inactive {
+      margin-right: 15px;
+      outline: none;
+      cursor: pointer;
+      color: var(--first);
+    }
+    .lan-active {
+      text-decoration: underline;
+    }
+    .lan-inactive {
+      opacity: 0.48;
+    }
+  }
+}
+/* END C-USER-DROPDOWN COMPONENT */

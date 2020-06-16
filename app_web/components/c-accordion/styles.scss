@@ -1,0 +1,116 @@
+/* C-ACCORDION COMPONENT */
+
+.c-accordion {
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  height: 62px;
+  padding-top: 12px;
+  display: inline-flex;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+  background-color: var(--backgound-second);
+  transition: 0.4s;
+  cursor: pointer;
+
+  .accordion-expand {
+    width: 5%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    padding-top: 15px;
+
+    i {
+      font-size: 24px;
+    }
+  }
+  div {
+    overflow-wrap: break-word;
+    overflow: auto;
+    span {
+      color: var(--data-first);
+      font-family: "Benton Sans Book BBVA";
+      font-size: 13px;
+      line-height: 16px;
+      overflow: auto;
+    }
+
+    p {
+      color: #666666;
+      font-family: "Benton Sans BookItalic BBVA";
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  .accordion-date {
+    margin-right: 1%;
+    width: 10%;
+  }
+
+  .accordion-request {
+    margin-right: 1%;
+    width: 25%;
+  }
+
+  .accordion-contract {
+    margin-right: 1%;
+    width: 10%;
+  }
+
+  .accordion-client {
+    margin-right: 1%;
+    width: 10%;
+  }
+
+  .accordion-files {
+    margin-right: 1%;
+    width: 10%;
+  }
+
+  .accordion-lastFile {
+    margin-right: 1%;
+    width: 15%;
+  }
+
+  .accordion-requestStatus {
+    width: 10%;
+    span {
+      font-family: "Benton Sans Medium BBVA";
+      
+      &.accordion-requestStatus--error{
+        color: var(--status-error);
+      }
+
+      &.accordion-requestStatus--inProcess{
+        color: var(--status-inProcess);
+      }
+
+      &.accordion-requestStatus--finalized{
+        color: var(--status-finalized);
+      }
+    }
+  }
+
+  .accordion-alert {
+    width: 5%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    padding-top: 15px;
+    font-size: 12px;
+  }
+}
+
+.panel {
+  padding: 0 0 0 56px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+/* END C-ACCORDION COMPONENT */
