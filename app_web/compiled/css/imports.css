@@ -1,0 +1,4904 @@
+@charset "UTF-8";
+/* CSS STYLES OF WEB COMPONENTS */
+/* BBVA ICONS */
+/* WEBFONTS VARIABLES */
+@font-face {
+  font-family: "bbva-one-bank";
+  src: url("../fonts/bbva-one-bank.eot?ignzp1");
+  src: url("../fonts/bbva-one-bank.eot?ignzp1#iefix") format("embedded-opentype"), url("../fonts/bbva-one-bank.ttf?ignzp1") format("truetype"), url("../fonts/bbva-one-bank.woff?ignzp1") format("woff"), url("../fonts/bbva-one-bank.svg?ignzp1#bbva-one-bank") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "bbva-one-bank" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-attached:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-goto-splunk:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-move-tag:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-dot-idle:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-dot-active:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-roundBack:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-roundNext:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-flag:before {
+  content: "";
+  color: #bdbdbd;
+}
+
+.ico-alert:before {
+  content: "";
+  color: #c65302;
+}
+
+.ico-checkmark:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-close:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-trash:before {
+  content: "";
+  color: #2a86ca;
+}
+
+.ico-alarm:before {
+  content: "";
+  color: #fff;
+}
+
+.ico-back:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-bbva_logo:before {
+  content: "";
+  color: #fff;
+}
+
+.ico-calendar:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-collapse:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-configuration:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-download:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-edit:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-expand:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-fold:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-globe:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-group .path1:before {
+  content: "";
+  color: #f4f4f4;
+}
+
+.ico-group .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #da3851;
+}
+
+.ico-next:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-path-3-1:before {
+  content: "";
+  color: #da3851;
+}
+
+.ico-path-3-2:before {
+  content: "";
+  color: #f7893b;
+}
+
+.ico-path-3-3:before {
+  content: "";
+  color: #c49735;
+}
+
+.ico-path-3-4:before {
+  content: "";
+  color: #666;
+}
+
+.ico-return:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-search-secondary:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-search-tertiary:before {
+  content: "";
+  color: #bdbdbd;
+}
+
+.ico-search:before {
+  content: "";
+  color: #fff;
+}
+
+.ico-settings:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-show:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-filter:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-tiled-view:before {
+  content: "";
+  color: #fff;
+}
+
+.ico-unfold:before {
+  content: "";
+  color: #1973b8;
+}
+
+/* C-TITLE COMPONENT */
+.c-title {
+  display: inline-flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  margin-right: 24px;
+}
+.c-title h1 {
+  font-family: "Benton Sans Book BBVA";
+  color: #121212;
+  font-size: 28px;
+  line-height: 24px;
+}
+
+/* END C-TITLE COMPONENT */
+/* C-TAG COMPONENT */
+.c-tag {
+  height: 22px;
+  width: auto;
+  padding: 0 10px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.c-tag span {
+  color: var(--first);
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 13px;
+}
+.c-tag.tag--integrated {
+  background-color: var(--bground-integrated);
+}
+.c-tag.tag--development {
+  background-color: var(--bground-development);
+}
+.c-tag.tag--quality {
+  background-color: var(--bground-quality);
+}
+.c-tag.tag--production {
+  background-color: var(--bground-production);
+}
+
+/* END C-TAG COMPONENT */
+/* C-UPDATE COMPONENT */
+.c-update {
+  height: 16px;
+  width: auto;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+.c-update .updateDate {
+  margin-right: 8px;
+  color: var(--tertiary);
+}
+.c-update .updateDate span {
+  font-family: "Benton Sans BookItalic BBVA";
+  font-size: 12px;
+}
+.c-update .updateButton {
+  color: var(--fifth);
+}
+.c-update .updateButton label {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* END C-UPDATE COMPONENT */
+/* C-DATE-FILTER COMPONENT */
+.c-date-filter {
+  width: 300px;
+  height: 50px;
+  background-color: var(--first);
+  border-bottom: 1px solid var(--tertiary);
+  display: inline-flex;
+}
+.c-date-filter .from {
+  width: 125px;
+  margin: 8px 16px;
+  display: inline-grid;
+  align-items: center;
+}
+.c-date-filter .from span {
+  font-size: 15px;
+}
+.c-date-filter .from span:first-child {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-date-filter .separator_vertical {
+  border-left: 1px solid var(--sixth);
+  margin-top: 3%;
+  height: 60%;
+}
+.c-date-filter .to {
+  width: 125px;
+  margin: 8px 16px;
+  display: inline-grid;
+  align-items: center;
+}
+.c-date-filter .to span {
+  font-size: 15px;
+}
+.c-date-filter .to span:first-child {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-date-filter .navigation {
+  width: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+.c-date-filter .navigation i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* END C-DATE-FILTER COMPONENT */
+.c-filter-selected {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  padding: 0 16px 0 16px;
+  background-color: var(--third);
+  height: 56px;
+}
+
+/* C-BADGE COMPONENT */
+.c-badge {
+  margin-right: 14px;
+  border-radius: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  height: 32px;
+  background-color: var(--first);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.c-badge span {
+  margin-right: 10px;
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 15px;
+  line-height: 24px;
+}
+.c-badge i {
+  font-size: 12px;
+  outline: none;
+}
+
+/* END C-BADGE COMPONENT */
+/* C-GLOBAL-COUNTER COMPONENT */
+.c-global-counter {
+  width: 100%;
+  height: 76px;
+  background-color: var(--first);
+  box-shadow: 0 1px 2px 0 rgba(18, 18, 18, 0.2);
+  display: inline-flex;
+}
+.c-global-counter .separate--vertical {
+  margin-top: 2%;
+  height: 60%;
+}
+.c-global-counter .c-global-counter--selected {
+  border-bottom: 3px solid var(--border-counter-selected);
+}
+
+/* Layout JUST for GSCF Monitor */
+.row .col-3 .c-global-counter {
+  height: 100%;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.row .col-3 .c-global-counter div:first-of-type {
+  width: 50%;
+  border-bottom: 3px solid var(--border-counter-selected);
+}
+.row .col-3 .c-global-counter div:first-of-type .files-status {
+  padding: 23px 23px 27px 23px;
+}
+.row .col-3 .c-global-counter div:first-of-type .files-status div {
+  border-bottom: 0;
+}
+.row .col-3 .c-global-counter div:first-of-type .files-status div i {
+  visibility: hidden;
+}
+.row .col-3 .c-global-counter div:last-of-type {
+  width: 50%;
+  border-bottom: 0;
+}
+.row .col-3 .c-global-counter div:last-of-type div {
+  border-bottom: 0;
+}
+.row .col-3 .c-global-counter div:last-of-type div .files-status {
+  padding: 23px 23px 27px 23px;
+}
+
+/* END Layout JUST for GSCF Monitor */
+/* END C-GLOBAL-COUNTER COMPONENT */
+/* C-FILES-RECEIVE COMPONENT */
+.c-files-receive {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: start;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: flex-end;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  padding: 16px 23px 16px 23px;
+}
+.c-files-receive div:first-of-type {
+  margin-right: 8px;
+  height: 40px;
+  width: 100%;
+  text-align: right;
+}
+.c-files-receive div:first-of-type span {
+  color: var(--data-first);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 32px;
+  line-height: 40px;
+}
+.c-files-receive div:last-of-type {
+  height: 34px;
+  width: -webkit-min-content;
+  width: min-content;
+}
+.c-files-receive div:last-of-type p {
+  color: var(--data-first);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* END C-FILES-RECEIVE COMPONENT */
+/* C-FILES-STATUS COMPONENT */
+.files-status {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  padding: 16px 23px 16px 23px;
+  min-width: 72px;
+  /* for GSCF Monitor */
+  /*div{
+    i:before{
+      color: var(--first);
+    }
+  } */
+}
+.files-status div:first-of-type {
+  margin-right: 4px;
+  height: 40px;
+  text-align: right;
+}
+.files-status div:first-of-type span {
+  color: var(--data-first);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 32px;
+  line-height: 48px;
+}
+.files-status div:last-of-type {
+  height: 28px;
+  color: var(--tertiary);
+}
+.files-status div:last-of-type i {
+  font-size: 13px;
+}
+.files-status div:last-of-type p {
+  font-family: "Benton Sans Book BBVA";
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* Layout JUST for GSCF Monitor: ".c-file-data" with an ".files-status" inside */
+.row .col-8 .c-file-data .flex .files-status {
+  padding: 23px;
+  border-left: 1px solid var(--sixth);
+  height: 10px;
+}
+
+/* END Layout JUST for GSCF Monitor: ".c-file-data" with an ".files-status" inside */
+/* END C-FILES-STATUS COMPONENT */
+/* C-LINK COMPONENT */
+.c-link {
+  height: 24px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--fifth);
+}
+.c-link i {
+  margin-right: 8px;
+}
+.c-link label {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 13px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/* END C-LINK COMPONENT */
+/* C-FOOTER COMPONENT */
+footer {
+  height: 56px;
+  background-color: var(--second);
+}
+footer .footer__container {
+  height: 100%;
+  justify-content: center;
+  -webkit-justify-content: center;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-pack: justify;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+footer .footer__container .text span {
+  font-family: "Benton Sans Book BBVA";
+  -webkit-font-smoothing: antialiased;
+  color: var(--first);
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* END C-FOOTER COMPONENT */
+/* C-BUTTON-FILTER COMPONENT */
+.c-button-filter {
+  height: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.c-button-filter i {
+  margin-right: 8px;
+}
+.c-button-filter span {
+  color: var(--fifth);
+  line-height: 24px;
+  font-size: 13px;
+  font-family: "Benton Sans Medium BBVA";
+}
+
+/* END C-BUTTON-FILTER COMPONENT */
+/* C-SEARCH COMPONENT */
+.c-search {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+}
+.c-search input {
+  line-height: 24px;
+  font-size: 13px;
+  outline: none;
+  border: 0;
+  height: 24px;
+  color: var(--tertiary);
+  font-family: "Benton Sans BookItalic BBVA";
+  text-overflow: ellipsis;
+}
+.c-search i {
+  font-size: 16px;
+  outline: none;
+}
+
+/* END C-SEARCH COMPONENT */
+/* C-FILTER-DROPDOWN COMPONENT */
+.c-filter-dropdown {
+  background-color: var(--third);
+  padding: 25px 40px;
+}
+.c-filter-dropdown .row .col-4 div {
+  width: 100%;
+}
+.c-filter-dropdown .row .col-4 div:first-child {
+  margin-right: 16px;
+}
+.c-filter-dropdown .c-link label {
+  font-size: 15px;
+}
+.c-filter-dropdown .c-link i:before {
+  content: "";
+}
+
+/* END C-FILTER-DROPDOWN COMPONENT */
+/* C-SELECT COMPONENT */
+.label_c-select {
+  margin-bottom: 8px;
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.dropbtn {
+  padding: 12px 14px;
+  width: 100%;
+  font-family: "Benton Sans Book BBVA";
+  text-align: left;
+  font-size: 15px;
+  color: var(--tertiary);
+  border: 0;
+  border-bottom: 1px solid var(--tertiary);
+  background-color: var(--first);
+  height: 48px;
+  cursor: pointer;
+  background-image: url(../svg/Unfold.svg);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: var(--first);
+}
+
+.dropdown {
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--first);
+  max-height: 190px;
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  z-index: 1;
+  border: 1px solid var(--sixth);
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.dropdown-content::-webkit-scrollbar {
+  width: 4px;
+}
+.dropdown-content::-webkit-scrollbar-track {
+  box-shadow: inset 0px 0px 4px grey;
+  border-radius: 10px;
+}
+.dropdown-content::-webkit-scrollbar-thumb {
+  background: #1871b5;
+  border-radius: 10px;
+}
+.dropdown-content::-webkit-scrollbar-thumb:hover {
+  background: #3fa3f0;
+}
+.dropdown-content .c-select-search {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+}
+.dropdown-content .c-select-search .c-search {
+  width: 100%;
+  margin: 12px 0px 12px 0px;
+}
+.dropdown-content .c-select-search .c-search input:first-of-type {
+  min-width: unset;
+  width: 100%;
+  height: 30px;
+}
+.dropdown-content .c-select-search a {
+  color: var(--tertiary);
+  padding: 10px 0 5px 0;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid var(--border-primary);
+}
+.dropdown-content .c-select-search a.first-child {
+  border-top: 1px solid var(--border-primary);
+}
+.dropdown-content .c-select-search a .client {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+.dropdown-content .c-select-search a .code {
+  text-transform: uppercase;
+  font-family: "Benton Sans BookItalic BBVA";
+  font-size: 12px;
+}
+
+.dropdown a:hover {
+  background-color: var(--bground-first);
+}
+
+.show {
+  display: block;
+}
+
+/* END C-SELECT COMPONENT */
+/* C-INPUT COMPONENT */
+.c-label-c-input {
+  margin-bottom: 8px;
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 12px;
+}
+
+.c-input {
+  width: 100%;
+  display: inline-grid;
+  display: -moz-inline-grid;
+  display: -ms-inline-grid;
+}
+.c-input .no_label {
+  display: none;
+}
+.c-input input {
+  outline: none;
+  height: 48px;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid var(--tertiary);
+  border-radius: 0px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA", Helvetica, Arial, sans-serif;
+}
+
+/* END C-INPUT COMPONENT */
+/* C-TABLE-HEADER COMPONENT */
+.c-table-header {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  padding: 0 16px 0 16px;
+  height: 56px;
+}
+.c-table-header .flex div .c-search input:first-of-type {
+  margin-right: 24px;
+  min-width: 209px;
+}
+
+/* END C-TABLE-HEADER COMPONENT */
+/* C-TABLE COMPONENT */
+.c-table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.c-table th,
+.c-table td {
+  height: 48px;
+  vertical-align: middle;
+  padding: 0 0 0 20px;
+}
+.c-table th {
+  text-transform: uppercase;
+  text-align: left;
+}
+.c-table th.last {
+  text-align: right;
+}
+.c-table th p {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-table th .icon-arrow-down {
+  width: 0;
+  height: 0;
+  position: relative;
+  left: 5px;
+  top: 9px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--tertiary);
+  cursor: pointer;
+}
+.c-table td.last {
+  text-align: right;
+}
+.c-table td p {
+  color: var(--data-first);
+  font-size: 14px;
+  font-family: "Benton Sans Book BBVA";
+}
+.c-table td p.client-file {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-table td p.date {
+  color: var(--data-first);
+}
+.c-table td p.medium, .c-table td p.client-file, .c-table td p.date, .c-table td p.service, .c-table td p.status, .c-table td p.status--rejected, .c-table td p.status--partial, .c-table td p.status--timeout, .c-table td p.status--paid, .c-table td p.status--future {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.c-table td p.status--rejected, .c-table td p.status--partial, .c-table td p.status--timeout, .c-table td p.status--paid, .c-table td p.status--future {
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-table td p.status--rejected {
+  color: var(--text-rejected);
+}
+.c-table td p.status--partial {
+  color: var(--text-partial);
+}
+.c-table td p.status--timeout {
+  color: var(--text-timeout);
+}
+.c-table td p.status--paid {
+  color: var(--text-paid);
+}
+.c-table td p.status--future {
+  color: var(--tertiary);
+}
+.c-table td span {
+  font-family: "Benton Sans BookItalic BBVA";
+  font-size: 12px;
+  color: var(--tertiary);
+}
+.c-table td i {
+  outline: none;
+  cursor: pointer;
+}
+.c-table tr {
+  border-bottom: 2px solid #d3d3d3;
+}
+.c-table tr.th-table {
+  box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+  border: none;
+}
+.c-table tr.th-table:hover {
+  background: none;
+}
+.c-table tr:hover {
+  background: var(--bground-first);
+  transition-duration: 0.3s;
+}
+
+/* END C-TABLE COMPONENT */
+/* C-PAGINATION COMPONENT */
+.c-pagination a {
+  height: 18px;
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 13px;
+  letter-spacing: -0.18px;
+  line-height: 18px;
+  color: var(--text-pagination);
+  cursor: pointer;
+}
+
+/* END C-PAGINATION COMPONENT */
+/* C-BUTTON COMPONENT */
+.c-button {
+  border-radius: 1px;
+  height: 48px;
+  width: 177px;
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 14px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.c-button.c-button--enabled {
+  cursor: pointer;
+  background-color: var(--fifth);
+  color: var(--first);
+}
+.c-button.c-button--enabled:hover {
+  background-color: var(--bground-fifth-over);
+}
+.c-button.c-button--disabled {
+  background-color: var(--sixth);
+  color: var(--fourth);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* END C-BUTTON COMPONENT */
+/* C-HEADER COMPONENT */
+.header__container {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.header__container .left .logo {
+  margin-right: 60px;
+}
+.header__container ul.header__menu {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__container ul.header__menu li {
+  width: 100%;
+  margin: 0 20px 0 20px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header__container ul.header__menu li.first {
+  margin-left: 0;
+}
+.header__container ul.header__menu li.last {
+  margin-right: 0;
+}
+.header__container ul.header__menu li .dot-notified {
+  height: 8px;
+  width: 8px;
+  background-color: var(--text-rejected);
+  border-radius: 50%;
+  position: relative;
+  top: 9px;
+  right: 6px;
+  z-index: 1;
+}
+.header__container ul.header__menu li .ico-search,
+.header__container ul.header__menu li .ico-alarm,
+.header__container ul.header__menu li .ico-tiled-view {
+  font-size: 24px;
+}
+.header__container ul.header__menu li .bground-text {
+  background: var(--icon-gradient);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.header__container ul.header__menu li .bground-text span {
+  font-size: 15px;
+  color: var(--first);
+  font-family: "Benton Sans Medium BBVA";
+  line-height: 30px;
+}
+
+/* END C-HEADER COMPONENT */
+/* C-SUBHEADER COMPONENT */
+.subHeader__container {
+  padding: 24px 0px 24px 0px;
+}
+.subHeader__container .c-date-filter {
+  margin-top: 25px;
+}
+
+/* END C-SUBHEADER COMPONENT */
+/* C-TAB COMPONENT */
+.c-tab-menu {
+  display: inline-flex;
+}
+.c-tab-menu li {
+  margin: 0 12px 0 12px;
+}
+.c-tab-menu li.first {
+  margin-left: 0px;
+}
+.c-tab-menu li.last {
+  margin-right: 0px;
+}
+.c-tab-menu li .c-tab-menu-border {
+  position: relative;
+  height: 10px;
+  width: 23px;
+  border-bottom: 1px solid #ffffff;
+  visibility: hidden;
+}
+.c-tab-menu li:hover button {
+  opacity: 0.7;
+  transition-duration: 0.4s;
+}
+.c-tab-menu li.li--active button {
+  opacity: 1;
+}
+.c-tab-menu li.li--active .c-tab-menu-border {
+  visibility: visible;
+}
+.c-tab-menu li button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  padding: 0px;
+  color: var(--first);
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* END C-TAB COMPONENT */
+/* C-TAB COMPONENT */
+.c-tab-menu-traceability {
+  width: 100%;
+  height: 47px;
+  display: inline-flex;
+  border-bottom: 0.5px solid #bdbdbd;
+  margin-top: 20px;
+}
+.c-tab-menu-traceability div button {
+  min-width: 200px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.c-tab-menu-traceability div button span {
+  color: var(--tertiary);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.c-tab-menu-traceability div button i {
+  margin-right: 8px;
+}
+.c-tab-menu-traceability div button i.ico-disabled {
+  opacity: 0.5;
+}
+.c-tab-menu-traceability div button p {
+  color: var(--fourth);
+  line-height: 16px;
+  font-size: 12px;
+}
+.c-tab-menu-traceability div.traceability--active {
+  border-bottom: 2px solid #004481;
+}
+.c-tab-menu-traceability div.traceability--active button span {
+  color: var(--data-first);
+  font-weight: 500;
+}
+.c-tab-menu-traceability div.traceability--active button p {
+  color: var(--tertiary);
+}
+
+/* END C-TAB COMPONENT */
+/* C-DATEPICKER COMPONENT */
+.c-datepicker {
+  height: auto;
+  width: 640px;
+  padding: 24px 0 0 0;
+  background-color: var(--first);
+  z-index: 1;
+  border-radius: 1px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(18, 18, 18, 0.2);
+  position: absolute;
+}
+.c-datepicker .row.calendar-container {
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 {
+  padding-left: 20px;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-2 {
+  padding-right: 20px;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1, .c-datepicker .row.calendar-container .col-6.calendar-2 {
+  width: 280px;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 *, .c-datepicker .row.calendar-container .col-6.calendar-2 * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 {
+  padding: 0 0 20px 8px;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 {
+  padding: 0 10px 20px 0;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 {
+  width: 100%;
+  text-align: center;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 ul,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 ul, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 ul,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 ul {
+  margin: 0;
+  padding: 0;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 ul li,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 ul li, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 ul li,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 ul li {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--fifth);
+  font-size: 15px;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 ul li span,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 ul li span, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 ul li span,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 ul li span {
+  margin-left: 5px;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 ul li .ico-unfold,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 ul li .ico-unfold, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 ul li .ico-unfold,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 ul li .ico-unfold {
+  font-size: 24px;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 ul li i,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 ul li i, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 ul li i,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 ul li i {
+  font-size: 24px;
+  outline: none;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 .prev,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 .next,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 .prev,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 .next, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 .prev,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 .next,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 .prev,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 .next {
+  padding-top: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 .prev,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 .prev, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 .prev,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 .prev {
+  float: left;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-1 .next,
+.c-datepicker .row.calendar-container .col-6.calendar-1 .month-cal-2 .next, .c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-1 .next,
+.c-datepicker .row.calendar-container .col-6.calendar-2 .month-cal-2 .next {
+  float: right;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .weekdays, .c-datepicker .row.calendar-container .col-6.calendar-2 .weekdays {
+  margin: 0;
+  padding: 10px 0;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .weekdays li, .c-datepicker .row.calendar-container .col-6.calendar-2 .weekdays li {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 15px;
+  color: var(--data-first);
+  display: inline-block;
+  width: 13%;
+  /* Important: for development, this width must be:
+  width: 14.2%; */
+  text-align: center;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .days, .c-datepicker .row.calendar-container .col-6.calendar-2 .days {
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  width: 280px;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .days .frame-day, .c-datepicker .row.calendar-container .col-6.calendar-2 .days .frame-day {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .days .frame-day span, .c-datepicker .row.calendar-container .col-6.calendar-2 .days .frame-day span {
+  font-size: 15px;
+  color: var(--tertiary);
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .days .frame-day.selected, .c-datepicker .row.calendar-container .col-6.calendar-2 .days .frame-day.selected {
+  background: var(--background-third);
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .days .frame-day.active, .c-datepicker .row.calendar-container .col-6.calendar-2 .days .frame-day.active {
+  background: var(--fifth);
+}
+.c-datepicker .row.calendar-container .col-6.calendar-1 .days .frame-day.active span, .c-datepicker .row.calendar-container .col-6.calendar-2 .days .frame-day.active span {
+  color: var(--first);
+}
+.c-datepicker hr {
+  margin-inline-start: 24px;
+  margin-inline-end: 24px;
+  border-top: 1px solid #d3d3d3;
+}
+.c-datepicker .row .col .calendar-nav,
+.c-datepicker .row .col .select-days {
+  display: flex;
+  display: -webkit-flex;
+}
+.c-datepicker .row .col .calendar-nav {
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  margin: 10px 24px 18px 24px;
+}
+.c-datepicker .row .col .calendar-nav .select-days {
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-datepicker .row .col .calendar-nav .select-days ul.day-navigation li {
+  display: inline-block;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.c-datepicker .row .col .calendar-nav .select-days ul.day-navigation li.first {
+  margin-left: 0;
+}
+.c-datepicker .row .col .calendar-nav .select-days ul.day-navigation li.last {
+  margin-right: 0;
+}
+.c-datepicker .row .col .calendar-nav .select-days ul.day-navigation li span {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--fifth);
+  font-size: 15px;
+  cursor: pointer;
+}
+.c-datepicker .row .col .calendar-nav .select-days ul.day-navigation li span:hover {
+  color: var(--fifth-medium);
+}
+.c-datepicker .row .col .calendar-nav .accept-days .c-button {
+  width: 146px;
+}
+
+/* END C-DATEPICKER COMPONENT */
+.c-checkbox {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  /* Base for label styling */
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
+  /* disabled checkbox */
+}
+.c-checkbox [type=checkbox]:not(:checked),
+.c-checkbox [type=checkbox]:checked {
+  visibility: hidden;
+}
+.c-checkbox [type=checkbox]:not(:checked) + label,
+.c-checkbox [type=checkbox]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 15px;
+  cursor: pointer;
+}
+.c-checkbox [type=checkbox]:not(:checked) + label:before,
+.c-checkbox [type=checkbox]:checked + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--tertiary);
+  background-color: var(--first);
+  border-radius: 1px;
+}
+.c-checkbox [type=checkbox]:not(:checked) + label:after,
+.c-checkbox [type=checkbox]:checked + label:after {
+  content: "";
+  font-family: "bbva-one-bank";
+  color: var(--fifth);
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.c-checkbox [type=checkbox]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.c-checkbox [type=checkbox]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.c-checkbox [type=checkbox]:disabled:not(:checked) + label:before,
+.c-checkbox [type=checkbox]:disabled:checked + label:before {
+  background-color: var(--third);
+}
+
+/* C-DROPDOWN COMPONENT */
+.label_c-dropdown {
+  margin-bottom: 8px;
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.c-dropdown {
+  position: relative;
+  width: 100%;
+}
+.c-dropdown .dropbtn {
+  padding: 12px 14px;
+  width: 100%;
+  font-family: "Benton Sans Book BBVA";
+  text-align: left;
+  font-size: 15px;
+  color: var(--tertiary);
+  border: 0;
+  border-bottom: 1px solid var(--tertiary);
+  background-color: var(--first);
+  height: 48px;
+  cursor: pointer;
+  background-image: url(../svg/Unfold.svg);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+.c-dropdown .dropbtn:hover, .c-dropdown .dropbtn:focus {
+  background-color: var(--first);
+}
+.c-dropdown .c-dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: var(--first);
+  max-height: 190px;
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  z-index: 1;
+  border: 1px solid var(--sixth);
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.c-dropdown .c-dropdown_content .countryList {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.c-dropdown .c-dropdown_content .countryList .country {
+  border-bottom: 1px solid var(--border-primary);
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.c-dropdown .c-dropdown_content::-webkit-scrollbar {
+  width: 4px;
+}
+.c-dropdown .c-dropdown_content::-webkit-scrollbar-track {
+  box-shadow: inset 0px 0px 4px grey;
+  border-radius: 10px;
+}
+.c-dropdown .c-dropdown_content::-webkit-scrollbar-thumb {
+  background: #1871b5;
+  border-radius: 10px;
+}
+.c-dropdown .c-dropdown_content::-webkit-scrollbar-thumb:hover {
+  background: #3fa3f0;
+}
+.c-dropdown .show {
+  display: block;
+}
+
+.c-dropdown a:hover {
+  background-color: var(--bground-first);
+}
+
+/* END C-DROPDOWN COMPONENT */
+/* C-OUTPUT-FILES*/
+.c-output-files {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.c-output-files tr.th-table {
+  box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+  border: none;
+}
+.c-output-files th,
+.c-output-files td {
+  height: 35px;
+  vertical-align: middle;
+  padding: 0 0 0 6px;
+}
+.c-output-files th {
+  text-transform: uppercase;
+  text-align: left;
+}
+.c-output-files th.last {
+  text-align: right;
+}
+.c-output-files th p {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-output-files td.flex {
+  position: relative;
+  top: 9px;
+}
+.c-output-files td.last {
+  text-align: right;
+}
+.c-output-files td p {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-output-files td p.client-file {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-output-files td img {
+  outline: none;
+  cursor: pointer;
+}
+.c-output-files td span.dashed-line {
+  border-color: #8c8c8c !important;
+  height: 100% !important;
+  border-style: dashed !important;
+  border-right-width: 1px !important;
+}
+
+/* END C-OUTPUT-FILES */
+/* C-HEADER-ACCORDION COMPONENT */
+.c-header-accordion {
+  border-top: 1px solid #D3D3D3;
+  width: 100%;
+  padding: 12px 0;
+  display: inline-flex;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+}
+.c-header-accordion span {
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 12px;
+  line-height: 24px;
+}
+.c-header-accordion div {
+  width: 5%;
+}
+.c-header-accordion .accordionHeader-date {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-header-accordion .accordionHeader-request {
+  margin-right: 1%;
+  width: 25%;
+}
+.c-header-accordion .accordionHeader-contract {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-header-accordion .accordionHeader-client {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-header-accordion .accordionHeader-files {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-header-accordion .accordionHeader-lastFile {
+  margin-right: 1%;
+  width: 15%;
+}
+.c-header-accordion .accordionHeader-requestStatus {
+  width: 15%;
+}
+
+/* END C-HEADER-ACCORDION COMPONENT */
+/* C-ACCORDION COMPONENT */
+.c-accordion {
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  height: 62px;
+  padding-top: 12px;
+  display: inline-flex;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+  background-color: var(--backgound-second);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.c-accordion .accordion-expand {
+  width: 5%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  padding-top: 15px;
+}
+.c-accordion .accordion-expand i {
+  font-size: 24px;
+}
+.c-accordion div {
+  overflow-wrap: break-word;
+  overflow: auto;
+}
+.c-accordion div span {
+  color: var(--data-first);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 13px;
+  line-height: 16px;
+  overflow: auto;
+}
+.c-accordion div p {
+  color: #666666;
+  font-family: "Benton Sans BookItalic BBVA";
+  font-size: 12px;
+  line-height: 16px;
+}
+.c-accordion .accordion-date {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-accordion .accordion-request {
+  margin-right: 1%;
+  width: 25%;
+}
+.c-accordion .accordion-contract {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-accordion .accordion-client {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-accordion .accordion-files {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-accordion .accordion-lastFile {
+  margin-right: 1%;
+  width: 15%;
+}
+.c-accordion .accordion-requestStatus {
+  width: 10%;
+}
+.c-accordion .accordion-requestStatus span {
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-accordion .accordion-requestStatus span.accordion-requestStatus--error {
+  color: var(--status-error);
+}
+.c-accordion .accordion-requestStatus span.accordion-requestStatus--inProcess {
+  color: var(--status-inProcess);
+}
+.c-accordion .accordion-requestStatus span.accordion-requestStatus--finalized {
+  color: var(--status-finalized);
+}
+.c-accordion .accordion-alert {
+  width: 5%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  padding-top: 15px;
+  font-size: 12px;
+}
+
+.panel {
+  padding: 0 0 0 56px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+/* END C-ACCORDION COMPONENT */
+/* C-HEADER-ACCORDION-FILES COMPONENT */
+.c-header-accordion-files {
+  border-top: 1px solid #D3D3D3;
+  width: 100%;
+  padding: 12px 0;
+  display: inline-flex;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+}
+.c-header-accordion-files span {
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 12px;
+  line-height: 24px;
+}
+.c-header-accordion-files div {
+  width: 4%;
+}
+.c-header-accordion-files .accordionHeader-date {
+  margin-right: 1%;
+  width: 16%;
+}
+.c-header-accordion-files .accordionHeader-request {
+  margin-right: 1%;
+  width: 9%;
+}
+.c-header-accordion-files .accordionHeader-contract {
+  margin-right: 1%;
+  width: 14%;
+}
+.c-header-accordion-files .accordionHeader-client {
+  margin-right: 1%;
+  width: 9%;
+}
+.c-header-accordion-files .accordionHeader-files {
+  margin-right: 1%;
+  width: 9%;
+}
+.c-header-accordion-files .accordionHeader-lastFile {
+  margin-right: 1%;
+  width: 9%;
+}
+
+/* END C-HEADER-ACCORDION-FILES COMPONENT */
+/* C-ACCORDION-FILES COMPONENT */
+.c-accordion-files {
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  height: 52px;
+  padding-top: 22px;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+  background-color: var(--backgound-second);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.c-accordion-files .accordion-expand {
+  width: 5%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  padding-top: 6px;
+}
+.c-accordion-files .accordion-expand i {
+  font-size: 24px;
+}
+.c-accordion-files div {
+  overflow-wrap: break-word;
+  overflow: auto;
+}
+.c-accordion-files div span {
+  color: var(--data-first);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 13px;
+  line-height: 16px;
+  overflow: auto;
+}
+.c-accordion-files div p {
+  color: #666666;
+  font-family: "Benton Sans BookItalic BBVA";
+  font-size: 12px;
+  line-height: 16px;
+}
+.c-accordion-files .accordion-date {
+  margin-right: 1%;
+  width: 15%;
+}
+.c-accordion-files .accordion-date span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-accordion-files .accordion-request {
+  margin-right: 1%;
+  width: 9%;
+}
+.c-accordion-files .accordion-contract {
+  margin-right: 1%;
+  width: 14%;
+}
+.c-accordion-files .accordion-client {
+  margin-right: 1%;
+  width: 9%;
+}
+.c-accordion-files .accordion-files {
+  margin-right: 1%;
+  width: 9%;
+}
+.c-accordion-files .accordion-lastFile {
+  margin-right: 1%;
+  width: 9%;
+}
+.c-accordion-files .accordion-requestStatus {
+  width: 19%;
+}
+.c-accordion-files .accordion-requestStatus span.accordion-requestStatus--error {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-error);
+}
+.c-accordion-files .accordion-requestStatus span.accordion-requestStatus--inProcess {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-inProcess);
+}
+.c-accordion-files .accordion-requestStatus span.accordion-requestStatus--finalized {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-finalized);
+}
+.c-accordion-files .accordion-alert {
+  width: 5%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  padding-top: 6px;
+  font-size: 20px;
+}
+
+.panel {
+  padding: 0 0 0 56px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+/* END C-ACCORDION-FILES COMPONENT */
+.c-files-detail {
+  width: 100%;
+  padding: 20px 10px 0 52px;
+  height: 205px;
+  background-color: var(--background-third);
+  border-bottom: 1px solid #bdbdbd;
+}
+.c-files-detail .dl-title {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 15px;
+  color: var(--tertiary);
+  margin-bottom: 15px;
+}
+.c-files-detail dl .flex {
+  margin-bottom: 20px;
+}
+.c-files-detail dl .flex dt,
+.c-files-detail dl .flex dd {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 13px;
+  padding-right: 5px;
+}
+.c-files-detail dl .flex dd {
+  font-family: "Benton Sans Light BBVA";
+}
+.c-files-detail dl .flex.end {
+  margin-bottom: 0;
+}
+.c-files-detail dl.last {
+  padding-right: 40px;
+}
+.c-files-detail hr {
+  border-top: 1px solid var(--fourth);
+}
+.c-files-detail p {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 15px;
+  color: var(--seventh);
+}
+.c-files-detail p span {
+  font-size: 13px;
+  color: var(--fifth);
+  padding-left: 5px;
+}
+
+/* -FILE-DATA COMPONENT */
+.c-file-data {
+  width: 100%;
+  padding: 20px 40px 0 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: auto;
+  background-color: var(--first);
+  border-bottom: 1px solid #bdbdbd;
+}
+.c-file-data dl .flex {
+  margin-bottom: 24px;
+}
+.c-file-data dl .flex dt,
+.c-file-data dl .flex dd {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 13px;
+  padding-right: 5px;
+}
+.c-file-data dl .flex dd {
+  font-family: "Benton Sans Light BBVA";
+}
+.c-file-data dl .flex dd.status--rejected {
+  color: var(--text-rejected);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-file-data dl .flex dd.status--partial {
+  color: var(--text-partial);
+}
+.c-file-data dl .flex dd.status--paid {
+  color: var(--text-paid);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-file-data dl .flex.end {
+  margin-bottom: 0;
+}
+
+/* END OF C-FILE-DATA COMPONENT */
+/* C-FILE-CARD COMPONENT */
+.c-file-card {
+  width: auto;
+  display: flex;
+  display: -webkit-flex;
+  height: auto;
+  padding: 20px 40px 0 40px;
+  background-color: var(--third);
+}
+.c-file-card .left-side,
+.c-file-card .right-side {
+  position: relative;
+  overflow: hidden;
+  width: unset;
+}
+.c-file-card .left-side.width-100,
+.c-file-card .right-side.width-100 {
+  width: 100%;
+}
+.c-file-card .left-side .file-cards_container,
+.c-file-card .right-side .file-cards_container {
+  max-width: 670px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-file-card .left-side .file-cards_container .filecard,
+.c-file-card .right-side .file-cards_container .filecard {
+  width: 100%;
+  min-width: 360px;
+  height: 200px;
+}
+.c-file-card .left-side .file-cards_container .filecard.filecard--slide-case,
+.c-file-card .right-side .file-cards_container .filecard.filecard--slide-case {
+  min-width: 330px;
+  width: unset;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header {
+  height: 95px;
+  padding: 16px 0 0 16px;
+  background-color: var(--fifth);
+  transition: background 0.4s ease;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title {
+  display: flex;
+  display: -webkit-flex;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-globe,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-flag,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-globe,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag {
+  margin-right: 6px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-globe:before,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-flag:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-globe:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag:before {
+  color: var(--first);
+  font-size: 25px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-globe.active:before,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-flag.active:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-globe.active:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag.active:before {
+  color: var(--fourth);
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title span {
+  color: var(--first);
+  font-family: "Benton Sans Light BBVA";
+  font-size: 15px;
+  line-height: 24px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title span.active,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title span.active {
+  color: var(--data-first);
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled {
+  height: 95px;
+  padding: 16px 0 0 16px;
+  background-color: var(--sixth);
+  transition: background 0.4s ease;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag {
+  margin-right: 6px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before {
+  color: var(--fourth);
+  font-size: 25px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .enabled {
+  font-family: "Benton Sans Light BBVA";
+  font-size: 15px;
+  line-height: 24px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body {
+  position: relative;
+  top: -60px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client {
+  height: auto;
+  min-height: 116px;
+  width: 228px;
+  padding: 16px 16px 10px 16px;
+  background-color: var(--first);
+  box-shadow: 0 2px 4px 0 rgba(18, 18, 18, 0.2);
+  border-bottom: 4px solid var(--border-counter-selected);
+  cursor: pointer;
+  transition: border 0.1s ease;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client--disabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client--disabled {
+  height: 140px;
+  width: 280px;
+  background-color: var(--first);
+  box-shadow: 0 1px 2px 0 rgba(18, 18, 18, 0.2);
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .title-card,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .title-card {
+  color: var(--seventh);
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .inline-flex,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex {
+  width: 40%;
+  margin-bottom: 10px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label {
+  opacity: 0.82;
+  color: #000000;
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 16px;
+  line-height: 23px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label span {
+  color: #000000;
+  font-family: "Benton Sans Light BBVA";
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 5px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .total-import,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .total-import p,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import p {
+  color: #000000;
+  font-family: "Benton Sans Light BBVA";
+  font-size: 12px;
+  line-height: 14px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .total-import span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import span {
+  color: #000000;
+  font-family: "Benton Sans Light BBVA";
+  font-size: 15px;
+  line-height: 21px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client hr,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client hr {
+  border-top: 1px solid var(--sixth);
+  margin-block-end: 0.4em;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete,
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial {
+  display: flex;
+  display: -webkit-flex;
+  align-items: flex-end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete.opacity-30,
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial.opacity-30,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete.opacity-30,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial.opacity-30 {
+  opacity: 0.3;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete span {
+  color: var(--data-first);
+  font-family: "Benton Sans MediumItalic BBVA";
+  font-size: 16px;
+  margin-right: 5px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected.opacity-30,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected.opacity-30 {
+  opacity: 0.3;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span {
+  color: var(--data-first);
+  font-family: "Benton Sans MediumItalic BBVA";
+  font-size: 16px;
+  margin-right: 5px;
+  color: var(--status-error);
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span.literal,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span.literal {
+  font-family: "Benton Sans Light BBVA";
+  font-size: 12px;
+  font-style: italic;
+  margin-right: 6px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial {
+  margin-left: 26px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial span {
+  color: var(--data-first);
+  font-family: "Benton Sans MediumItalic BBVA";
+  font-size: 16px;
+  margin-right: 5px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials {
+  margin-left: 26px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials.opacity-30,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials.opacity-30 {
+  opacity: 0.3;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span {
+  font-family: "Benton Sans MediumItalic BBVA";
+  font-size: 16px;
+  margin-right: 5px;
+  color: var(--text-partial);
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span.literal,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span.literal {
+  font-family: "Benton Sans Light BBVA";
+  font-size: 12px;
+  font-style: italic;
+  margin-right: 6px;
+}
+.c-file-card .left-side .navigation_arrow_prev,
+.c-file-card .right-side .navigation_arrow_prev {
+  cursor: pointer;
+  position: absolute;
+  top: 56%;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: 1;
+}
+.c-file-card .left-side .navigation_arrow_prev i:before,
+.c-file-card .right-side .navigation_arrow_prev i:before {
+  font-size: 24px;
+}
+.c-file-card .left-side .navigation_arrow_prev i.active:before,
+.c-file-card .right-side .navigation_arrow_prev i.active:before {
+  color: var(--fourth);
+}
+.c-file-card .left-side .navigation_arrow_next,
+.c-file-card .right-side .navigation_arrow_next {
+  cursor: pointer;
+  position: absolute;
+  top: 56%;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: 1;
+  right: 0;
+}
+.c-file-card .left-side .navigation_arrow_next i:before,
+.c-file-card .right-side .navigation_arrow_next i:before {
+  font-size: 24px;
+}
+.c-file-card .left-side .navigation_arrow_next i.active:before,
+.c-file-card .right-side .navigation_arrow_next i.active:before {
+  color: var(--fourth);
+}
+.c-file-card .left-side .navigation_dots,
+.c-file-card .right-side .navigation_dots {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  font-size: 8px;
+}
+.c-file-card .left-side .navigation_dots .dots,
+.c-file-card .right-side .navigation_dots .dots {
+  margin: 14px auto 0;
+}
+.c-file-card .left-side .navigation_dots .dots i,
+.c-file-card .right-side .navigation_dots .dots i {
+  padding-right: 14px;
+}
+.c-file-card .left-side .navigation_dots .dots i:last-child,
+.c-file-card .right-side .navigation_dots .dots i:last-child {
+  padding-right: 0px;
+}
+.c-file-card .separate_card {
+  height: 200px;
+  width: 1px;
+  margin: 0 24px;
+  border-left: 1px solid var(--tertiary);
+}
+
+/* END OF C-FILE-CARD COMPONENT */
+/* C-ALERT COMPONENT */
+.c-alert {
+  width: 100%;
+  height: 72px;
+  background-color: var(--alert-info);
+  display: flex;
+  display: -webkit-flex;
+}
+.c-alert .c-alert_container {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  width: 1144px;
+  margin: 0 auto;
+}
+.c-alert .c-alert_container .c-alert_body {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-alert .c-alert_container .c-alert_body .ico-alert {
+  font-size: 20px;
+  margin-right: 20.6px;
+}
+.c-alert .c-alert_container .c-alert_body .ico-alert::before {
+  color: #d8be75;
+}
+.c-alert .c-alert_container .c-alert_body p {
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  text-align: left;
+  font-size: 18px;
+  color: var(--data-first);
+}
+.c-alert .c-alert_container .c-alert_footer {
+  display: inherit;
+}
+
+/* END C-ALERT COMPONENT */
+/* C-TRACEABILITY*/
+.c-history-traceability {
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: var(--third);
+}
+.c-history-traceability .header-historyTrazeability {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-history-traceability .header-historyTrazeability .header-historyTrazeability_title span {
+  color: var(--tertiary);
+}
+.c-history-traceability .header-historyTrazeability .info-ico-colors {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-history-traceability .header-historyTrazeability .info-ico-colors img {
+  margin-right: 7px;
+  width: 16px;
+  height: auto;
+}
+.c-history-traceability .header-historyTrazeability .info-ico-colors span {
+  color: var(--tertiary);
+  font-family: "Benton Sans MediumItalic BBVA";
+  font-size: 12px;
+  margin-right: 16px;
+}
+.c-history-traceability .header-historyTrazeability .btn-show-hyde {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+.c-history-traceability .header-historyTrazeability .btn-show-hyde span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 13px;
+}
+.c-history-traceability .header-historyTrazeability .btn-show-hyde .ico-fold {
+  margin-right: 5px;
+  font-size: 18px;
+}
+.c-history-traceability table {
+  width: 100%;
+}
+.c-history-traceability table tr.th-table {
+  border-bottom: 1px solid var(--fourth);
+  padding-bottom: 10px;
+}
+.c-history-traceability table th,
+.c-history-traceability table td {
+  height: 35px;
+  vertical-align: middle;
+  padding: 0 0 0 6px;
+}
+.c-history-traceability table th {
+  text-transform: uppercase;
+  text-align: left;
+}
+.c-history-traceability table th.last {
+  text-align: right;
+}
+.c-history-traceability table th p {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-history-traceability table td.flex {
+  position: relative;
+  top: 9px;
+}
+.c-history-traceability table td img {
+  width: 16px;
+  height: auto;
+}
+.c-history-traceability table td.last {
+  text-align: right;
+}
+.c-history-traceability table td .ico-expand {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.c-history-traceability table td p {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-history-traceability table td p.client-file {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-history-traceability table td p.subtitle {
+  font-family: "Benton Sans MediumItalic BBVA";
+  color: var(--fifth);
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.c-history-traceability table td p span.file-number {
+  color: var(--fifth);
+  margin-right: 5px;
+}
+.c-history-traceability table td img {
+  outline: none;
+  cursor: pointer;
+}
+.c-history-traceability table td span.dashed-line {
+  border-color: #8c8c8c !important;
+  height: 100% !important;
+  border-style: dashed !important;
+  border-right-width: 1px !important;
+}
+
+/* END C-TRACEABILITY */
+/* C-NO-DATA COMPONENT */
+.c-no-data {
+  text-align: center;
+  font-family: "Benton Sans Book BBVA";
+  margin-bottom: 32px;
+}
+.c-no-data p {
+  color: var(--data-first);
+  font-size: 12px;
+}
+.c-no-data div:first-of-type {
+  margin-bottom: 16px;
+}
+.c-no-data div:first-of-type img {
+  width: 103px;
+  height: 100px;
+}
+.c-no-data div:nth-of-type(2n) {
+  margin-bottom: 8px;
+}
+.c-no-data div:nth-of-type(2n) span {
+  color: var(--data-first);
+  font-size: 22px;
+  line-height: 32px;
+}
+.c-no-data div:last-of-type span {
+  color: var(--data-first);
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* END C-NO-DATA COMPONENT */
+/* C-USER-DROPDOWN COMPONENT */
+.c-user-dropdown {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 176px;
+  min-height: 119px;
+  padding: 16px;
+  background-color: var(--second);
+  border-top: 2px solid var(--sixth);
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: absolute;
+  top: 72px;
+  z-index: 1000;
+}
+.c-user-dropdown .user-name {
+  margin-bottom: 8px;
+}
+.c-user-dropdown .user-name span {
+  color: var(--first);
+}
+.c-user-dropdown .user-name span.name {
+  font-size: 15px;
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  color: var(--sixth);
+  text-transform: capitalize;
+  line-height: 20px;
+}
+.c-user-dropdown .user-code {
+  margin-bottom: 8px;
+}
+.c-user-dropdown .user-code span.xe-user {
+  opacity: 0.55;
+  color: var(--sixth);
+  font-family: "Benton Sans Light BBVA";
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.c-user-dropdown .simple-divider {
+  height: 1px;
+  width: 144px;
+  margin: 14px 0 14px;
+  border-top: 1px solid var(--sixth);
+  opacity: 0.55;
+}
+.c-user-dropdown .language {
+  font-size: 12px;
+  font-family: "Benton Sans Book BBVA";
+  color: var(--first);
+}
+.c-user-dropdown .language .lan-active,
+.c-user-dropdown .language .lan-inactive {
+  margin-right: 15px;
+  outline: none;
+  cursor: pointer;
+  color: var(--first);
+}
+.c-user-dropdown .language .lan-active {
+  text-decoration: underline;
+}
+.c-user-dropdown .language .lan-inactive {
+  opacity: 0.48;
+}
+
+/* END C-USER-DROPDOWN COMPONENT */
+/* C-MODAL COMPONENT */
+/* this "button#myBtn" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtn {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.c-modal .modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 608px;
+  width: 744px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 0 40px 32px;
+  border-bottom: 1px solid;
+}
+.c-modal .modal-content .modal-content_header {
+  height: 90px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-modal .modal-content .modal-content_header .c-modal-title {
+  text-transform: uppercase;
+  color: var(--tertiary);
+  font-family: "Benton Sans Bold BBVA", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+.c-modal .modal-content .modal-content_header .close {
+  color: var(--fifth);
+  font-size: 30px;
+}
+.c-modal .modal-content .modal-content_header .close:hover, .c-modal .modal-content .modal-content_header .close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.c-modal .modal-content .modal-content_body {
+  height: 390px;
+  width: 670px;
+  overflow: auto;
+  border-bottom: 1px solid var(--fourth);
+}
+.c-modal .modal-content .modal-content_body span {
+  color: var(--tertiary);
+  font-family: "Benton Sans Light BBVA";
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.c-modal .modal-content .modal-content_footer {
+  height: 120px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+.c-modal .modal-content .modal-content_footer .c-link {
+  justify-content: unset;
+  align-items: unset;
+  margin-right: 24px;
+}
+
+/* END OF C-MODAL COMPONENT */
+.c-files-detail-activity-log {
+  width: 100%;
+  padding: 20px 40px;
+  height: auto;
+  background-color: var(--third);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.c-files-detail-activity-log .activity-log-title {
+  font-family: "Benton Sans Book BBVA";
+  font-size: 13px;
+  color: var(--data-first);
+  margin-bottom: 24px;
+}
+
+/* C-TABLE-ACTIVITY-LOG COMPONENT */
+.c-table-activity-log {
+  width: 60%;
+  margin-bottom: 30px;
+}
+.c-table-activity-log th {
+  text-transform: uppercase;
+  text-align: left;
+  vertical-align: middle;
+  height: 30px;
+  border-bottom: 1px solid var(--fourth);
+}
+.c-table-activity-log th p {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-table-activity-log td {
+  padding: 10px 0 10px 0;
+}
+.c-table-activity-log td p {
+  color: var(--data-first);
+  font-size: 12px;
+  font-family: "Benton Sans Book BBVA";
+}
+.c-table-activity-log td p.file-name {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--fifth);
+  font-size: 13px;
+}
+
+/* END C-TABLE-ACTIVITY-LOG COMPONENT */
+/* C-DATEPICKER-SIMPLE COMPONENT */
+.c-datepicker-simple {
+  height: auto;
+  min-height: 370px;
+  width: 312px;
+  padding: 24px 0 0 0;
+  background-color: var(--first);
+  z-index: 1;
+  border-radius: 1px;
+  box-shadow: 0 1px 3px 0 rgba(18, 18, 18, 0.2);
+  position: absolute;
+}
+.c-datepicker-simple .row.calendar-simple-container {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple {
+  width: 280px;
+  padding-left: 15px;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal ul {
+  margin: 0;
+  padding: 0;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal ul li {
+  display: inline;
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--fifth);
+  font-size: 15px;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal ul li span {
+  margin-left: 5px;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal ul li .ico-unfold {
+  font-size: 24px;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal ul li i {
+  font-size: 24px;
+  outline: none;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal .prev,
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal .next {
+  padding-top: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal .prev {
+  float: left;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .month-cal .next {
+  float: right;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .weekdays {
+  margin: 0;
+  padding: 10px 0;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .weekdays li {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 15px;
+  color: var(--data-first);
+  display: inline-block;
+  width: 13%;
+  /* Important: for development, this width maybe must be:
+  width: 14.2%; */
+  text-align: center;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .days {
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  width: 280px;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .days .frame-day {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .days .frame-day span {
+  font-size: 15px;
+  color: var(--tertiary);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .days .frame-day.active {
+  background: var(--fifth);
+}
+.c-datepicker-simple .row.calendar-simple-container .col.calendar-simple .days .frame-day.active span {
+  color: var(--first);
+}
+.c-datepicker-simple hr {
+  margin-inline-start: 24px;
+  margin-inline-end: 24px;
+  border-top: 1px solid #d3d3d3;
+}
+.c-datepicker-simple .row .col .calendar-nav,
+.c-datepicker-simple .row .col .select-days {
+  display: flex;
+  display: -webkit-flex;
+}
+.c-datepicker-simple .row .col .calendar-nav {
+  margin: 10px 0 20px 10px;
+}
+.c-datepicker-simple .row .col .calendar-nav .select-days ul.day-navigation li {
+  display: inline-block;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.c-datepicker-simple .row .col .calendar-nav .select-days ul.day-navigation li span {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--fifth);
+  font-size: 15px;
+  cursor: pointer;
+}
+.c-datepicker-simple .row .col .calendar-nav .select-days ul.day-navigation li span:hover {
+  color: var(--fifth-medium);
+}
+
+/* END C-DATEPICKER-SIMPLE COMPONENT */
+/* C-MODAL-GENERIC COMPONENT */
+/* this "button#myBtngeneric" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtngeneric {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c-modal-generic {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.c-modal-generic .modal-generic_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 383px;
+  width: 552px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: var(--first);
+  padding: 28px;
+  border-bottom: 1px solid;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_header {
+  min-height: 90px;
+  display: flex;
+  display: -webkit-flex;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_header .c-modal-generic-title {
+  min-width: 480px;
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_header .closegeneric {
+  color: var(--fifth);
+  font-size: 30px;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_header .closegeneric:hover, .c-modal-generic .modal-generic_content .modal-generic-content_header .closegeneric:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_body {
+  min-height: 170px;
+  width: auto;
+  overflow: auto;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  flex-direction: column;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_body .icon-file {
+  height: auto;
+  width: auto;
+  margin-bottom: 18px;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_body .data-file {
+  text-align: center;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_body .data-file p {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--fifth);
+  font-size: 13px;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_body .data-file span {
+  font-family: "Benton Sans BookItalic BBVA";
+  font-size: 12px;
+  color: var(--tertiary);
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_footer .c-link {
+  justify-content: unset;
+  align-items: unset;
+  margin-right: 24px;
+}
+.c-modal-generic .modal-generic_content .modal-generic-content_footer .c-button {
+  width: 140px;
+}
+
+/* END OF C-MODAL-GENERIC COMPONENT */
+/* C-CONTEXTUAL-DROPDOWN COMPONENT */
+.contextual-dropdown {
+  position: relative;
+  width: 100%;
+}
+.contextual-dropdown .ico-dropdown.kebab {
+  background-image: url(../../svg/ico-kebab.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  padding: 0 5px;
+  width: 8px;
+  height: 26px;
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+.contextual-dropdown .ico-dropdown.kebab:hover, .contextual-dropdown .ico-dropdown.kebab:focus {
+  filter: saturate(500%);
+}
+
+.contextual-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  z-index: 1;
+}
+.contextual-dropdown-content .arrow-up {
+  position: absolute;
+  top: -3px;
+  right: 2px;
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 0 solid transparent;
+  border-bottom: 14px solid var(--first);
+  z-index: 1;
+}
+.contextual-dropdown-content .list-elements {
+  position: relative;
+  top: 11px;
+  left: -2px;
+  background-color: var(--first);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 16px;
+  min-width: 197px;
+  overflow: unset;
+  box-shadow: 0px 0px 11px 2px rgba(0, 0, 0, 0.2);
+}
+.contextual-dropdown-content .list-elements .element {
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.contextual-dropdown-content .list-elements .element:hover, .contextual-dropdown-content .list-elements .element:active {
+  filter: saturate(180%);
+}
+.contextual-dropdown-content .list-elements .element .ico-element {
+  width: 25px;
+  height: auto;
+  text-align: center;
+  margin-right: 6px;
+}
+.contextual-dropdown-content .list-elements .element span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.contextual-show {
+  display: block;
+}
+
+/* END C-CONTEXTUAL-DROPDOWN COMPONENT */
+/* C-CARD-DASHBOARD COMPONENT */
+.c-card-dashboard {
+  height: 152px;
+  width: 556px;
+  padding: 16px;
+  background-color: var(--first);
+  box-shadow: 0 1px 2px 0 rgba(18, 18, 18, 0.2);
+  box-sizing: border-box;
+}
+.c-card-dashboard .row.rowUp {
+  height: 50%;
+}
+.c-card-dashboard .row.rowUp .colUp-left,
+.c-card-dashboard .row.rowUp .colUp-right {
+  flex-flow: unset;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-card-dashboard .row.rowUp .colUp-left {
+  width: 65%;
+}
+.c-card-dashboard .row.rowUp .colUp-left img {
+  margin-right: 16px;
+}
+.c-card-dashboard .row.rowUp .colUp-left span {
+  color: var(--data-first);
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+.c-card-dashboard .row.rowUp .colUp-right {
+  width: 35%;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+.c-card-dashboard .row.rowUp .colUp-right > div {
+  padding-right: 10px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: flex-end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+}
+.c-card-dashboard .row.rowUp .colUp-right > div .number,
+.c-card-dashboard .row.rowUp .colUp-right > div .requests {
+  color: var(--data-first);
+  font-family: "Benton Sans Light BBVA", sans-serif;
+}
+.c-card-dashboard .row.rowUp .colUp-right > div .number {
+  font-size: 32px;
+  margin-right: 6px;
+}
+.c-card-dashboard .row.rowUp .colUp-right > div .requests {
+  font-size: 14px;
+  line-height: 18px;
+}
+.c-card-dashboard .row.rowDown {
+  height: 50%;
+}
+.c-card-dashboard .row.rowDown .colDown {
+  flex-flow: unset;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+.c-card-dashboard .row.rowDown .colDown .status-box {
+  width: auto;
+  min-width: 112px;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  margin-top: 10px;
+  padding-right: 8px;
+}
+.c-card-dashboard .row.rowDown .colDown .status-box > div {
+  display: flex;
+  display: -webkit-flex;
+}
+.c-card-dashboard .row.rowDown .colDown .status-box > div .number {
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 32px;
+  margin-right: 6px;
+  padding-top: 5px;
+}
+.c-card-dashboard .row.rowDown .colDown .status-box > div .with-error,
+.c-card-dashboard .row.rowDown .colDown .status-box > div .in-progress,
+.c-card-dashboard .row.rowDown .colDown .status-box > div .finished {
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: normal;
+  color: var(--tertiary);
+}
+.c-card-dashboard .row.rowDown .colDown .status-box > div .status-with-ico {
+  margin-top: 3px;
+}
+.c-card-dashboard .row.rowDown .colDown .status-box > div .status-with-ico i {
+  position: relative;
+  top: 3px;
+}
+.c-card-dashboard .row.rowDown .colDown .status-box > div .status-with-ico i.ico-path-3-4.green:before {
+  color: var(--status-finalized);
+}
+.c-card-dashboard .row.rowDown .separate-v {
+  margin-top: 2%;
+  height: 40%;
+  border-left: 1px solid var(--sixth);
+  padding: 8px;
+}
+
+/* END C-CARD-DASHBOARD COMPONENT */
+/* C-ALERT-MODIFIER COMPONENT */
+.c-alert-modifier {
+  width: 100%;
+  height: 56px;
+  background-color: var(--fifth);
+  display: flex;
+  display: -webkit-flex;
+  color: var(--first);
+}
+.c-alert-modifier .c-alert-modifier_container {
+  padding: 0 16px 0 16px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  width: 1144px;
+  margin: 0 auto;
+}
+.c-alert-modifier .c-alert-modifier_container .c-alert-modifier_left {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-alert-modifier .c-alert-modifier_container .c-alert-modifier_left .ico-close {
+  font-size: 14px;
+  margin-right: 20px;
+}
+.c-alert-modifier .c-alert-modifier_container .c-alert-modifier_left .ico-close::before {
+  color: var(--first);
+}
+.c-alert-modifier .c-alert-modifier_container .c-alert-modifier_left p {
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  text-align: left;
+  font-size: 15px;
+}
+.c-alert-modifier .c-alert-modifier_container .c-alert-modifier_right {
+  display: inherit;
+}
+.c-alert-modifier .c-alert-modifier_container .c-alert-modifier_right .c-link {
+  margin-right: 20px;
+  color: var(--first);
+}
+.c-alert-modifier .c-alert-modifier_container .c-alert-modifier_right .c-link i:before {
+  color: var(--fist);
+}
+
+/* END C-ALERT-MODIFIER COMPONENT */
+/* C-ALERT-ORDER-SELECTED COMPONENT */
+.c-order-selected {
+  width: 100%;
+  height: 48px;
+  background-color: var(--fifth);
+  display: flex;
+  display: -webkit-flex;
+}
+.c-order-selected p {
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  color: var(--first);
+  font-size: 15px;
+}
+.c-order-selected p span {
+  margin-left: 5px;
+  font-family: "Benton Sans Bold BBVA", sans-serif;
+  font-style: italic;
+}
+.c-order-selected .c-order-selected_container {
+  padding: 0 16px 0 16px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  width: 1144px;
+  margin: 0 auto;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_left {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_left .ico-close {
+  font-size: 14px;
+  margin-right: 20px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_left .ico-close::before {
+  color: var(--first);
+}
+.c-order-selected .c-order-selected_container .c-order-selected_left p {
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  text-align: left;
+  font-size: 15px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right {
+  display: inherit;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-files-attached,
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-modify-data,
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-cancel-order {
+  cursor: pointer;
+  outline: none;
+  margin-right: 23px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-files-attached .ico-attached {
+  margin-right: 12px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-files-attached .ico-attached:before {
+  color: var(--first);
+  font-size: 22px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-files-attached span {
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  color: var(--first);
+  font-size: 13px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-modify-data .ico-calendar {
+  margin-right: 12px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-modify-data .ico-calendar:before {
+  color: var(--first);
+  font-size: 20px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-modify-data span {
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  color: var(--first);
+  font-size: 15px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-cancel-order {
+  margin-right: 0;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-cancel-order .ico-trash {
+  margin-right: 12px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-cancel-order .ico-trash:before {
+  color: var(--first);
+  font-size: 20px;
+}
+.c-order-selected .c-order-selected_container .c-order-selected_right .item-cancel-order span {
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  color: var(--first);
+  font-size: 15px;
+}
+
+/* END C-ORDER-SELECTED COMPONENT */
+/* C-TOOLTIP COMPONENT */
+.c-tooltip {
+  height: auto;
+  width: 224px;
+  padding: 0 16px 16px 16px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 1px 0 1px 1px;
+  background-color: var(--second);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+.c-tooltip .tooltip-arrow-up-right,
+.c-tooltip .tooltip-arrow-up-left,
+.c-tooltip .tooltip-arrow-down-right,
+.c-tooltip .tooltip-arrow-down-left,
+.c-tooltip .tooltip-arrow-up-right-side {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 0 solid transparent;
+  border-bottom: 14px solid var(--second);
+  z-index: 1;
+}
+.c-tooltip .tooltip-arrow-up-right {
+  top: -14px;
+  left: 194px;
+}
+.c-tooltip .tooltip-arrow-up-left {
+  top: -14px;
+  left: -16px;
+  transform: rotate(-268deg);
+  -webkit-transform: rotate(-268deg);
+}
+.c-tooltip .tooltip-arrow-down-left {
+  top: 64px;
+  left: -16px;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
+.c-tooltip .tooltip-arrow-down-right {
+  top: 64px;
+  left: 194px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+.c-tooltip .tooltip-arrow-up-right-side {
+  top: 0;
+  left: 208px;
+  transform: rotate(-540deg);
+  -webkit-transform: rotate(-540deg);
+}
+.c-tooltip .tooltip-text span {
+  color: var(--first);
+  font-family: "Benton Sans Light BBVA";
+  font-size: 13px;
+  line-height: 16px;
+}
+
+/* END C-TOOLTIP COMPONENT */
+/* C-TABLE-ORDER COMPONENT */
+.c-table-order {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.c-table-order th,
+.c-table-order td {
+  vertical-align: middle;
+  padding: 0 0 0 20px;
+}
+.c-table-order th.td-dropdown,
+.c-table-order td.td-dropdown {
+  padding: 0;
+}
+.c-table-order th .c-checkbox,
+.c-table-order td .c-checkbox {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  /* Base for label styling */
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
+  /* disabled checkbox */
+}
+.c-table-order th .c-checkbox [type=checkbox]:not(:checked),
+.c-table-order th .c-checkbox [type=checkbox]:checked,
+.c-table-order td .c-checkbox [type=checkbox]:not(:checked),
+.c-table-order td .c-checkbox [type=checkbox]:checked {
+  visibility: hidden;
+}
+.c-table-order th .c-checkbox [type=checkbox]:not(:checked) + label,
+.c-table-order th .c-checkbox [type=checkbox]:checked + label,
+.c-table-order td .c-checkbox [type=checkbox]:not(:checked) + label,
+.c-table-order td .c-checkbox [type=checkbox]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 15px;
+  cursor: pointer;
+}
+.c-table-order th .c-checkbox [type=checkbox]:not(:checked) + label:before,
+.c-table-order th .c-checkbox [type=checkbox]:checked + label:before,
+.c-table-order td .c-checkbox [type=checkbox]:not(:checked) + label:before,
+.c-table-order td .c-checkbox [type=checkbox]:checked + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--tertiary);
+  background-color: var(--first);
+  border-radius: 1px;
+}
+.c-table-order th .c-checkbox [type=checkbox]:not(:checked) + label:after,
+.c-table-order th .c-checkbox [type=checkbox]:checked + label:after,
+.c-table-order td .c-checkbox [type=checkbox]:not(:checked) + label:after,
+.c-table-order td .c-checkbox [type=checkbox]:checked + label:after {
+  content: "";
+  font-family: "bbva-one-bank";
+  color: var(--fifth);
+  position: absolute;
+  top: -6px;
+  left: 2px;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.c-table-order th .c-checkbox [type=checkbox]:not(:checked) + label:after,
+.c-table-order td .c-checkbox [type=checkbox]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.c-table-order th .c-checkbox [type=checkbox]:checked + label:after,
+.c-table-order td .c-checkbox [type=checkbox]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.c-table-order th .c-checkbox [type=checkbox]:disabled:not(:checked) + label:before,
+.c-table-order th .c-checkbox [type=checkbox]:disabled:checked + label:before,
+.c-table-order td .c-checkbox [type=checkbox]:disabled:not(:checked) + label:before,
+.c-table-order td .c-checkbox [type=checkbox]:disabled:checked + label:before {
+  background-color: var(--third);
+}
+.c-table-order th {
+  height: 32px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.c-table-order th.last {
+  padding: 0 16px 0px 0px;
+  text-align: right;
+}
+.c-table-order th p {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-table-order th .icon-arrow-down {
+  width: 0;
+  height: 0;
+  position: relative;
+  left: 5px;
+  top: 9px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--tertiary);
+  cursor: pointer;
+}
+.c-table-order td {
+  height: 40px;
+}
+.c-table-order td.last {
+  padding: 0 16px 0px 0px;
+  text-align: right;
+}
+.c-table-order td p {
+  color: var(--data-first);
+  font-size: 13px;
+  font-family: "Benton Sans Book BBVA";
+}
+.c-table-order td p.num-order {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-table-order tr {
+  cursor: pointer;
+  border-bottom: 1px solid #d3d3d3;
+}
+.c-table-order tr.th-table {
+  box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+  border: none;
+}
+.c-table-order tr.th-table:hover {
+  background: none;
+}
+.c-table-order tr:hover {
+  background: var(--bground-first);
+  transition-duration: 0.3s;
+}
+
+/* END C-TABLE-ORDER COMPONENT */
+/* C-MODAL-DOCUMENTATION COMPONENT */
+/* this "button#myBtn" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtnDocumentation {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c-modal-documentation {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.c-modal-documentation .modal-documentation-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 344px;
+  width: 552px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 0 40px 32px;
+  border-bottom: 1px solid;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_header {
+  height: 60px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_header .c-modal-documentation-title {
+  letter-spacing: 0;
+  font-size: 22px;
+  margin: 0 auto;
+  color: var(--data-first);
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_header .closeDocumentation {
+  color: var(--fifth);
+  font-size: 30px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_header .closeDocumentation:hover, .c-modal-documentation .modal-documentation-content .modal-documentation-content_header .closeDocumentation:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body {
+  overflow-y: scroll;
+  height: 140px;
+  margin-bottom: 60px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body .document {
+  margin-bottom: 8px;
+  height: 40px;
+  background-color: var(--backgound-second);
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body .document .document-left {
+  padding-left: 12px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body .document span {
+  color: var(--data-first);
+  font-size: 13px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body .document .document-right {
+  padding-right: 12px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body .document .document-right .ico-show {
+  font-size: 18px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body .document .document-right .ico-download {
+  font-size: 17px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body .document .document-right i:first-of-type {
+  padding-right: 16px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_body span {
+  color: var(--tertiary);
+  font-family: "Benton Sans Light BBVA";
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_footer {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+.c-modal-documentation .modal-documentation-content .modal-documentation-content_footer .c-link {
+  justify-content: unset;
+  align-items: unset;
+  margin-right: 24px;
+}
+
+/* END OF C-MODAL-DOCUMENTATION COMPONENT */
+/* C-MODAL-ATTACH COMPONENT */
+/* this "button#myBtnattach" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtnattach {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c-modal-attach {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.c-modal-attach .modal-attach_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 750px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: var(--first);
+  padding: 40px;
+  border-bottom: 1px solid;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_header {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  min-width: 640px;
+  min-height: 100px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_header .c-modal-attach-title {
+  padding: 0 50px;
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_header .closeattach {
+  color: var(--fifth);
+  font-size: 30px;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_header .closeattach:hover, .c-modal-attach .modal-attach_content .modal-attach-content_header .closeattach:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_body {
+  min-height: 150px;
+  width: auto;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_body .attach-files-box {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 40px;
+  width: 672px;
+  background-color: var(--backgound-second);
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  margin-bottom: 8px;
+  padding: 10px 16px;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_body .attach-files-box .attach-file-name {
+  color: var(--data-first);
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 13px;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_body .attach-files-box .ico-close {
+  outline: none;
+  cursor: pointer;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_body .attach-files-box .ico-close:before {
+  font-size: 13px;
+  color: var(--fourth);
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_body .attach-files-button {
+  width: 350px;
+  height: 55px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_body .attach-files-button img {
+  height: 22px;
+  width: 15px;
+  margin-right: 10px;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_body .attach-files-button span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 13px;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_footer .c-link {
+  justify-content: unset;
+  align-items: unset;
+  margin-right: 45px;
+}
+.c-modal-attach .modal-attach_content .modal-attach-content_footer .c-button {
+  width: 226px;
+  height: 48px;
+}
+
+/* END OF C-MODAL-ATTACH COMPONENT */
+/* C-NOTIFICATIONS COMPONENT */
+.c-notifications {
+  height: auto;
+  max-width: 400px;
+  width: 400px;
+  padding: 5px 8px 24px 24px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: var(--first);
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.c-notifications .notifications-arrow {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 0 solid transparent;
+  border-bottom: 12px solid var(--first);
+  z-index: 1;
+  top: -17px;
+  left: 364px;
+}
+.c-notifications .notifications-content {
+  max-height: 363px;
+  height: auto;
+}
+.c-notifications .notifications-content .notifications-header {
+  width: auto;
+  margin-bottom: 18px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-notifications .notifications-content .notifications-header .notifications-title {
+  color: var(--data-first);
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.c-notifications .notifications-content .notifications-header img {
+  margin-right: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.c-notifications .notifications-content .notifications-header .splunk-slot {
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-notifications .notifications-content .notifications-header .splunk-slot span {
+  margin-right: 10px;
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 15px;
+}
+.c-notifications .notifications-content .notifications-body {
+  overflow: auto;
+  overflow-x: hidden;
+  max-height: 320px;
+  height: auto;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.c-notifications .notifications-content .notifications-body::-webkit-scrollbar {
+  width: 4px;
+}
+.c-notifications .notifications-content .notifications-body::-webkit-scrollbar-track {
+  box-shadow: inset 0px 0px 4px grey;
+  border-radius: 10px;
+}
+.c-notifications .notifications-content .notifications-body::-webkit-scrollbar-thumb {
+  background: #1871b5;
+  border-radius: 10px;
+}
+.c-notifications .notifications-content .notifications-body::-webkit-scrollbar-thumb:hover {
+  background: #3fa3f0;
+}
+.c-notifications .notifications-content .notifications-body .notifications-slot {
+  height: 89px;
+  width: 100%;
+  margin-top: 8px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-notifications .notifications-content .notifications-body .notifications-slot .description {
+  display: grid;
+}
+.c-notifications .notifications-content .notifications-body .notifications-slot .description .time-elapsed {
+  color: var(--tertiary);
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 16px;
+}
+.c-notifications .notifications-content .notifications-body .notifications-slot .description .response {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+}
+.c-notifications .notifications-content .notifications-body .notifications-slot .description .file-name {
+  color: var(--data-first);
+  font-family: "Benton Sans Light BBVA";
+  font-size: 12px;
+  line-height: 12px;
+}
+.c-notifications .notifications-content .notifications-body .notifications-slot .description .client-name {
+  color: var(--tertiary);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 11px;
+  line-height: 12px;
+}
+.c-notifications .notifications-content .notifications-body .notifications-slot .importance-level {
+  width: 30px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-notifications .notifications-content .notifications-body .separate-line {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 1px;
+  width: 85%;
+  margin-top: 4px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+/* END C-NOTIFICATIONS COMPONENT */
+/* C-MODAL-MODIFY-EJEC-DATE COMPONENT */
+/* this "button#myBtnModifyEjecDate" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtnModifyEjecDate {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c-modal-modify-ejec-date {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 550px;
+  width: 670px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: var(--first);
+  padding: 32px 35px 48px 48px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_header {
+  margin-bottom: 40px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_header .c-modal-modify-ejec-date-title {
+  letter-spacing: 0;
+  font-size: 22px;
+  margin: 0 auto;
+  color: var(--data-first);
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_header .closeModifyEjecDate {
+  color: var(--fifth);
+  font-size: 30px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_header .closeModifyEjecDate:hover, .c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_header .closeModifyEjecDate:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body {
+  display: inline-flex;
+  padding-right: 13px;
+  height: 300px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel {
+  width: 280px;
+  margin-right: 70px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple {
+  height: auto;
+  min-height: unset;
+  width: 280px;
+  padding: 0;
+  z-index: 1;
+  border-radius: 0;
+  box-shadow: none;
+  position: absolute;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple {
+  width: 280px;
+  padding-left: 0;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 20px 0;
+  text-align: center;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal ul {
+  margin: 0;
+  padding: 0;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal ul li {
+  display: inline;
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--fifth);
+  font-size: 15px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal ul li span {
+  margin-left: 5px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal ul li .ico-unfold {
+  font-size: 24px;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal ul li i {
+  font-size: 24px;
+  outline: none;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal .prev,
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal .next {
+  padding-top: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal .prev {
+  float: left;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .c-modal-modify-ejec-date-month-cal .next {
+  float: right;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .weekdays {
+  margin: 0;
+  padding: 10px 0;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .weekdays li {
+  font-family: "Benton Sans Medium BBVA";
+  font-size: 15px;
+  color: var(--data-first);
+  display: inline-block;
+  width: 13%;
+  /* Important: for development, this width maybe must be:
+  width: 14.2%; */
+  text-align: center;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .days {
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  width: 280px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .days .frame-day {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .days .frame-day span {
+  font-size: 15px;
+  color: var(--tertiary);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .days .frame-day.active {
+  background: var(--fifth);
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple .days .frame-day.active span {
+  color: var(--first);
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-select .c-modal-modify-ejec-date-originalEjecDate {
+  margin-bottom: 32px;
+  height: 30px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-select .c-modal-modify-ejec-date-originalEjecDate span {
+  font-family: "Benton Sans Book BBVA", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-select .c-modal-modify-ejec-date-choose-date {
+  cursor: pointer;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-select .c-modal-modify-ejec-date-choose-date .c-modal-modify-ejec-date-c-date-filter {
+  width: 220px;
+  height: 50px;
+  background-color: var(--third);
+  border-bottom: 1px solid var(--tertiary);
+  display: inline-flex;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-select .c-modal-modify-ejec-date-choose-date .c-modal-modify-ejec-date-c-date-filter .from {
+  width: 125px;
+  margin: 8px 16px;
+  display: inline-grid;
+  align-items: center;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-select .c-modal-modify-ejec-date-choose-date .c-modal-modify-ejec-date-c-date-filter .from span {
+  font-size: 15px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-select .c-modal-modify-ejec-date-choose-date .c-modal-modify-ejec-date-c-date-filter .from span:first-child {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-attach-files-button {
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-attach-files-button img {
+  height: 22px;
+  width: 15px;
+  margin-right: 10px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-rightPanel .c-modal-modify-ejec-date-attach-files-button span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 13px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-attached {
+  margin: 32px 13px 0 0;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-attached .attached-file {
+  margin-bottom: 8px;
+  padding: 0px 0px 0px 12px;
+  height: 40px;
+  background-color: var(--third);
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-attached .attached-file p {
+  font-family: "Benton Sans Book BBVA", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  margin: 48px 13px 0 0;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_footer .c-link {
+  margin-right: 45px;
+}
+.c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_footer .c-button {
+  width: 176px;
+  height: 48px;
+}
+
+/* END OF C-MODAL-MODIFY-EJEC-DATE COMPONENT */
+/* C-TABLE-ORDER-DROPDOWN COMPONENT */
+.c-table-order-dropdown {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: "header header header";
+  width: 100%;
+  height: auto;
+  padding: 20px 40px;
+  background-color: rgba(212, 237, 252, 0.2);
+  cursor: default;
+}
+.c-table-order-dropdown .grid-header,
+.c-table-order-dropdown .grid-cel {
+  height: 30px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-table-order-dropdown .grid-header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+.c-table-order-dropdown .grid-header span {
+  color: var(--tertiary);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 15px;
+}
+.c-table-order-dropdown .grid-cel span {
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 13px;
+  color: var(--data-first);
+}
+.c-table-order-dropdown .grid-cel span.question {
+  margin-right: 5px;
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+}
+.c-table-order-dropdown .grid-cel span.status-canceled {
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+}
+.c-table-order-dropdown .grid-cel .associated-files {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--fifth);
+}
+.c-table-order-dropdown .grid-cel .associated-files i {
+  margin-right: 6px;
+}
+.c-table-order-dropdown .grid-cel .associated-files label {
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* END C-TABLE-ORDER-DROPDOWN COMPONENT */
+.c-confirm-modify-ejec-date {
+  width: 100%;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert {
+  width: 100%;
+  height: 80px;
+  background-color: var(--alert-info);
+  display: flex;
+  display: -webkit-flex;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert .c-confirm-modify-ejec-date-c-alert_container {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  padding: 0px 25px 0px 50px;
+  width: 1144px;
+  margin: 0 auto;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert .c-confirm-modify-ejec-date-c-alert_container .c-confirm-modify-ejec-date-c-alert_body {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert .c-confirm-modify-ejec-date-c-alert_container .c-confirm-modify-ejec-date-c-alert_body .ico-alert {
+  font-size: 20px;
+  margin-right: 9px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert .c-confirm-modify-ejec-date-c-alert_container .c-confirm-modify-ejec-date-c-alert_body .ico-alert::before {
+  color: #d8be75;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert .c-confirm-modify-ejec-date-c-alert_container .c-confirm-modify-ejec-date-c-alert_body span {
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  text-align: left;
+  font-size: 18px;
+  color: var(--data-first);
+  line-height: 24px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert .c-confirm-modify-ejec-date-c-alert_container .c-confirm-modify-ejec-date-c-alert_body p {
+  color: #121212;
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  font-size: 13px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert .c-confirm-modify-ejec-date-c-alert_container .c-confirm-modify-ejec-date-c-alert_footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-c-alert .c-confirm-modify-ejec-date-c-alert_container .c-confirm-modify-ejec-date-c-alert_footer .c-link {
+  margin-right: 25px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information {
+  background-color: var(--first);
+  padding: 20px 0px 25px 0px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  margin: 0 auto;
+  width: 40%;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container img {
+  margin-right: 35px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer {
+  border-top: 1px solid #d3d3d3;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table {
+  width: 100%;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table th,
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table td {
+  vertical-align: middle;
+  padding: 0 15px 0 15px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table th {
+  height: 32px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table th p {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table td {
+  height: 40px;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table td p {
+  color: var(--data-first);
+  font-size: 13px;
+  font-family: "Benton Sans Bold BBVA";
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table td p.actual {
+  font-family: "Benton Sans Book BBVA";
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table td p.new {
+  color: var(--new-ejec-date);
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table tr {
+  border-bottom: 1px solid #d3d3d3;
+}
+.c-confirm-modify-ejec-date .c-confirm-modify-ejec-date-container .c-confirm-modify-ejec-date-information .c-confirm-modify-ejec-date-information-container .hr-table-customer .c-confirm-modify-ejec-date-information-c-table tr.th-table {
+  box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+  border: none;
+}
+
+/* C-CLIENTS-MANAGEMENT COMPONENT */
+.c-clients-management {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-areas: "header header header header";
+  grid-gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  height: auto;
+}
+.c-clients-management .grid-cm-header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 7;
+  grid-area: header;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+}
+.c-clients-management .grid-cm-header h2 {
+  color: var(--data-first);
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+.c-clients-management .grid-cm-header h2 span {
+  margin-left: 8px;
+}
+.c-clients-management .grid-cm-header .close-clients {
+  cursor: pointer;
+  outline: none;
+}
+.c-clients-management .grid-cm-header .close-clients .ico-close {
+  font-size: 12px;
+  margin-right: 8px;
+}
+.c-clients-management .grid-cm-header .close-clients span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+.c-clients-management .grid-cm-cel .client-tag {
+  box-sizing: border-box;
+  padding: 8px 16px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  height: 44px;
+  width: 100%;
+  background-color: var(--first);
+  box-shadow: 0 1px 2px 0 rgba(18, 18, 18, 0.2);
+}
+.c-clients-management .grid-cm-cel .client-tag .area-tag-left {
+  display: flex;
+  display: -webkit-flex;
+}
+.c-clients-management .grid-cm-cel .client-tag .area-tag-left .ico-edit-client {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  margin-right: 14px;
+}
+.c-clients-management .grid-cm-cel .client-tag .area-tag-left .ico-clients {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  margin-right: 10px;
+}
+.c-clients-management .grid-cm-cel .client-tag .area-tag-left .ico-clients img {
+  height: 24px;
+  width: 24px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  background-color: var(--first);
+}
+.c-clients-management .grid-cm-cel .client-tag .area-tag-left .name-client-box .name-client {
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--seventh);
+  text-transform: uppercase;
+}
+.c-clients-management .grid-cm-cel .client-tag .area-tag-left .name-client-box .code-client {
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 11px;
+  font-style: italic;
+  line-height: 14px;
+  color: var(--tertiary);
+  text-transform: uppercase;
+}
+.c-clients-management .grid-cm-cel .client-tag .area-tag-right .delete-client {
+  cursor: pointer;
+  outline: none;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-clients-management .grid-cm-cel .client-tag .area-tag-right .delete-client .ico-close {
+  font-size: 12px;
+}
+
+.c-clients-list {
+  margin-bottom: 20px;
+}
+.c-clients-list .grid-clients-list-header {
+  display: flex;
+  display: -webkit-flex;
+  width: 100%;
+  margin-bottom: 23px;
+}
+.c-clients-list .grid-clients-list-header h2 {
+  color: var(--data-first);
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin-right: 40px;
+}
+.c-clients-list .grid-clients-list-header h2 span {
+  margin-left: 8px;
+}
+.c-clients-list .grid-clients-list-header .client-search .c-search input {
+  width: 147px;
+  margin-right: 16px;
+  border-left: 1px solid;
+  border-color: var(--tertiary);
+  background-color: var(--third);
+}
+.c-clients-list .grid-client-list {
+  height: 140px;
+  box-sizing: border-box;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: auto auto auto auto;
+  overflow: auto;
+  overflow-x: hidden;
+  margin-bottom: 40px;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.c-clients-list .grid-client-list::-webkit-scrollbar {
+  width: 4px;
+}
+.c-clients-list .grid-client-list::-webkit-scrollbar-track {
+  box-shadow: inset 0px 0px 4px grey;
+  border-radius: 10px;
+}
+.c-clients-list .grid-client-list::-webkit-scrollbar-thumb {
+  background: #1871b5;
+  border-radius: 10px;
+}
+.c-clients-list .grid-client-list::-webkit-scrollbar-thumb:hover {
+  background: #3fa3f0;
+}
+.c-clients-list .grid-client-list .grid-clients-list-cel {
+  display: flex;
+  display: -webkit-flex;
+}
+.c-clients-list .grid-client-list .grid-clients-list-cel .c-checkbox label {
+  padding-top: 4px;
+}
+.c-clients-list .grid-client-footer {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+
+/* END C-CLIENTS-MANAGEMENT COMPONENT */
+/* C-ACCORDION-COUNTRY COMPONENT */
+.c-header-accordion-country {
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  padding: 12px 0;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+  display: inline-flex;
+}
+.c-header-accordion-country .fuller {
+  width: 57px;
+}
+.c-header-accordion-country span {
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 12px;
+  line-height: 24px;
+}
+.c-header-accordion-country .accordion-header-file {
+  margin-right: 1%;
+  width: 32%;
+}
+.c-header-accordion-country .accordion-header-service {
+  margin-right: 1%;
+  width: 12%;
+}
+.c-header-accordion-country .accordion-header-data {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-header-accordion-country .accordion-header-checksum {
+  margin-right: 1%;
+  width: 12%;
+}
+.c-header-accordion-country .accordion-header-status {
+  width: 18%;
+}
+
+.c-accordion-country {
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  height: 75px;
+  padding: 20px 0;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+  background-color: var(--third);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.c-accordion-country .accordion-country-expand {
+  width: 57px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+}
+.c-accordion-country .accordion-country-expand i {
+  font-size: 24px;
+}
+.c-accordion-country div {
+  overflow: auto;
+}
+.c-accordion-country div span {
+  color: var(--data-first);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 13px;
+  line-height: 16px;
+  overflow: auto;
+}
+.c-accordion-country div p {
+  color: var(--tertiary);
+  font-family: "Benton Sans BookItalic BBVA";
+  font-size: 12px;
+  line-height: 16px;
+}
+.c-accordion-country .accordion-file {
+  margin-right: 1%;
+  width: 32%;
+}
+.c-accordion-country .accordion-file span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-accordion-country .accordion-service {
+  margin-right: 1%;
+  width: 12%;
+}
+.c-accordion-country .accordion-data {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-accordion-country .accordion-checksum {
+  margin-right: 1%;
+  width: 12%;
+}
+.c-accordion-country .accordion-status {
+  width: 18%;
+}
+.c-accordion-country .accordion-status span.accordion-status_error {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-error);
+}
+.c-accordion-country .accordion-status span.accordion-status_error_inprocess {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-inProcess);
+}
+.c-accordion-country .accordion-status span.accordion-status_finalized {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-finalized);
+}
+.c-accordion-country .accordion-dots {
+  width: 57px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  font-size: 20px;
+}
+
+.panel {
+  padding: 0 0 0 57px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+/* END C-ACCORDION-COUNTRY COMPONENT */
+/* C-MODAL-CONFIRM-ORDER COMPONENT */
+/* this "button#myBtnConfirmOrder" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtnConfirmOrder {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c-modalConfirmOrder {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.c-modalConfirmOrder .modal-confirm-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 261px;
+  width: 552px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 29px 36px 48px 62px;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+}
+.c-modalConfirmOrder .modal-confirm-content .modal-confirm-content_msg {
+  text-align: center;
+  padding-top: 14px;
+  margin-right: 12px;
+  width: 100%;
+}
+.c-modalConfirmOrder .modal-confirm-content .modal-confirm-content_msg img {
+  width: 62px;
+  margin-bottom: 12px;
+}
+.c-modalConfirmOrder .modal-confirm-content .modal-confirm-content_msg p {
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 22px;
+  line-height: 32px;
+}
+.c-modalConfirmOrder .modal-confirm-content .modal-confirm-content_close {
+  height: 30px;
+}
+.c-modalConfirmOrder .modal-confirm-content .modal-confirm-content_close .closeConfirmOrder {
+  color: var(--fifth);
+  font-size: 30px;
+}
+.c-modalConfirmOrder .modal-confirm-content .modal-confirm-content_close .closeConfirmOrder:hover, .c-modalConfirmOrder .modal-confirm-content .modal-confirm-content_close .closeConfirmOrder:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* END OF C-MODAL-CONFIRM-ORDER COMPONENT */
+/* C-MODIFY-DATE-AUTH COMPONENT */
+.c-modif-date-auth {
+  width: 100%;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-c-alert {
+  width: 100%;
+  height: 56px;
+  background-color: var(--alert-info);
+  display: flex;
+  display: -webkit-flex;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-c-alert .c-modif-date-auth-c-alert_container {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  padding: 0px 32px 0px 48px;
+  width: 1144px;
+  margin: 0 auto;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-c-alert .c-modif-date-auth-c-alert_container .c-modif-date-auth-c-alert_body {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-c-alert .c-modif-date-auth-c-alert_container .c-modif-date-auth-c-alert_body .ico-alert {
+  font-size: 20px;
+  margin-right: 9px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-c-alert .c-modif-date-auth-c-alert_container .c-modif-date-auth-c-alert_body .ico-alert::before {
+  color: #d8be75;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-c-alert .c-modif-date-auth-c-alert_container .c-modif-date-auth-c-alert_body span {
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  text-align: left;
+  font-size: 18px;
+  color: var(--data-first);
+  line-height: 24px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-c-alert .c-modif-date-auth-c-alert_container .c-modif-date-auth-c-alert_body p {
+  color: #121212;
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  font-size: 13px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-c-alert .c-modif-date-auth-c-alert_container .c-modif-date-auth-c-alert_footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information {
+  background-color: var(--first);
+  padding: 20px 32px 32px 32px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .hr-table-customer {
+  border-top: 1px solid #d3d3d3;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth {
+  width: 100%;
+  margin-bottom: 35px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td {
+  vertical-align: middle;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  /* Base for label styling */
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
+  /* disabled checkbox */
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:not(:checked),
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:checked,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:not(:checked),
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:checked {
+  visibility: hidden;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:not(:checked) + label,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:checked + label,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:not(:checked) + label,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:checked + label {
+  position: relative;
+  padding-left: 1.95em;
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 15px;
+  cursor: pointer;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:not(:checked) + label:before,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:checked + label:before,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:not(:checked) + label:before,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:checked + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--tertiary);
+  background-color: var(--first);
+  border-radius: 1px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:not(:checked) + label:after,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:checked + label:after,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:not(:checked) + label:after,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:checked + label:after {
+  content: "";
+  font-family: "bbva-one-bank";
+  color: var(--fifth);
+  position: absolute;
+  top: -6px;
+  left: 2px;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:not(:checked) + label:after,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:checked + label:after,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:disabled:not(:checked) + label:before,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th .c-checkbox [type=checkbox]:disabled:checked + label:before,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:disabled:not(:checked) + label:before,
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td .c-checkbox [type=checkbox]:disabled:checked + label:before {
+  background-color: var(--third);
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th {
+  height: 32px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th.import {
+  padding: 0 16px 0px 0px;
+  text-align: right;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th.last {
+  padding: 0 16px 0px 0px;
+  text-align: right;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth th p {
+  color: var(--tertiary);
+  font-size: 12px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td {
+  height: 40px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td.import {
+  padding: 0 16px 0px 0px;
+  text-align: right;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td.last {
+  padding: 0 16px 0px 0px;
+  text-align: center;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td p {
+  color: var(--data-first);
+  font-size: 13px;
+  font-family: "Benton Sans Book BBVA";
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td p.num-order {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td p.new {
+  color: var(--new-ejec-date);
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth td img {
+  height: 15px;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth tr {
+  cursor: pointer;
+  border-bottom: 1px solid #d3d3d3;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth tr.th-table {
+  box-shadow: 0px 5px 4px 0px rgba(120, 120, 120, 0.1);
+  border: none;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth tr.th-table:hover {
+  background: none;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-table-order-auth tr:hover {
+  background: var(--bground-first);
+  transition-duration: 0.3s;
+}
+.c-modif-date-auth .c-modif-date-auth-container .c-modif-date-auth-information .c-modif-date-auth-information-container .c-modif-date-auth-footer {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+
+/* END OF C-MODIFY-DATE-AUTH COMPONENT */

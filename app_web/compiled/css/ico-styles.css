@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* BBVA ICONS */
+/* WEBFONTS VARIABLES */
+@font-face {
+  font-family: "bbva-one-bank";
+  src: url("../fonts/bbva-one-bank.eot?ignzp1");
+  src: url("../fonts/bbva-one-bank.eot?ignzp1#iefix") format("embedded-opentype"), url("../fonts/bbva-one-bank.ttf?ignzp1") format("truetype"), url("../fonts/bbva-one-bank.woff?ignzp1") format("woff"), url("../fonts/bbva-one-bank.svg?ignzp1#bbva-one-bank") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "bbva-one-bank" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-attached:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-goto-splunk:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-move-tag:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-dot-idle:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-dot-active:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-roundBack:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-roundNext:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-flag:before {
+  content: "";
+  color: #bdbdbd;
+}
+
+.ico-alert:before {
+  content: "";
+  color: #c65302;
+}
+
+.ico-checkmark:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-close:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-trash:before {
+  content: "";
+  color: #2a86ca;
+}
+
+.ico-alarm:before {
+  content: "";
+  color: #fff;
+}
+
+.ico-back:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-bbva_logo:before {
+  content: "";
+  color: #fff;
+}
+
+.ico-calendar:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-collapse:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-configuration:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-download:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-edit:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-expand:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-fold:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-globe:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-group .path1:before {
+  content: "";
+  color: #f4f4f4;
+}
+
+.ico-group .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #da3851;
+}
+
+.ico-next:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-path-3-1:before {
+  content: "";
+  color: #da3851;
+}
+
+.ico-path-3-2:before {
+  content: "";
+  color: #f7893b;
+}
+
+.ico-path-3-3:before {
+  content: "";
+  color: #c49735;
+}
+
+.ico-path-3-4:before {
+  content: "";
+  color: #666;
+}
+
+.ico-return:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-search-secondary:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-search-tertiary:before {
+  content: "";
+  color: #bdbdbd;
+}
+
+.ico-search:before {
+  content: "";
+  color: #fff;
+}
+
+.ico-settings:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-show:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-filter:before {
+  content: "";
+  color: #1973b8;
+}
+
+.ico-tiled-view:before {
+  content: "";
+  color: #fff;
+}
+
+.ico-unfold:before {
+  content: "";
+  color: #1973b8;
+}
