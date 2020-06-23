@@ -234,6 +234,9 @@ i {
   font-size: 28px;
   line-height: 24px;
 }
+.c-title h1.font-24 {
+  font-size: 24px;
+}
 
 /* END C-TITLE COMPONENT */
 /* C-TAG COMPONENT */
@@ -922,7 +925,6 @@ footer .footer__container .text span {
   background-color: var(--sixth);
   color: var(--fourth);
   -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -987,7 +989,6 @@ footer .footer__container .text span {
   justify-content: center;
   align-items: center;
   -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 .header__container ul.header__menu li .bground-text span {
@@ -1114,7 +1115,6 @@ footer .footer__container .text span {
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
   -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 .c-datepicker .row.calendar-container .col-6.calendar-1 {
@@ -1246,8 +1246,10 @@ footer .footer__container .text span {
   color: var(--first);
 }
 .c-datepicker hr {
-  margin-inline-start: 24px;
-  margin-inline-end: 24px;
+  -webkit-margin-start: 24px;
+          margin-inline-start: 24px;
+  -webkit-margin-end: 24px;
+          margin-inline-end: 24px;
   border-top: 1px solid #d3d3d3;
 }
 .c-datepicker .row .col .calendar-nav,
@@ -2062,7 +2064,8 @@ footer .footer__container .text span {
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client hr,
 .c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client hr {
   border-top: 1px solid var(--sixth);
-  margin-block-end: 0.4em;
+  -webkit-margin-after: 0.4em;
+          margin-block-end: 0.4em;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications,
 .c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications {
@@ -2153,7 +2156,6 @@ footer .footer__container .text span {
   position: absolute;
   top: 56%;
   -webkit-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   z-index: 1;
 }
@@ -2171,7 +2173,6 @@ footer .footer__container .text span {
   position: absolute;
   top: 56%;
   -webkit-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   z-index: 1;
   right: 0;
@@ -2427,7 +2428,6 @@ footer .footer__container .text span {
   background-color: var(--second);
   border-top: 2px solid var(--sixth);
   -webkit-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   position: absolute;
   top: 72px;
@@ -2635,7 +2635,6 @@ button#myBtn {
 }
 .c-datepicker-simple .row.calendar-simple-container {
   -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 .c-datepicker-simple .row.calendar-simple-container .col.calendar-simple {
@@ -2736,8 +2735,10 @@ button#myBtn {
   color: var(--first);
 }
 .c-datepicker-simple hr {
-  margin-inline-start: 24px;
-  margin-inline-end: 24px;
+  -webkit-margin-start: 24px;
+          margin-inline-start: 24px;
+  -webkit-margin-end: 24px;
+          margin-inline-end: 24px;
   border-top: 1px solid #d3d3d3;
 }
 .c-datepicker-simple .row .col .calendar-nav,
@@ -2949,7 +2950,6 @@ button#myBtngeneric {
   font-weight: 500;
   letter-spacing: 0;
   -webkit-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -3250,7 +3250,6 @@ button#myBtngeneric {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -webkit-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   border-radius: 1px 0 1px 1px;
   background-color: var(--second);
@@ -3717,7 +3716,6 @@ button#myBtnattach {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -webkit-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   background-color: var(--first);
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
@@ -3929,7 +3927,6 @@ button#myBtnModifyEjecDate {
 }
 .c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container {
   -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 .c-modal-modify-ejec-date .c-modal-modify-ejec-date-content .c-modal-modify-ejec-date-content_body .c-modal-modify-ejec-date-leftPanel .c-modal-modify-ejec-date-c-datepicker-simple .row.c-modal-modify-ejec-date-calendar-simple-container .col.c-modal-modify-ejec-date-calendar-simple {
