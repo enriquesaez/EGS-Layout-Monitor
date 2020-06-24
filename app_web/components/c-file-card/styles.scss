@@ -4,8 +4,11 @@
   display: flex;
   display: -ms-flexbox;
   display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
   height: auto;
-  padding: 20px 40px 0 40px;
+  padding: 20px 0;
   background-color: var(--third);
   .left-side,
   .right-side {
@@ -16,7 +19,7 @@
       width: 100%;
     }
     .file-cards_container {
-      max-width: 670px;
+      max-width: 656px;
       display: flex;
       display: -ms-flexbox;
       display: -webkit-flex;
@@ -28,12 +31,13 @@
         min-width: 360px;
         height: 200px;
         &.filecard--slide-case {
-          min-width: 330px;
-          width: unset;
+          min-width: 298px;
+          // min-width: 330px;
+          // width: unset;
         }
         .filecard_header {
           height: 95px;
-          padding: 16px 0 0 16px;
+          padding: 16px 0 0 40px;
           background-color: var(--fifth);
           transition: background 0.4s ease;
           .file-title {
@@ -65,7 +69,7 @@
           }
           &--enabled {
             height: 95px;
-            padding: 16px 0 0 16px;
+            padding: 16px 0 0 25px;
             background-color: var(--sixth);
             transition: background 0.4s ease;
             .file-title--enabled {
@@ -105,7 +109,8 @@
           .file-client {
             height: auto;
             min-height: 116px;
-            width: 228px;
+            width: 280px;
+            box-sizing: border-box;
             padding: 16px 16px 10px 16px;
             background-color: var(--first);
             box-shadow: 0 2px 4px 0 rgba(18, 18, 18, 0.2);
