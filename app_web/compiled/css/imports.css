@@ -1882,81 +1882,123 @@ footer .footer__container .text span {
   position: relative;
   overflow: hidden;
   width: unset;
+  height: 230px;
 }
 .c-file-card .left-side.width-100,
 .c-file-card .right-side.width-100 {
   width: 100%;
 }
 .c-file-card .left-side .file-cards_container,
-.c-file-card .right-side .file-cards_container {
+.c-file-card .left-side .file-cards_container--enabled,
+.c-file-card .right-side .file-cards_container,
+.c-file-card .right-side .file-cards_container--enabled {
   max-width: 656px;
   display: flex;
   display: -webkit-flex;
   justify-content: space-between;
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
+  background-color: var(--fifth);
+  transition: background 0.4s ease;
+  height: 111px;
 }
 .c-file-card .left-side .file-cards_container .filecard,
-.c-file-card .right-side .file-cards_container .filecard {
+.c-file-card .left-side .file-cards_container--enabled .filecard,
+.c-file-card .right-side .file-cards_container .filecard,
+.c-file-card .right-side .file-cards_container--enabled .filecard {
   width: 100%;
   min-width: 360px;
   height: 200px;
 }
 .c-file-card .left-side .file-cards_container .filecard.filecard--slide-case,
-.c-file-card .right-side .file-cards_container .filecard.filecard--slide-case {
+.c-file-card .left-side .file-cards_container--enabled .filecard.filecard--slide-case,
+.c-file-card .right-side .file-cards_container .filecard.filecard--slide-case,
+.c-file-card .right-side .file-cards_container--enabled .filecard.filecard--slide-case {
   min-width: 298px;
 }
+.c-file-card .left-side .file-cards_container .filecard.filecard--slide-case:nth-child(odd),
+.c-file-card .left-side .file-cards_container--enabled .filecard.filecard--slide-case:nth-child(odd),
+.c-file-card .right-side .file-cards_container .filecard.filecard--slide-case:nth-child(odd),
+.c-file-card .right-side .file-cards_container--enabled .filecard.filecard--slide-case:nth-child(odd) {
+  margin-left: 28px;
+}
+.c-file-card .left-side .file-cards_container .filecard.filecard--slide-case:nth-child(even),
+.c-file-card .left-side .file-cards_container--enabled .filecard.filecard--slide-case:nth-child(even),
+.c-file-card .right-side .file-cards_container .filecard.filecard--slide-case:nth-child(even),
+.c-file-card .right-side .file-cards_container--enabled .filecard.filecard--slide-case:nth-child(even) {
+  margin-right: 28px;
+}
 .c-file-card .left-side .file-cards_container .filecard .filecard_header,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header {
   height: 95px;
   padding: 16px 0 0 40px;
-  background-color: var(--fifth);
-  transition: background 0.4s ease;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title {
   display: flex;
   display: -webkit-flex;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-globe,
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-flag,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-globe,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-flag,
 .c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-globe,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag {
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-globe,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-flag {
   margin-right: 6px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-globe:before,
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-flag:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-globe:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-flag:before,
 .c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-globe:before,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag:before {
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-globe:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-flag:before {
   color: var(--first);
   font-size: 25px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-globe.active:before,
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title .ico-flag.active:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-globe.active:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-flag.active:before,
 .c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-globe.active:before,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag.active:before {
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title .ico-flag.active:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-globe.active:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title .ico-flag.active:before {
   color: var(--fourth);
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title span,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title span {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title span,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title span {
   color: var(--first);
   font-family: "Benton Sans Light BBVA";
   font-size: 15px;
   line-height: 24px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title span.active,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title span.active {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title span.active,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title span.active,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title span.active {
   color: var(--data-first);
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled {
   height: 95px;
-  padding: 16px 0 0 25px;
-  background-color: var(--sixth);
-  transition: background 0.4s ease;
+  padding: 16px 0 0 10px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled {
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -1965,25 +2007,37 @@ footer .footer__container .text span {
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
 .c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-flag,
 .c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag {
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-flag {
   margin-right: 6px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
 .c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before,
 .c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before {
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before {
   color: var(--fourth);
   font-size: 25px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .enabled,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .enabled {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .enabled,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .enabled {
   font-family: "Benton Sans Light BBVA";
   font-size: 15px;
   line-height: 24px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body {
   position: relative;
   top: -60px;
   display: flex;
@@ -1993,7 +2047,9 @@ footer .footer__container .text span {
   -webkit-justify-content: center;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client {
   height: auto;
   min-height: 116px;
   width: 280px;
@@ -2006,14 +2062,18 @@ footer .footer__container .text span {
   transition: border 0.1s ease;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client--disabled,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client--disabled {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client--disabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client--disabled,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client--disabled {
   height: 140px;
   width: 280px;
   background-color: var(--first);
   box-shadow: 0 1px 2px 0 rgba(18, 18, 18, 0.2);
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .title-card,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .title-card {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .title-card,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .title-card,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .title-card {
   color: var(--seventh);
   font-family: "Benton Sans Medium BBVA";
   font-size: 18px;
@@ -2021,12 +2081,16 @@ footer .footer__container .text span {
   margin-bottom: 12px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .inline-flex,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .inline-flex,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .inline-flex {
   width: 40%;
   margin-bottom: 10px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .inline-flex .data-label,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .inline-flex .data-label {
   opacity: 0.82;
   color: #000000;
   font-family: "Benton Sans Medium BBVA";
@@ -2034,7 +2098,9 @@ footer .footer__container .text span {
   line-height: 23px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label span,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label span {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .inline-flex .data-label span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .inline-flex .data-label span,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .inline-flex .data-label span {
   color: #000000;
   font-family: "Benton Sans Light BBVA";
   font-size: 13px;
@@ -2042,7 +2108,9 @@ footer .footer__container .text span {
   margin-left: 5px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .total-import,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .total-import,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .total-import {
   display: flex;
   display: -webkit-flex;
   justify-content: space-between;
@@ -2053,27 +2121,35 @@ footer .footer__container .text span {
   -webkit-align-items: center;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .total-import p,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import p {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .total-import p,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import p,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .total-import p {
   color: #000000;
   font-family: "Benton Sans Light BBVA";
   font-size: 12px;
   line-height: 14px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .total-import span,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import span {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .total-import span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .total-import span,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .total-import span {
   color: #000000;
   font-family: "Benton Sans Light BBVA";
   font-size: 15px;
   line-height: 21px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client hr,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client hr {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client hr,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client hr,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client hr {
   border-top: 1px solid var(--sixth);
   -webkit-margin-after: 0.4em;
           margin-block-end: 0.4em;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications {
   display: flex;
   display: -webkit-flex;
   justify-content: flex-end;
@@ -2082,8 +2158,12 @@ footer .footer__container .text span {
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete,
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial,
 .c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial {
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial {
   display: flex;
   display: -webkit-flex;
   align-items: flex-end;
@@ -2092,23 +2172,33 @@ footer .footer__container .text span {
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete.opacity-30,
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial.opacity-30,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete.opacity-30,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial.opacity-30,
 .c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete.opacity-30,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial.opacity-30 {
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial.opacity-30,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete.opacity-30,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial.opacity-30 {
   opacity: 0.3;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete span,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete span {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete span,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete span {
   color: var(--data-first);
   font-family: "Benton Sans MediumItalic BBVA";
   font-size: 16px;
   margin-right: 5px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected.opacity-30,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected.opacity-30 {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete--rejected.opacity-30,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected.opacity-30,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete--rejected.opacity-30 {
   opacity: 0.3;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span {
   color: var(--data-first);
   font-family: "Benton Sans MediumItalic BBVA";
   font-size: 16px;
@@ -2116,44 +2206,63 @@ footer .footer__container .text span {
   color: var(--status-error);
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span.literal,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span.literal {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span.literal,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span.literal,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-complete--rejected span.literal {
   font-family: "Benton Sans Light BBVA";
   font-size: 12px;
   font-style: italic;
   margin-right: 6px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial {
   margin-left: 26px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial span,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial span {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial span,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial span {
   color: var(--data-first);
   font-family: "Benton Sans MediumItalic BBVA";
   font-size: 16px;
   margin-right: 5px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial--partials,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial--partials {
   margin-left: 26px;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials.opacity-30,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials.opacity-30 {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial--partials.opacity-30,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials.opacity-30,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial--partials.opacity-30 {
   opacity: 0.3;
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial--partials span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial--partials span {
   font-family: "Benton Sans MediumItalic BBVA";
   font-size: 16px;
   margin-right: 5px;
   color: var(--text-partial);
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span.literal,
-.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span.literal {
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial--partials span.literal,
+.c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client .error-notifications .error-partial--partials span.literal,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client .error-notifications .error-partial--partials span.literal {
   font-family: "Benton Sans Light BBVA";
   font-size: 12px;
   font-style: italic;
   margin-right: 6px;
+}
+.c-file-card .left-side .file-cards_container--enabled,
+.c-file-card .right-side .file-cards_container--enabled {
+  background-color: var(--sixth);
+  transition: background 0.4s ease;
 }
 .c-file-card .left-side .navigation_arrow_prev,
 .c-file-card .right-side .navigation_arrow_prev {
@@ -2196,6 +2305,8 @@ footer .footer__container .text span {
   display: flex;
   display: -webkit-flex;
   font-size: 8px;
+  position: relative;
+  top: 86px;
 }
 .c-file-card .left-side .navigation_dots .dots,
 .c-file-card .right-side .navigation_dots .dots {

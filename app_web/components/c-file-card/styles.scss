@@ -15,10 +15,12 @@
     position: relative;
     overflow: hidden;
     width: unset;
+    height: 230px;
     &.width-100 {
       width: 100%;
     }
-    .file-cards_container {
+    .file-cards_container,
+    .file-cards_container--enabled {
       max-width: 656px;
       display: flex;
       display: -ms-flexbox;
@@ -26,11 +28,21 @@
       justify-content: space-between;
       -ms-flex-pack: justify;
       -webkit-justify-content: space-between;
+      background-color: var(--fifth);
+      transition: background 0.4s ease;
+      height: 111px;
       .filecard {
         width: 100%;
         min-width: 360px;
         height: 200px;
+
         &.filecard--slide-case {
+          &:nth-child(odd) {
+            margin-left: 28px;
+          }
+          &:nth-child(even) {
+            margin-right: 28px;
+          }
           min-width: 298px;
           // min-width: 330px;
           // width: unset;
@@ -38,8 +50,8 @@
         .filecard_header {
           height: 95px;
           padding: 16px 0 0 40px;
-          background-color: var(--fifth);
-          transition: background 0.4s ease;
+          //background-color: var(--fifth);
+          //transition: background 0.4s ease;
           .file-title {
             display: flex;
             display: -ms-flexbox;
@@ -69,9 +81,9 @@
           }
           &--enabled {
             height: 95px;
-            padding: 16px 0 0 25px;
-            background-color: var(--sixth);
-            transition: background 0.4s ease;
+            padding: 16px 0 0 10px;
+            //background-color: var(--sixth);
+            //transition: background 0.4s ease;
             .file-title--enabled {
               display: flex;
               display: -ms-flexbox;
@@ -252,6 +264,10 @@
         }
       }
     }
+    .file-cards_container--enabled {
+      background-color: var(--sixth);
+      transition: background 0.4s ease;
+    }
     .navigation_arrow_prev {
       cursor: pointer;
       position: absolute;
@@ -293,6 +309,8 @@
       display: -ms-flexbox;
       display: -webkit-flex;
       font-size: 8px;
+      position: relative;
+      top: 86px;
       .dots {
         margin: 14px auto 0;
         i {
