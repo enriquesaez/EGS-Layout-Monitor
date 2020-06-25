@@ -236,6 +236,8 @@ i {
 }
 .c-title h1.font-24 {
   font-size: 24px;
+  word-wrap: break-word;
+  line-height: 30px;
 }
 
 /* END C-TITLE COMPONENT */

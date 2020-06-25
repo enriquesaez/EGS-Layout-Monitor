@@ -13,8 +13,10 @@
     font-size: 28px;
     line-height: 24px;
     &.font-24 {
-        font-size: 24px;
-      }
+      font-size: 24px;
+      word-wrap: break-word;
+      line-height: 30px;
+    }
   }
 }
 
