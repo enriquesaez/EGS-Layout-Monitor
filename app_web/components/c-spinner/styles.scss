@@ -1,0 +1,56 @@
+/* C-SPINNER COMPONENT */
+
+.c-spinner {
+  /* KEYFRAMES */
+  @keyframes bbva-spinner {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  .circle-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: bbva-spinner 1s ease-in-out 0s infinite;
+    background: linear-gradient(-2deg, #004481 80%, rgb(0, 255, 255) 120%);
+    &.w-150 {
+      width: 150px;
+      height: 150px;
+      padding: 18px;
+    }
+    &.w-100 {
+      width: 100px;
+      height: 100px;
+      padding: 10px;
+    }
+    &.w-64 {
+      width: 64px;
+      height: 64px;
+      padding: 8px;
+    }
+    &.w-32 {
+        width: 32px;
+        height: 32px;
+        padding: 4px;
+      }    
+    .circle-core {
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      border-radius: 50%;
+    }
+  }
+}
+
+/* END C-SPINNER COMPONENT */

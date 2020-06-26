@@ -10,7 +10,7 @@ html(lang='en')
             | Monitor One Bank 
             span(style="font-family: 'Benton Sans Light BBVA';") | Templates HTML &amp; SCSS
     section.app__container
-      .row.margin-bottom_40(style='margin-top:80px;')
+      .row.margin-bottom_40(style='margin-top:40px;')
         .col-12
           h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") C-BADGE:
           include components/c-badge/c-badge.pug
@@ -322,6 +322,12 @@ html(lang='en')
           h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modif-date-auth:
           include components/c-modify-date-auth/c-modify-date-auth.pug
           hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-spinner:
+          .flex.flex-justify-center
+            include components/c-spinner/c-spinner.pug
+          hr.margin-top_30          
 
 include js/c-select-js.pug
 include js/c-dropdown-js.pug
