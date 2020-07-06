@@ -44,14 +44,10 @@
             margin-right: 28px;
           }
           min-width: 298px;
-          // min-width: 330px;
-          // width: unset;
         }
         .filecard_header {
           height: 95px;
           padding: 16px 0 0 40px;
-          //background-color: var(--fifth);
-          //transition: background 0.4s ease;
           .file-title {
             display: flex;
             display: -ms-flexbox;
@@ -79,11 +75,32 @@
               }
             }
           }
-          &--enabled {
+          .file-title--enabled {
+            display: flex;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            align-items: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            .ico-globe,
+            .ico-flag {
+              margin-right: 6px;
+              &.enabled {
+                &:before {
+                  color: var(--fourth);
+                  font-size: 25px;
+                }
+              }
+            }
+            .enabled {
+              font-family: "Benton Sans Light BBVA";
+              font-size: 15px;
+              line-height: 24px;
+            }
+          }
+          &--multiple {
             height: 95px;
             padding: 16px 0 0 10px;
-            //background-color: var(--sixth);
-            //transition: background 0.4s ease;
             .file-title--enabled {
               display: flex;
               display: -ms-flexbox;
@@ -107,6 +124,33 @@
                 line-height: 24px;
               }
             }
+            .file-title {
+              display: flex;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              .ico-globe,
+              .ico-flag {
+                margin-right: 6px;
+                &:before {
+                  color: var(--first);
+                  font-size: 25px;
+                }
+                &.active {
+                  &:before {
+                    color: var(--fourth);
+                  }
+                }
+              }
+              span {
+                color: var(--first);
+                font-family: "Benton Sans Light BBVA";
+                font-size: 15px;
+                line-height: 24px;
+                &.active {
+                  color: var(--data-first);
+                }
+              }
+            }
           }
         }
         .filecard_body {
@@ -120,7 +164,7 @@
           -webkit-justify-content: center;
           .file-client {
             height: auto;
-            min-height: 116px;
+            min-height: 146px;
             width: 280px;
             box-sizing: border-box;
             padding: 16px 16px 10px 16px;

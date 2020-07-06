@@ -1988,51 +1988,143 @@ footer .footer__container .text span {
 .c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title span.active {
   color: var(--data-first);
 }
-.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled,
-.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled,
-.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled {
-  height: 95px;
-  padding: 16px 0 0 10px;
-}
-.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled,
-.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled,
-.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled {
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title--enabled,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title--enabled,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled {
   display: flex;
   display: -webkit-flex;
   align-items: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
 }
-.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
-.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag,
-.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
-.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-flag,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag,
-.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-globe,
-.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-flag {
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title--enabled .ico-globe,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title--enabled .ico-flag,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .ico-globe,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .ico-flag,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title--enabled .ico-globe,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title--enabled .ico-flag,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .ico-globe,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .ico-flag {
   margin-right: 6px;
 }
-.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
-.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before,
-.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
-.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before,
-.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-globe.enabled:before,
-.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .ico-flag.enabled:before {
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .ico-flag.enabled:before {
   color: var(--fourth);
   font-size: 25px;
 }
-.c-file-card .left-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .enabled,
-.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .enabled,
-.c-file-card .right-side .file-cards_container .filecard .filecard_header--enabled .file-title--enabled .enabled,
-.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--enabled .file-title--enabled .enabled {
+.c-file-card .left-side .file-cards_container .filecard .filecard_header .file-title--enabled .enabled,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header .file-title--enabled .enabled,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header .file-title--enabled .enabled {
   font-family: "Benton Sans Light BBVA";
   font-size: 15px;
   line-height: 24px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple {
+  height: 95px;
+  padding: 16px 0 0 10px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .ico-globe,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .ico-flag,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .ico-globe,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .ico-flag,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .ico-globe,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .ico-flag,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .ico-globe,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .ico-flag {
+  margin-right: 6px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .ico-flag.enabled:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .ico-globe.enabled:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .ico-flag.enabled:before {
+  color: var(--fourth);
+  font-size: 25px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .enabled,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .enabled,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title--enabled .enabled,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title--enabled .enabled {
+  font-family: "Benton Sans Light BBVA";
+  font-size: 15px;
+  line-height: 24px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title {
+  display: flex;
+  display: -webkit-flex;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-globe,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-flag,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-globe,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-flag,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-globe,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-flag,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-globe,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-flag {
+  margin-right: 6px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-globe:before,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-flag:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-globe:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-flag:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-globe:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-flag:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-globe:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-flag:before {
+  color: var(--first);
+  font-size: 25px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-globe.active:before,
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-flag.active:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-globe.active:before,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-flag.active:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-globe.active:before,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title .ico-flag.active:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-globe.active:before,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title .ico-flag.active:before {
+  color: var(--fourth);
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title span,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title span,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title span,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title span {
+  color: var(--first);
+  font-family: "Benton Sans Light BBVA";
+  font-size: 15px;
+  line-height: 24px;
+}
+.c-file-card .left-side .file-cards_container .filecard .filecard_header--multiple .file-title span.active,
+.c-file-card .left-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title span.active,
+.c-file-card .right-side .file-cards_container .filecard .filecard_header--multiple .file-title span.active,
+.c-file-card .right-side .file-cards_container--enabled .filecard .filecard_header--multiple .file-title span.active {
+  color: var(--data-first);
 }
 .c-file-card .left-side .file-cards_container .filecard .filecard_body,
 .c-file-card .left-side .file-cards_container--enabled .filecard .filecard_body,
@@ -2051,7 +2143,7 @@ footer .footer__container .text span {
 .c-file-card .right-side .file-cards_container .filecard .filecard_body .file-client,
 .c-file-card .right-side .file-cards_container--enabled .filecard .filecard_body .file-client {
   height: auto;
-  min-height: 116px;
+  min-height: 146px;
   width: 280px;
   box-sizing: border-box;
   padding: 16px 16px 10px 16px;
@@ -5028,7 +5120,7 @@ button#myBtnConfirmOrder {
     transform: rotate(0);
   }
   to {
-    transform: rotate(359deg);
+    transform: rotate(360deg);
   }
 }
 .c-spinner * {
