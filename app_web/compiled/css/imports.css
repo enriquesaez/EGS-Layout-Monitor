@@ -5162,3 +5162,130 @@ button#myBtnConfirmOrder {
 }
 
 /* END C-SPINNER COMPONENT */
+/* C-ACCORDION-RESPONSE COMPONENT */
+.c-header-accordion-response {
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  padding: 12px 0;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+  display: inline-flex;
+}
+.c-header-accordion-response .filler {
+  width: 57px;
+}
+.c-header-accordion-response span {
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 12px;
+  line-height: 24px;
+}
+.c-header-accordion-response .accordion-header-file {
+  margin-right: 1%;
+  width: 32%;
+}
+.c-header-accordion-response .accordion-header-service {
+  margin-right: 1%;
+  width: 12%;
+}
+.c-header-accordion-response .accordion-header-data {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-header-accordion-response .accordion-header-checksum {
+  margin-right: 1%;
+  width: 12%;
+}
+.c-header-accordion-response .accordion-header-status {
+  width: 18%;
+}
+
+.c-accordion-response {
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  height: 75px;
+  padding: 20px 0;
+  box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.04);
+  background-color: var(--third);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.c-accordion-response .accordion-response-expand {
+  width: 57px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+}
+.c-accordion-response .accordion-response-expand i {
+  font-size: 24px;
+}
+.c-accordion-response div {
+  overflow: auto;
+}
+.c-accordion-response div span {
+  color: var(--data-first);
+  font-family: "Benton Sans Book BBVA";
+  font-size: 13px;
+  line-height: 16px;
+  overflow: auto;
+}
+.c-accordion-response div p {
+  color: var(--tertiary);
+  font-family: "Benton Sans BookItalic BBVA";
+  font-size: 12px;
+  line-height: 16px;
+}
+.c-accordion-response .accordion-file {
+  margin-right: 1%;
+  width: 32%;
+}
+.c-accordion-response .accordion-file span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA";
+}
+.c-accordion-response .accordion-service {
+  margin-right: 1%;
+  width: 12%;
+}
+.c-accordion-response .accordion-data {
+  margin-right: 1%;
+  width: 10%;
+}
+.c-accordion-response .accordion-checksum {
+  margin-right: 1%;
+  width: 12%;
+}
+.c-accordion-response .accordion-status {
+  width: 18%;
+}
+.c-accordion-response .accordion-status span.accordion-status_error {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-error);
+}
+.c-accordion-response .accordion-status span.accordion-status_error_inprocess {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-inProcess);
+}
+.c-accordion-response .accordion-status span.accordion-status_finalized {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-finalized);
+}
+.c-accordion-response .accordion-dots {
+  width: 57px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  font-size: 20px;
+}
+
+.panel {
+  padding: 0 0 0 57px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+/* END C-ACCORDION-RESPONSE COMPONENT */
