@@ -5179,24 +5179,24 @@ button#myBtnConfirmOrder {
   font-size: 12px;
   line-height: 24px;
 }
-.c-header-accordion-response .accordion-header-file {
+.c-header-accordion-response .accordion-header-client {
   margin-right: 1%;
   width: 32%;
 }
-.c-header-accordion-response .accordion-header-service {
+.c-header-accordion-response .accordion-header-file {
   margin-right: 1%;
-  width: 12%;
+  width: 7%;
 }
-.c-header-accordion-response .accordion-header-data {
+.c-header-accordion-response .accordion-header-channel {
   margin-right: 1%;
   width: 10%;
 }
-.c-header-accordion-response .accordion-header-checksum {
+.c-header-accordion-response .accordion-header-date {
   margin-right: 1%;
-  width: 12%;
+  width: 10%;
 }
 .c-header-accordion-response .accordion-header-status {
-  width: 18%;
+  width: 25%;
 }
 
 .c-accordion-response {
@@ -5236,28 +5236,29 @@ button#myBtnConfirmOrder {
   font-size: 12px;
   line-height: 16px;
 }
-.c-accordion-response .accordion-file {
+.c-accordion-response .accordion-client {
   margin-right: 1%;
   width: 32%;
 }
-.c-accordion-response .accordion-file span {
+.c-accordion-response .accordion-client span {
   color: var(--fifth);
   font-family: "Benton Sans Medium BBVA";
+  word-wrap: break-word;
 }
-.c-accordion-response .accordion-service {
+.c-accordion-response .accordion-file {
   margin-right: 1%;
-  width: 12%;
+  width: 7%;
 }
-.c-accordion-response .accordion-data {
+.c-accordion-response .accordion-channel {
   margin-right: 1%;
   width: 10%;
 }
-.c-accordion-response .accordion-checksum {
+.c-accordion-response .accordion-date {
   margin-right: 1%;
-  width: 12%;
+  width: 10%;
 }
 .c-accordion-response .accordion-status {
-  width: 18%;
+  width: 25%;
 }
 .c-accordion-response .accordion-status span.accordion-status_error {
   font-family: "Benton Sans Medium BBVA";
