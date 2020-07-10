@@ -96,19 +96,10 @@
             .area-tag-right
                 .delete-client(tabindex='0', role='button')
                     i.ico-close
-    .grid-cm-cel
-        .client-tag
-            .area-tag-left
-                .ico-edit-client
-                    img(src="../svg/move-tag.svg", alt="Mover ficha de cliente")
-                .ico-clients
-                    img(src="../svg/dummie-client-1.svg", alt="Nombre de cliente")
-                .name-client-box
-                    p.name-client Client
-                    p.code-client ClientXXH2h2
-            .area-tag-right
-                .delete-client(tabindex='0', role='button')
-                    i.ico-close
+    .grid-cm-empty.flex-asis
+        span Agregar cliente
+
+
 .c-clients-list
     .grid-clients-list-header
         h2 Listado de clientes

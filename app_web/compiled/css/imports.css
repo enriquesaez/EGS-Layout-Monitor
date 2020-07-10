@@ -4634,6 +4634,20 @@ button#myBtnModifyEjecDate {
 .c-clients-management .grid-cm-cel .client-tag .area-tag-right .delete-client .ico-close {
   font-size: 12px;
 }
+.c-clients-management .grid-cm-empty {
+  box-sizing: border-box;
+  height: 44px;
+  border: 1px dashed var(--border-primary);
+  opacity: 0.6;
+  background-color: var(--sixth);
+  cursor: pointer;
+}
+.c-clients-management .grid-cm-empty span {
+  color: var(--fourth);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+}
 
 .c-clients-list {
   margin-bottom: 20px;

@@ -119,6 +119,20 @@
       }
     }
   }
+  .grid-cm-empty {
+    box-sizing: border-box;
+    height: 44px;
+    border: 1px dashed var(--border-primary);
+    opacity: 0.6;
+    background-color: var(--sixth);
+    cursor: pointer;
+    span {
+      color: var(--fourth);
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
 }
 .c-clients-list {
   margin-bottom: 20px;
@@ -189,7 +203,7 @@
       }
     }
   }
-  .grid-client-footer {    
+  .grid-client-footer {
     display: flex;
     display: -ms-flexbox;
     display: -webkit-flex;
