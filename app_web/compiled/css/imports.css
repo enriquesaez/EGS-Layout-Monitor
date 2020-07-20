@@ -5318,34 +5318,34 @@ button#myBtnConfirmOrder {
 }
 .c-header-accordion-bill-gscf .accordion-header-byer {
   margin-right: 1%;
-  width: 12.5%;
+  width: 13%;
 }
 .c-header-accordion-bill-gscf .accordion-header-supplier {
   margin-right: 1%;
-  width: 12.5%;
+  width: 18%;
 }
 .c-header-accordion-bill-gscf .accordion-header-amount {
   margin-right: 1%;
-  width: 12.5%;
+  width: 8%;
 }
 .c-header-accordion-bill-gscf .accordion-header-currency {
   margin-right: 1%;
-  width: 12.5%;
+  width: 4%;
 }
 .c-header-accordion-bill-gscf .accordion-header-due {
   margin-right: 1%;
-  width: 12.5%;
+  width: 12%;
 }
 .c-header-accordion-bill-gscf .accordion-header-answer {
   margin-right: 1%;
-  width: 12.5%;
+  width: 11%;
 }
 .c-header-accordion-bill-gscf .accordion-header-type {
   margin-right: 1%;
-  width: 12.5%;
+  width: 5%;
 }
 .c-header-accordion-bill-gscf .accordion-header-status {
-  width: 12.5%;
+  width: 16%;
 }
 
 .c-accordion-bill-gscf {
@@ -5387,39 +5387,34 @@ button#myBtnConfirmOrder {
 }
 .c-accordion-bill-gscf .accordion-byer {
   margin-right: 1%;
-  width: 12.5%;
-}
-.c-accordion-bill-gscf .accordion-byer span {
-  color: var(--fifth);
-  font-family: "Benton Sans Medium BBVA";
-  word-wrap: break-word;
+  width: 13%;
 }
 .c-accordion-bill-gscf .accordion-supplier {
   margin-right: 1%;
-  width: 12.5%;
+  width: 18%;
 }
 .c-accordion-bill-gscf .accordion-amount {
   margin-right: 1%;
-  width: 12.5%;
+  width: 8%;
 }
 .c-accordion-bill-gscf .accordion-currency {
   margin-right: 1%;
-  width: 12.5%;
+  width: 4%;
 }
 .c-accordion-bill-gscf .accordion-due {
   margin-right: 1%;
-  width: 12.5%;
+  width: 12%;
 }
 .c-accordion-bill-gscf .accordion-answer {
   margin-right: 1%;
-  width: 12.5%;
+  width: 11%;
 }
 .c-accordion-bill-gscf .accordion-type {
   margin-right: 1%;
-  width: 12.5%;
+  width: 5%;
 }
 .c-accordion-bill-gscf .accordion-status {
-  width: 12.5%;
+  width: 16%;
 }
 .c-accordion-bill-gscf .accordion-status span.accordion-status_rejected {
   font-family: "Benton Sans Medium BBVA";
@@ -5432,6 +5427,10 @@ button#myBtnConfirmOrder {
 .c-accordion-bill-gscf .accordion-status span.accordion-status_paid {
   font-family: "Benton Sans Medium BBVA";
   color: var(--status-finalized);
+}
+.c-accordion-bill-gscf .accordion-status span.accordion-status_outstanding {
+  font-family: "Benton Sans Medium BBVA";
+  color: var(--status-outstanding);
 }
 
 .panel {

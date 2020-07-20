@@ -16,34 +16,34 @@
     }
     .accordion-header-byer {
       margin-right: 1%;
-      width: 12.5%;
+      width: 13%;
     }
     .accordion-header-supplier {
       margin-right: 1%;
-      width: 12.5%;
+      width: 18%;
     }
     .accordion-header-amount {
       margin-right: 1%;
-      width: 12.5%;
+      width: 8%;
     }
     .accordion-header-currency {
       margin-right: 1%;
-      width: 12.5%;
+      width: 4%;
     }
     .accordion-header-due {
       margin-right: 1%;
-      width: 12.5%;
+      width: 12%;
     }
     .accordion-header-answer {
       margin-right: 1%;
-      width: 12.5%;
+      width: 11%;
     }
     .accordion-header-type {
       margin-right: 1%;
-      width: 12.5%;
+      width: 5%;
     }
     .accordion-header-status {
-      width: 12.5%;
+      width: 16%;
     }            
   }
   .c-accordion-bill-gscf {
@@ -86,40 +86,35 @@
     }
     .accordion-byer {
       margin-right: 1%;
-      width: 12.5%;
-      span {
-        color: var(--fifth);
-        font-family: "Benton Sans Medium BBVA";
-        word-wrap: break-word;
-      }
+      width: 13%;
     }
     .accordion-supplier {
       margin-right: 1%;
-      width: 12.5%;
+      width: 18%;     
     }
     .accordion-amount {
       margin-right: 1%;
-      width: 12.5%;
+      width: 8%;
     }
   
     .accordion-currency {
       margin-right: 1%;
-      width: 12.5%;
+      width: 4%;
     }
     .accordion-due {
       margin-right: 1%;
-      width: 12.5%;
+      width: 12%;
     }
     .accordion-answer {
       margin-right: 1%;
-      width: 12.5%;
+      width: 11%;
     } 
     .accordion-type {
       margin-right: 1%;
-      width: 12.5%;
+      width: 5%;
     }              
     .accordion-status {
-      width: 12.5%;
+      width: 16%;
       span {
         &.accordion-status_rejected {
           font-family: "Benton Sans Medium BBVA";
@@ -135,6 +130,10 @@
           font-family: "Benton Sans Medium BBVA";
           color: var(--status-finalized);
         }
+        &.accordion-status_outstanding {
+          font-family: "Benton Sans Medium BBVA";
+          color: var(--status-outstanding);
+        }        
       }
     }
   }
@@ -146,4 +145,3 @@
   }
   
   /* END C-ACCORDION-BILL-GSCF COMPONENT */
-  
