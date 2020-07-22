@@ -148,11 +148,9 @@
         }
       }
       .dashed-line {
-        border-color: #8c8c8c !important;
-        height: 100% !important;
-        border-style: dashed !important;
-        border-right-width: 1px !important;
-        width: 1px;
+        height: 100%;
+        border: 1px dashed var(--border-dashed);
+        box-sizing: border-box;
       }
     }
     .col-description {
