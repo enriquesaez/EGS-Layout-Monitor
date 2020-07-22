@@ -5577,37 +5577,24 @@ button#myBtnConfirmOrder {
   margin: 0 10px 0 6px;
   margin-top: 2px;
 }
-.c-traceability-customer .t-table-row .col-icon .bullet--received {
-  background-image: url(../../svg/status-recibed.svg);
+.c-traceability-customer .t-table-row .col-icon .bullet--received, .c-traceability-customer .t-table-row .col-icon .bullet--intermediate_info, .c-traceability-customer .t-table-row .col-icon .bullet--intermediate, .c-traceability-customer .t-table-row .col-icon .bullet--correct {
   background-repeat: no-repeat;
   background-origin: content-box;
   display: inline-table;
   width: 16px;
   height: 16px;
+}
+.c-traceability-customer .t-table-row .col-icon .bullet--received {
+  background-image: url(../../svg/status-recibed.svg);
 }
 .c-traceability-customer .t-table-row .col-icon .bullet--intermediate_info {
   background-image: url(../../svg/status-intermediate-info.svg);
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  display: inline-table;
-  width: 16px;
-  height: 16px;
 }
 .c-traceability-customer .t-table-row .col-icon .bullet--intermediate {
   background-image: url(../../svg/status-intermediate.svg);
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  display: inline-table;
-  width: 16px;
-  height: 16px;
 }
 .c-traceability-customer .t-table-row .col-icon .bullet--correct {
   background-image: url(../../svg/status-correct.svg);
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  display: inline-table;
-  width: 16px;
-  height: 16px;
 }
 .c-traceability-customer .t-table-row .col-icon .dashed-line {
   border-color: #8c8c8c !important;

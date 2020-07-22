@@ -124,37 +124,27 @@
       margin: 0 10px 0 6px;
       margin-top: 2px;
       .bullet {
-        &--received {
-          background-image: url(../../svg/status-recibed.svg);
+        &--received,
+        &--intermediate_info,
+        &--intermediate,
+        &--correct {
           background-repeat: no-repeat;
           background-origin: content-box;
           display: inline-table;
           width: 16px;
           height: 16px;
+        }
+        &--received {
+          background-image: url(../../svg/status-recibed.svg);
         }
         &--intermediate_info {
           background-image: url(../../svg/status-intermediate-info.svg);
-          background-repeat: no-repeat;
-          background-origin: content-box;
-          display: inline-table;
-          width: 16px;
-          height: 16px;
         }
         &--intermediate {
           background-image: url(../../svg/status-intermediate.svg);
-          background-repeat: no-repeat;
-          background-origin: content-box;
-          display: inline-table;
-          width: 16px;
-          height: 16px;
         }
         &--correct {
           background-image: url(../../svg/status-correct.svg);
-          background-repeat: no-repeat;
-          background-origin: content-box;
-          display: inline-table;
-          width: 16px;
-          height: 16px;
         }
       }
       .dashed-line {
