@@ -582,20 +582,6 @@
   display: -webkit-inline-flex;
 }
 
-.flex-column {
-  display: flex;
-  display: -webkit-flex;
-  flex-direction: column;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-column-reverse {
-  flex-direction: column-reverse;
-}
-
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
@@ -789,7 +775,6 @@
 .unselectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
