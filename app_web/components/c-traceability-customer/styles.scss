@@ -2,6 +2,44 @@
 .c-traceability-customer {
   width: 100%;
   margin-bottom: 40px;
+  .header-historyTrazeability {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    .header-historyTrazeability_title {
+      span {
+        color: var(--tertiary);
+      }
+    }
+    .btn-show-hyde {
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      cursor: pointer;
+      outline: none;
+      span {
+        color: var(--fifth);
+        font-family: "Benton Sans Medium BBVA";
+        font-size: 13px;
+      }
+      .ico-fold {
+        margin-right: 5px;
+        font-size: 18px;
+      }
+    }
+  }  
   .table-header {
     display: flex;
     display: -ms-flexbox;
@@ -28,7 +66,7 @@
     .th-icon {
       width: 22px;
       height: 20px;
-      margin: 0 6px;
+      margin: 0 10px 0 6px;
     }
     .th-description {
       width: 40%;
@@ -85,15 +123,41 @@
       height: inherit;
       float: left;
       width: 22px;
-      margin: 0 6px;
-      .bullet {
-        background-image: url(../../svg/status-recibed.svg);
-        background-repeat: no-repeat;
-        background-origin: content-box;
-        display: inline-table;
-        width: 16px;
-        height: 16px;
-        margin-top: 2px;
+      margin: 0 10px 0 6px;
+      margin-top: 2px;
+      .bullet {        
+        &--received {
+          background-image: url(../../svg/status-recibed.svg);
+          background-repeat: no-repeat;
+          background-origin: content-box;
+          display: inline-table;
+          width: 16px;
+          height: 16px;
+        }
+        &--intermediate_info {
+          background-image: url(../../svg/status-intermediate-info.svg);
+          background-repeat: no-repeat;
+          background-origin: content-box;
+          display: inline-table;
+          width: 16px;
+          height: 16px;
+        }
+        &--intermediate {
+          background-image: url(../../svg/status-intermediate.svg);
+          background-repeat: no-repeat;
+          background-origin: content-box;
+          display: inline-table;
+          width: 16px;
+          height: 16px;
+        }
+        &--correct {
+          background-image: url(../../svg/status-correct.svg);
+          background-repeat: no-repeat;
+          background-origin: content-box;
+          display: inline-table;
+          width: 16px;
+          height: 16px;
+        }            
       }
       .dashed-line {
         border-color: #8c8c8c !important;
