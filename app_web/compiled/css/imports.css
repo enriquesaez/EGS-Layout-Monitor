@@ -5446,7 +5446,7 @@ button#myBtnConfirmOrder {
   width: 100%;
   margin-bottom: 40px;
 }
-.c-traceability-customer .header-historyTrazeability {
+.c-traceability-customer .c-traceability-customer_title {
   width: 100%;
   margin-bottom: 30px;
   padding-top: 10px;
@@ -5459,10 +5459,10 @@ button#myBtnConfirmOrder {
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
 }
-.c-traceability-customer .header-historyTrazeability .header-historyTrazeability_title span {
+.c-traceability-customer .c-traceability-customer_title span {
   color: var(--tertiary);
 }
-.c-traceability-customer .header-historyTrazeability .btn-show-hyde {
+.c-traceability-customer .c-traceability-customer_title .btn-show-hyde {
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -5471,12 +5471,12 @@ button#myBtnConfirmOrder {
   cursor: pointer;
   outline: none;
 }
-.c-traceability-customer .header-historyTrazeability .btn-show-hyde span {
+.c-traceability-customer .c-traceability-customer_title .btn-show-hyde span {
   color: var(--fifth);
-  font-family: "Benton Sans Medium BBVA";
+  font-family: "Benton Sans Medium BBVA", sans-serif;
   font-size: 13px;
 }
-.c-traceability-customer .header-historyTrazeability .btn-show-hyde .ico-fold {
+.c-traceability-customer .c-traceability-customer_title .btn-show-hyde .ico-fold {
   margin-right: 5px;
   font-size: 18px;
 }

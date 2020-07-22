@@ -2,7 +2,7 @@
 .c-traceability-customer {
   width: 100%;
   margin-bottom: 40px;
-  .header-historyTrazeability {
+  .c-traceability-customer_title {
     width: 100%;
     margin-bottom: 30px;
     padding-top: 10px;
@@ -15,10 +15,8 @@
     justify-content: space-between;
     -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
-    .header-historyTrazeability_title {
-      span {
-        color: var(--tertiary);
-      }
+    span {
+      color: var(--tertiary);
     }
     .btn-show-hyde {
       display: flex;
@@ -31,7 +29,7 @@
       outline: none;
       span {
         color: var(--fifth);
-        font-family: "Benton Sans Medium BBVA";
+        font-family: "Benton Sans Medium BBVA", sans-serif;
         font-size: 13px;
       }
       .ico-fold {
@@ -39,7 +37,7 @@
         font-size: 18px;
       }
     }
-  }  
+  }
   .table-header {
     display: flex;
     display: -ms-flexbox;
@@ -105,7 +103,7 @@
         color: var(--tertiary);
         font-size: 12px;
         line-height: 20px;
-        &.description-file{
+        &.description-file {
           color: var(--fifth);
           font-style: italic;
           font-weight: 500;
@@ -125,7 +123,7 @@
       width: 22px;
       margin: 0 10px 0 6px;
       margin-top: 2px;
-      .bullet {        
+      .bullet {
         &--received {
           background-image: url(../../svg/status-recibed.svg);
           background-repeat: no-repeat;
@@ -157,7 +155,7 @@
           display: inline-table;
           width: 16px;
           height: 16px;
-        }            
+        }
       }
       .dashed-line {
         border-color: #8c8c8c !important;
