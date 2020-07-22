@@ -9,10 +9,15 @@
     align-items: center;
     -ms-flex-align: center;
     -webkit-align-items: center;
-    height: 35px;
+    height: 34px;
     border-bottom: 1px solid var(--fourth);
-    margin-bottom: 10px;
-    .th-icon, .th-description, .th-date, .th-time, .th-files, .th-send {        
+    margin-bottom: 17px;
+    .th-icon,
+    .th-description,
+    .th-date,
+    .th-time,
+    .th-files,
+    .th-send {
       p {
         font-family: "Benton Sans Light BBVA", sans-serif;
         color: var(--tertiary);
@@ -32,18 +37,18 @@
       width: 10%;
     }
     .th-time {
-      width: 5%;
+      width: 6%;
     }
     .th-files {
-      width: 30%;
+      width: 29%;
     }
     .th-send {
       width: 15%;
-    }      
+    }
   }
   .t-table-row {
     width: 100%;
-    height: auto;
+    height: 31px;
     padding: 0;
     display: flex;
     display: -webkit-flex;
@@ -61,7 +66,15 @@
         font-family: "Benton Sans Medium BBVA", sans-serif;
         color: var(--tertiary);
         font-size: 12px;
-        height: 26px;
+        line-height: 20px;
+        &.description-file{
+          color: var(--fifth);
+          font-style: italic;
+          font-weight: 500;
+        }
+        span {
+          color: var(--fifth);
+        }
       }
     }
     .col-icon {
@@ -80,6 +93,7 @@
         display: inline-table;
         width: 16px;
         height: 16px;
+        margin-top: 2px;
       }
       .dashed-line {
         border-color: #8c8c8c !important;
@@ -98,11 +112,11 @@
       flex-direction: column;
     }
     .col-time {
-      width: 5%;
+      width: 6%;
       flex-direction: column;
     }
     .col-files {
-      width: 30%;
+      width: 29%;
       flex-direction: column;
       p {
         color: var(--fifth);
@@ -110,6 +124,13 @@
     }
     .col-send {
       width: 15%;
+      &.checked {
+        background-image: url(../../svg/filled-table.svg);
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        display: inline-table;
+        height: 19px;
+      }
     }
   }
 }

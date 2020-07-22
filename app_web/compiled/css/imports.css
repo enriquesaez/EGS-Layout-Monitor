@@ -5452,11 +5452,16 @@ button#myBtnConfirmOrder {
   align-items: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  height: 35px;
+  height: 34px;
   border-bottom: 1px solid var(--fourth);
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
-.c-traceability-customer .table-header .th-icon p, .c-traceability-customer .table-header .th-description p, .c-traceability-customer .table-header .th-date p, .c-traceability-customer .table-header .th-time p, .c-traceability-customer .table-header .th-files p, .c-traceability-customer .table-header .th-send p {
+.c-traceability-customer .table-header .th-icon p,
+.c-traceability-customer .table-header .th-description p,
+.c-traceability-customer .table-header .th-date p,
+.c-traceability-customer .table-header .th-time p,
+.c-traceability-customer .table-header .th-files p,
+.c-traceability-customer .table-header .th-send p {
   font-family: "Benton Sans Light BBVA", sans-serif;
   color: var(--tertiary);
   font-size: 12px;
@@ -5474,17 +5479,17 @@ button#myBtnConfirmOrder {
   width: 10%;
 }
 .c-traceability-customer .table-header .th-time {
-  width: 5%;
+  width: 6%;
 }
 .c-traceability-customer .table-header .th-files {
-  width: 30%;
+  width: 29%;
 }
 .c-traceability-customer .table-header .th-send {
   width: 15%;
 }
 .c-traceability-customer .t-table-row {
   width: 100%;
-  height: auto;
+  height: 31px;
   padding: 0;
   display: flex;
   display: -ms-flexbox;
@@ -5507,7 +5512,25 @@ button#myBtnConfirmOrder {
   font-family: "Benton Sans Medium BBVA", sans-serif;
   color: var(--tertiary);
   font-size: 12px;
-  height: 26px;
+  line-height: 20px;
+}
+.c-traceability-customer .t-table-row .col-icon p.description-file,
+.c-traceability-customer .t-table-row .col-description p.description-file,
+.c-traceability-customer .t-table-row .col-date p.description-file,
+.c-traceability-customer .t-table-row .col-time p.description-file,
+.c-traceability-customer .t-table-row .col-files p.description-file,
+.c-traceability-customer .t-table-row .col-send p.description-file {
+  color: var(--fifth);
+  font-style: italic;
+  font-weight: 500;
+}
+.c-traceability-customer .t-table-row .col-icon p span,
+.c-traceability-customer .t-table-row .col-description p span,
+.c-traceability-customer .t-table-row .col-date p span,
+.c-traceability-customer .t-table-row .col-time p span,
+.c-traceability-customer .t-table-row .col-files p span,
+.c-traceability-customer .t-table-row .col-send p span {
+  color: var(--fifth);
 }
 .c-traceability-customer .t-table-row .col-icon {
   flex-direction: column;
@@ -5526,6 +5549,7 @@ button#myBtnConfirmOrder {
   display: inline-table;
   width: 16px;
   height: 16px;
+  margin-top: 2px;
 }
 .c-traceability-customer .t-table-row .col-icon .dashed-line {
   border-color: #8c8c8c !important;
@@ -5543,11 +5567,11 @@ button#myBtnConfirmOrder {
   flex-direction: column;
 }
 .c-traceability-customer .t-table-row .col-time {
-  width: 5%;
+  width: 6%;
   flex-direction: column;
 }
 .c-traceability-customer .t-table-row .col-files {
-  width: 30%;
+  width: 29%;
   flex-direction: column;
 }
 .c-traceability-customer .t-table-row .col-files p {
@@ -5555,6 +5579,13 @@ button#myBtnConfirmOrder {
 }
 .c-traceability-customer .t-table-row .col-send {
   width: 15%;
+}
+.c-traceability-customer .t-table-row .col-send.checked {
+  background-image: url(../../svg/filled-table.svg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  display: inline-table;
+  height: 19px;
 }
 
 /* END C-TRACEABILITY-CUSTOMER  */
