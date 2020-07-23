@@ -1,8 +1,8 @@
-/* C-TRACEABILITY-CUSTOMER */
-.c-traceability-customer {
+/* C-TRACEABILITY-COUNTRY */
+.c-traceability-country {
   width: 100%;
   margin-bottom: 40px;
-  .c-traceability-customer_title {
+  .c-traceability-country_title {
     width: 100%;
     margin-bottom: 30px;
     padding-top: 10px;
@@ -33,7 +33,7 @@
         font-family: "Benton Sans Medium BBVA", sans-serif;
         font-size: 13px;
       }
-      .ico-fold {
+      .ico-show {
         margin-right: 5px;
         font-size: 18px;
       }
@@ -68,16 +68,16 @@
       margin: 0 10px 0 6px;
     }
     .th-description {
-      width: 40%;
+      width: 27%;
     }
     .th-date {
       width: 10%;
     }
     .th-time {
-      width: 6%;
+      width: 11%;
     }
     .th-files {
-      width: 29%;
+      width: 37%;
     }
     .th-send {
       width: 15%;
@@ -167,7 +167,7 @@
       }
     }
     .col-description {
-      width: 40%;
+      width: 27%;
       flex-direction: column;
     }
     .col-date {
@@ -175,11 +175,11 @@
       flex-direction: column;
     }
     .col-time {
-      width: 6%;
+      width: 11%;
       flex-direction: column;
     }
     .col-files {
-      width: 29%;
+      width: 37%;
       flex-direction: column;
       p {
         color: var(--fifth);
@@ -197,4 +197,4 @@
     }
   }
 }
-/* END C-TRACEABILITY-CUSTOMER  */
+/* END C-TRACEABILITY-COUNTRY  */
