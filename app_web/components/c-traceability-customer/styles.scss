@@ -125,9 +125,12 @@
       margin-top: 2px;
       .bullet {
         &--received,
-        &--intermediate_info,
-        &--intermediate,
-        &--correct {
+        &--sent,
+        &--in-process,
+        &--partial,
+        &--to-future,
+        &--rejected,
+        &--validated {
           background-repeat: no-repeat;
           background-origin: content-box;
           display: inline-table;
@@ -135,17 +138,26 @@
           height: 16px;
         }
         &--received {
-          background-image: url(../../svg/status-recibed.svg);
+          background-image: url(../../svg/status-received.svg);
         }
-        &--intermediate_info {
-          background-image: url(../../svg/status-intermediate-info.svg);
+        &--sent {
+          background-image: url(../../svg/status-sent.svg);
         }
-        &--intermediate {
-          background-image: url(../../svg/status-intermediate.svg);
+        &--in-process {
+          background-image: url(../../svg/status-in-process.svg);
         }
-        &--correct {
-          background-image: url(../../svg/status-correct.svg);
+        &--partial {
+          background-image: url(../../svg/status-partial.svg);
         }
+        &--to-future {
+          background-image: url(../../svg/status-to-future.svg);
+        }
+        &--rejected {
+          background-image: url(../../svg/status-rejected.svg);
+        }
+        &--validated {
+          background-image: url(../../svg/status-validated.svg);
+        }     
       }
       .dashed-line {
         height: 100%;

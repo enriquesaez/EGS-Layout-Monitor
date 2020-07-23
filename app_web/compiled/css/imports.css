@@ -5577,7 +5577,7 @@ button#myBtnConfirmOrder {
   margin: 0 10px 0 6px;
   margin-top: 2px;
 }
-.c-traceability-customer .t-table-row .col-icon .bullet--received, .c-traceability-customer .t-table-row .col-icon .bullet--intermediate_info, .c-traceability-customer .t-table-row .col-icon .bullet--intermediate, .c-traceability-customer .t-table-row .col-icon .bullet--correct {
+.c-traceability-customer .t-table-row .col-icon .bullet--received, .c-traceability-customer .t-table-row .col-icon .bullet--sent, .c-traceability-customer .t-table-row .col-icon .bullet--in-process, .c-traceability-customer .t-table-row .col-icon .bullet--partial, .c-traceability-customer .t-table-row .col-icon .bullet--to-future, .c-traceability-customer .t-table-row .col-icon .bullet--rejected, .c-traceability-customer .t-table-row .col-icon .bullet--validated {
   background-repeat: no-repeat;
   background-origin: content-box;
   display: inline-table;
@@ -5585,16 +5585,25 @@ button#myBtnConfirmOrder {
   height: 16px;
 }
 .c-traceability-customer .t-table-row .col-icon .bullet--received {
-  background-image: url(../../svg/status-recibed.svg);
+  background-image: url(../../svg/status-received.svg);
 }
-.c-traceability-customer .t-table-row .col-icon .bullet--intermediate_info {
-  background-image: url(../../svg/status-intermediate-info.svg);
+.c-traceability-customer .t-table-row .col-icon .bullet--sent {
+  background-image: url(../../svg/status-sent.svg);
 }
-.c-traceability-customer .t-table-row .col-icon .bullet--intermediate {
-  background-image: url(../../svg/status-intermediate.svg);
+.c-traceability-customer .t-table-row .col-icon .bullet--in-process {
+  background-image: url(../../svg/status-in-process.svg);
 }
-.c-traceability-customer .t-table-row .col-icon .bullet--correct {
-  background-image: url(../../svg/status-correct.svg);
+.c-traceability-customer .t-table-row .col-icon .bullet--partial {
+  background-image: url(../../svg/status-partial.svg);
+}
+.c-traceability-customer .t-table-row .col-icon .bullet--to-future {
+  background-image: url(../../svg/status-to-future.svg);
+}
+.c-traceability-customer .t-table-row .col-icon .bullet--rejected {
+  background-image: url(../../svg/status-rejected.svg);
+}
+.c-traceability-customer .t-table-row .col-icon .bullet--validated {
+  background-image: url(../../svg/status-validated.svg);
 }
 .c-traceability-customer .t-table-row .col-icon .dashed-line {
   height: 100%;

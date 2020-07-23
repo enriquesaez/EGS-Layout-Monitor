@@ -32,11 +32,4 @@
   --icon-gradient: linear-gradient(to bottom right, #4ba9ed 50%, #3993df 50%);
   --alert-info: #F3EBD5;
   --new-ejec-date: #f7893b;
-  --received: #043263;
-  --rejected: #da3851;
-  --in-process: #028484;
-  --validated: #48ae64;
-  --partial: #f7893b;
-  --to-future: #666666;
-  --sent: #1464a5;
 }
