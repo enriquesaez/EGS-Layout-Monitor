@@ -5843,7 +5843,7 @@ button#myBtnConfirmOrder {
 }
 
 /* END C-TRACEABILITY-COUNTRY  */
-/* C-TRACEABILITY-COUNTRY */
+/* C-TRACEABILITY-RESPONSE */
 .c-traceability-response {
   width: 100%;
   margin-bottom: 40px;
@@ -6005,4 +6005,4 @@ button#myBtnConfirmOrder {
   height: 19px;
 }
 
-/* END C-TRACEABILITY-COUNTRY  */
+/* END C-TRACEABILITY-RESPONSE  */
