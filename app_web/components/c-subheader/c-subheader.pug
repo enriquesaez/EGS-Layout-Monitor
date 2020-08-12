@@ -1,12 +1,14 @@
 .subHeader__container
-  //-.row.margin-bottom_25
-    .col
-      include ../c-link/c-link.pug
   .flex.margin-bottom_8
     div
       include ../c-title/c-title.pug
-    div
+    div.two-fifths-width
       include ../c-tag/c-tag.pug
+    //- Added "Ver historial de Trazabilidad" icon and c-link
+    //- only if it will be necessary    
+    div.full-width
+      .float-right
+        include ../c-link/c-link.pug
   .row
     .col
       include ../c-update/c-update.pug
@@ -18,16 +20,10 @@
       include ../c-menu-traceability/c-menu-traceability.pug
   .row
     .col
-      include ../c-file-card/c-file-card.pug
-  //-.row.flex-justify-between
-    div
-      include ../c-date-filter/c-date-filter.pug
-      //-include ../c-datepicker/c-datepicker.pug
-    div
-      include ../c-global-counter/c-global-counter.pug
-  //-.row
+      include ../c-file-card/c-file-card.pug  
+  //- Added "Ver historial de Trazabilidad" icon and c-link
+  //- only if it will be necessary
+  .row
     .col
-      include ../c-confirm-modify-ejec-date/c-confirm-modify-ejec-date.pug
-  //-.row
-    .col
-      include ../c-clients-management/c-clients-management.pug
+      .flex.flex-justify-end
+        include ../c-link/c-link.pug
