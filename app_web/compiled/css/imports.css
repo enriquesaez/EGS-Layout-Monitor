@@ -6151,13 +6151,13 @@ button#myBtnSelectReport {
 /* C-MODAL-ASSOC-DOC COMPONENT */
 /* this "button#myBtngeneric" down here is just for layout purpose
    must be deleted in develop */
-button#myBtnSelectReport {
+button#myBtnAssocDoc {
   padding: 14px;
   font-size: 16px;
   cursor: pointer;
 }
 
-.c-modal-select-report {
+.c-modal-assoc-doc {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -6171,27 +6171,27 @@ button#myBtnSelectReport {
   background-color: black;
   background-color: rgba(0, 0, 0, 0.4);
 }
-.c-modal-select-report .modal-select-report_content {
+.c-modal-assoc-doc .modal-assoc-doc_content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 344px;
-  width: 464px;
+  height: auto;
+  width: 752px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   background-color: var(--first);
-  padding: 28px;
+  padding: 32px;
   border-bottom: 1px solid;
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_header {
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_header {
   min-height: 60px;
   display: flex;
   display: -webkit-flex;
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_header .c-modal-select-report-title {
-  min-width: 390px;
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_header .c-modal-assoc-doc-title {
+  width: 100%;
   color: var(--tertiary);
   font-family: "Benton Sans Book BBVA", sans-serif;
   font-size: 22px;
@@ -6199,16 +6199,17 @@ button#myBtnSelectReport {
   text-align: center;
   padding-top: 8px;
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_header .closeSelectReport {
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_header .closeAssocDoc {
   color: var(--fifth);
   font-size: 30px;
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_header .closeSelectReport:hover, .c-modal-select-report .modal-select-report_content .modal-select-report-content_header .closeSelectReport:focus {
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_header .closeAssocDoc:hover, .c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_header .closeAssocDoc:focus {
   text-decoration: none;
   cursor: pointer;
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body {
-  min-height: 170px;
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_body {
+  min-height: 150px;
+  margin-bottom: 20px;
   width: auto;
   overflow: auto;
   display: flex;
@@ -6218,7 +6219,7 @@ button#myBtnSelectReport {
   -webkit-align-items: center;
   flex-direction: column;
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box {
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_body .assoc-doc-box {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -6227,37 +6228,13 @@ button#myBtnSelectReport {
   background-color: var(--backgound-second);
   margin-bottom: 8px;
   padding: 10px 16px;
-  /* Custom checkbox only for this .select-report-box */
-  /* End custom checkbox */
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox {
-  display: inline;
-  top: -2px;
-  right: 24px;
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox [type=checkbox]:not(:checked) + label:before,
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox [type=checkbox]:checked + label:before {
-  background-color: var(--backgound-second);
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox [type=checkbox]:not(:checked),
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox [type=checkbox]:checked {
-  visibility: hidden;
-  position: relative;
-  top: 2px;
-  left: 20px;
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox [type=checkbox]:not(:checked) + label,
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox [type=checkbox]:checked + label {
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_body .assoc-doc-box .assoc-doc-name {
   color: var(--data-first);
   font-family: "Benton Sans Light BBVA", sans-serif;
   font-size: 13px;
-  padding-left: 32px;
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox [type=checkbox]:not(:checked) + label:before,
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_body .select-report-box .c-checkbox [type=checkbox]:checked + label:before {
-  top: -2px;
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_footer {
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_footer {
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -6267,26 +6244,8 @@ button#myBtnSelectReport {
   -ms-flex-pack: end;
   -webkit-justify-content: flex-end;
 }
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_footer .c-link {
-  justify-content: unset;
-  align-items: unset;
-  margin-right: 30px;
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_footer .c-button {
-  width: 150px;
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_footer .c-button i {
-  transform: rotate(-90deg);
-  margin-right: 6px;
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_footer .c-button--enabled .ico-return:before, .c-modal-select-report .modal-select-report_content .modal-select-report-content_footer .c-button--disabled .ico-return:before {
-  font-size: 20px;
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_footer .c-button--enabled .ico-return:before {
-  color: var(--first);
-}
-.c-modal-select-report .modal-select-report_content .modal-select-report-content_footer .c-button--disabled .ico-return:before {
-  color: var(--fourth);
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_footer .c-button {
+  width: 130px;
 }
 
 /* END OF C-MODAL-ASSOC-DOC COMPONENT */

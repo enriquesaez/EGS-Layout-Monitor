@@ -1,27 +1,19 @@
 <!-- this "button#myBtnSelectReport" down here is just for layout purpose -->
 <!-- must be deleted in development -->
-button#myBtnSelectReport Press me to render the modal
-#myModalSelectReport.c-modal-select-report
-    .modal-select-report_content
-        .modal-select-report-content_header
-            p.c-modal-select-report-title Selecciona informe
-            span.closeSelectReport ×
-        .modal-select-report-content_body
-            .select-report-box
-                .c-checkbox
-                    input#checkmark(type="checkbox")
-                    label(for='checkmark') Informe de fichero
-            .select-report-box
-                .c-checkbox
-                    input#checkmark(type="checkbox")
-                    label(for='checkmark') Informe de modificaciones
-            .select-report-box
-                .c-checkbox
-                    input#checkmark(type="checkbox")
-                    label(for='checkmark') Informe de cancelaciones
-        .modal-select-report-content_footer
-            .c-link(tabindex='0', role='button')
-                label Cerrar            
+button#myBtnAssocDoc Press me to render the modal
+#mymodalAssocDoc.c-modal-assoc-doc
+    .modal-assoc-doc_content
+        .modal-assoc-doc-content_header
+            p.c-modal-assoc-doc-title Documentación asociada
+            span.closeAssocDoc ×
+        .modal-assoc-doc-content_body
+            .assoc-doc-box
+                span.assoc-doc-name Correo_de_confirmación.pdf
+            .assoc-doc-box
+                span.assoc-doc-name Operaciones Argentina_vto igual o posterior al 01112019(1).xml
+            .assoc-doc-box
+                span.assoc-doc-name Operaciones Argentina_cancelaciones pendientes.pdf
+
+        .modal-assoc-doc-content_footer          
             .c-button.c-button--enabled
-                i.ico-return
-                span Descargar
+                span Cerrar
