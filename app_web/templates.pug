@@ -269,7 +269,12 @@ html(lang='en')
         .col-12
           h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-confirm-order:
           include components/c-modal-confirm-order/c-modal-confirm-order.pug
-          hr.margin-top_30          
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-select-report:
+          include components/c-modal-select-report/c-modal-select-report.pug
+          hr.margin-top_30            
       //- End Windows modal          
       .row.margin-bottom_40
         .col-12
@@ -365,6 +370,7 @@ include js/c-modal-attach-js.pug
 include js/c-modal-document-js.pug
 include js/c-modal-modify-ejec-date-js.pug
 include js/c-modal-confirm-order-js.pug
+include js/c-modal-select-report-js.pug
 include js/c-contextual-dropdown-js.pug
 include js/c-select-js.pug
 include js/c-dropdown-js.pug

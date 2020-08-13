@@ -1,0 +1,15 @@
+script.
+    var modalSelectReport = document.getElementById("myModalSelectReport");
+    var btnSelectReport = document.getElementById("myBtnSelectReport");
+    var spanSelectReport = document.getElementsByClassName("closeSelectReport")[0];
+    btnSelectReport.onclick = function() {
+        modalSelectReport.style.display = "block";
+    }
+    spanSelectReport.onclick = function() {
+        modalSelectReport.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalSelectReport) {
+            modalSelectReport.style.display = "none";
+        }
+    }

@@ -1,0 +1,27 @@
+<!-- this "button#myBtnSelectReport" down here is just for layout purpose -->
+<!-- must be deleted in development -->
+button#myBtnSelectReport Press me to render the modal
+#myModalSelectReport.c-modal-select-report
+    .modal-select-report_content
+        .modal-select-report-content_header
+            p.c-modal-select-report-title Selecciona informe
+            span.closeSelectReport ×
+        .modal-select-report-content_body
+            .select-report-box
+                .c-checkbox
+                    input#checkmark(type="checkbox")
+                    label(for='checkmark') Informe de fichero
+            .select-report-box
+                .c-checkbox
+                    input#checkmark(type="checkbox")
+                    label(for='checkmark') Informe de modificaciones
+            .select-report-box
+                .c-checkbox
+                    input#checkmark(type="checkbox")
+                    label(for='checkmark') Informe de cancelaciones
+        .modal-select-report-content_footer
+            .c-link(tabindex='0', role='button')
+                label Cerrar            
+            .c-button.c-button--enabled <!-- Choose ".c-button--disabled" to make this button disabled-->
+                i.ico-return
+                span Descargar
