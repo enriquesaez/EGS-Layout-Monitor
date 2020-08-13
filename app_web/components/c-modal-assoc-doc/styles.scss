@@ -1,0 +1,155 @@
+/* C-MODAL-ASSOC-DOC COMPONENT */
+
+/* this "button#myBtngeneric" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtnSelectReport {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.c-modal-select-report {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  .modal-select-report_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 344px;
+    width: 464px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: var(--first);
+    padding: 28px;
+    border-bottom: 1px solid;
+    .modal-select-report-content_header {
+      min-height: 60px;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      .c-modal-select-report-title {
+        min-width: 390px;
+        color: var(--tertiary);
+        font-family: "Benton Sans Book BBVA", sans-serif;
+        font-size: 22px;
+        line-height: 29px;
+        text-align: center;
+        padding-top: 8px;
+      }
+      .closeSelectReport {
+        color: var(--fifth);
+        font-size: 30px;
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    }
+    .modal-select-report-content_body {
+      min-height: 170px;
+      width: auto;
+      overflow: auto;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      flex-direction: column;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      .select-report-box {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        height: 40px;
+        width: 100%;
+        background-color: var(--backgound-second);
+        margin-bottom: 8px;
+        padding: 10px 16px;
+        /* Custom checkbox only for this .select-report-box */
+        .c-checkbox {
+          display: inline;
+          top: -2px;
+          right: 24px;
+          [type="checkbox"]:not(:checked) + label:before,
+          [type="checkbox"]:checked + label:before {
+            background-color: var(--backgound-second);
+          }
+          [type="checkbox"]:not(:checked),
+          [type="checkbox"]:checked {
+            visibility: hidden;
+            position: relative;
+            top: 2px;
+            left: 20px;
+          }
+          [type="checkbox"]:not(:checked) + label,
+          [type="checkbox"]:checked + label {
+            color: var(--data-first);
+            font-family: "Benton Sans Light BBVA", sans-serif;
+            font-size: 13px;
+            padding-left: 32px;
+          }
+          [type="checkbox"]:not(:checked) + label:before,
+          [type="checkbox"]:checked + label:before {
+            top: -2px;
+          }
+        }
+        /* End custom checkbox */
+      }
+    }
+    .modal-select-report-content_footer {
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      align-items: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      justify-content: flex-end;
+      -ms-flex-pack: end;
+      -webkit-justify-content: flex-end;
+      .c-link {
+        justify-content: unset;
+        align-items: unset;
+        margin-right: 30px;
+      }
+      .c-button {
+        width: 150px;
+        i {
+          transform: rotate(-90deg);
+          margin-right: 6px;
+        }
+        &--enabled,
+        &--disabled {
+          .ico-return:before {
+            font-size: 20px;
+          }
+        }
+        &--enabled {
+          .ico-return:before {
+            color: var(--first);
+          }
+        }
+        &--disabled {
+          .ico-return:before {
+            color: var(--fourth);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* END OF C-MODAL-ASSOC-DOC COMPONENT */
