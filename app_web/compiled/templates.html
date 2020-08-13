@@ -2891,46 +2891,6 @@
       </div>
       <div class="row margin-bottom_40">
         <div class="col-12">         
-          <h2 style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;">c-modal-documentation:</h2><!-- this "button#myBtn" down here is just for layout purpose -->
-<!-- must be deleted in develop -->
-          <button id="myBtnDocumentation">Press me to render the modal</button>
-          <div class="c-modal-documentation" id="myModalDocumentation">
-            <div class="modal-documentation-content">
-              <div class="modal-documentation-content_header">
-                <p class="c-modal-documentation-title">Documentación asociada</p><span class="closeDocumentation">×</span>
-              </div>
-              <div class="modal-documentation-content_body">
-                <div class="document">
-                  <div class="document-left"><span>documento.pdf</span></div>
-                  <div class="document-right"><i class="ico-show"></i><i class="ico-download"></i></div>
-                </div>
-                <div class="document">
-                  <div class="document-left"><span>documento.pdf</span></div>
-                  <div class="document-right"><i class="ico-show"></i><i class="ico-download"></i></div>
-                </div>
-                <div class="document">
-                  <div class="document-left"><span>documento.pdf</span></div>
-                  <div class="document-right"><i class="ico-show"></i><i class="ico-download"></i></div>
-                </div>
-                <div class="document">
-                  <div class="document-left"><span>documento.pdf</span></div>
-                  <div class="document-right"><i class="ico-show"></i><i class="ico-download"></i></div>
-                </div>
-                <div class="document">
-                  <div class="document-left"><span>documento.pdf</span></div>
-                  <div class="document-right"><i class="ico-show"></i><i class="ico-download"></i></div>
-                </div>
-              </div>
-              <div class="modal-documentation-content_footer">
-                <div class="c-button c-button--enabled"><span>Lorem Ipsum</span></div>
-              </div>
-            </div>
-          </div>
-          <hr class="margin-top_30">
-        </div>
-      </div>
-      <div class="row margin-bottom_40">
-        <div class="col-12">         
           <h2 style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;">c-modal-modify-ejec-date:</h2><!-- this "button#myBtn" down here is just for layout purpose -->
 <!-- must be deleted in develop -->
           <button id="myBtnModifyEjecDate">Press me to render the modal</button>
@@ -4924,22 +4884,6 @@
   window.onclick = function(event) {
       if (event.target == modalattach) {
           modal.style.display = "none";
-      }
-  }
-</script>
-<script>
-  var modaldoc = document.getElementById("myModalDocumentation");
-  var btndoc = document.getElementById("myBtnDocumentation");
-  var spandoc = document.getElementsByClassName("closeDocumentation")[0];
-  btndoc.onclick = function() {
-      modaldoc.style.display = "block";
-  }
-  spandoc.onclick = function() {
-      modaldoc.style.display = "none";
-  }
-  window.onclick = function(event) {
-      if (event.target == modaldoc) {
-          modaldoc.style.display = "none";
       }
   }
 </script>
