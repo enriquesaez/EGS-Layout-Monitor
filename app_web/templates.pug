@@ -239,11 +239,38 @@ html(lang='en')
           h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-no-data:
           include components/c-no-data/c-no-data.pug
           hr.margin-top_30
+      //- Windows modal
       .row.margin-bottom_40
         .col-12
           h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal:
           include components/c-modal/c-modal.pug
           hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-generic:
+          include components/c-modal-generic/c-modal-generic.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-attach:
+          include components/c-modal-attach/c-modal-attach.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12          
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-documentation:
+          include components/c-modal-documentation/c-modal-documentation.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12          
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-modify-ejec-date:
+          include components/c-modal-modify-ejec-date/c-modal-modify-ejec-date.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-confirm-order:
+          include components/c-modal-confirm-order/c-modal-confirm-order.pug
+          hr.margin-top_30          
+      //- End Windows modal          
       .row.margin-bottom_40
         .col-12
           h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-files-detail-activity-log:
@@ -255,11 +282,6 @@ html(lang='en')
           //-div(style="height:400px") down here is only necessary to see correctly this component here
           div(style="height:400px")
             include components/c-datepicker-simple/c-datepicker-simple.pug
-          hr.margin-top_30
-      .row.margin-bottom_40
-        .col-12
-          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-generic:
-          include components/c-modal-generic/c-modal-generic.pug
           hr.margin-top_30
       .row.margin-bottom_40
         .col-12
@@ -292,21 +314,6 @@ html(lang='en')
           hr.margin-top_30
       .row.margin-bottom_40
         .col-12
-          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-attach:
-          include components/c-modal-attach/c-modal-attach.pug
-          hr.margin-top_30          
-      .row.margin-bottom_40
-        .col-12          
-          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-documentation:
-          include components/c-modal-documentation/c-modal-documentation.pug
-          hr.margin-top_30
-      .row.margin-bottom_40
-        .col-12          
-          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-modify-ejec-date:
-          include components/c-modal-modify-ejec-date/c-modal-modify-ejec-date.pug
-          hr.margin-top_30
-      .row.margin-bottom_40
-        .col-12
           h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-notifications:
           //-div down here is only necessary to see correctly this component here
           div(style="height:400px;")
@@ -321,11 +328,6 @@ html(lang='en')
         .col-12
           h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-clients-management:
           include components/c-clients-management/c-clients-management.pug
-          hr.margin-top_30          
-      .row.margin-bottom_40
-        .col-12
-          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-confirm-order:
-          include components/c-modal-confirm-order/c-modal-confirm-order.pug
           hr.margin-top_30
       .row.margin-bottom_40
         .col-12
@@ -354,13 +356,16 @@ html(lang='en')
           include components/c-traceability-response/c-traceability-response.pug
           hr.margin-top_30          
 
-include js/c-select-js.pug
-include js/c-dropdown-js.pug
-include js/c-accordion-js.pug
+
+
+
 include js/c-modal-js.pug
 include js/c-modal-generic-js.pug
 include js/c-modal-attach-js.pug
 include js/c-modal-document-js.pug
 include js/c-modal-modify-ejec-date-js.pug
-include js/c-contextual-dropdown-js.pug
 include js/c-modal-confirm-order-js.pug
+include js/c-contextual-dropdown-js.pug
+include js/c-select-js.pug
+include js/c-dropdown-js.pug
+include js/c-accordion-js.pug

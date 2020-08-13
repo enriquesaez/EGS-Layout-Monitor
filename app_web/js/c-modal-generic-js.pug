@@ -1,15 +1,15 @@
 script.
-    var modal = document.getElementById("myModalgeneric");
-    var btn = document.getElementById("myBtngeneric");
-    var span = document.getElementsByClassName("closegeneric")[0];
-    btn.onclick = function() {
-        modal.style.display = "block";
+    var modalgeneric = document.getElementById("myModalgeneric");
+    var btngeneric = document.getElementById("myBtngeneric");
+    var spangeneric = document.getElementsByClassName("closegeneric")[0];
+    btngeneric.onclick = function() {
+        modalgeneric.style.display = "block";
     }
-    span.onclick = function() {
-        modal.style.display = "none";
+    spangeneric.onclick = function() {
+        modalgeneric.style.display = "none";
     }
     window.onclick = function(event) {
         if (event.target == modal) {
-            modal.style.display = "none";
+            modalgeneric.style.display = "none";
         }
     }
