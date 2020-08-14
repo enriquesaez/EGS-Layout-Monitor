@@ -85,6 +85,19 @@ button#myBtnAssocDoc {
           font-family: "Benton Sans Light BBVA", sans-serif;
           font-size: 13px;
         }
+        .assoc-doc-icons {
+          width: 46px;
+          i {
+            cursor: pointer;
+            outline: none;
+          }
+          i.ico-show {
+            font-size: 20px;
+          }
+          i.ico-download {
+            font-size: 18px;
+          }          
+        }
       }
     }
     .modal-assoc-doc-content_footer {

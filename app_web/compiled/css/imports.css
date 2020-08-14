@@ -6119,6 +6119,19 @@ button#myBtnAssocDoc {
   font-family: "Benton Sans Light BBVA", sans-serif;
   font-size: 13px;
 }
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_body .assoc-doc-box .assoc-doc-icons {
+  width: 46px;
+}
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_body .assoc-doc-box .assoc-doc-icons i {
+  cursor: pointer;
+  outline: none;
+}
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_body .assoc-doc-box .assoc-doc-icons i.ico-show {
+  font-size: 20px;
+}
+.c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_body .assoc-doc-box .assoc-doc-icons i.ico-download {
+  font-size: 18px;
+}
 .c-modal-assoc-doc .modal-assoc-doc_content .modal-assoc-doc-content_footer {
   display: flex;
   display: -webkit-flex;

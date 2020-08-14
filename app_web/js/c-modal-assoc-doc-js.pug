@@ -2,12 +2,16 @@ script.
     var modalAssocDoc = document.getElementById("mymodalAssocDoc");
     var btnAssocDoc = document.getElementById("myBtnAssocDoc");
     var spanAssocDoc = document.getElementsByClassName("closeAssocDoc")[0];
+    var cButtonAssocDoc = document.getElementsByClassName("cButtonClose")[0];
     btnAssocDoc.onclick = function() {
         modalAssocDoc.style.display = "block";
     }
     spanAssocDoc.onclick = function() {
         modalAssocDoc.style.display = "none";
     }
+    cButtonAssocDoc.onclick = function() {
+        modalAssocDoc.style.display = "none";
+    }    
     window.onclick = function(event) {
         if (event.target == modalAssocDoc) {
             modalAssocDoc.style.display = "none";

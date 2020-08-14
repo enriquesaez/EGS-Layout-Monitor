@@ -7,13 +7,21 @@ button#myBtnAssocDoc Press me to render the modal
             p.c-modal-assoc-doc-title Documentación asociada
             span.closeAssocDoc ×
         .modal-assoc-doc-content_body
-            .assoc-doc-box
+            .assoc-doc-box.flex.flex-justify-between
                 span.assoc-doc-name Correo_de_confirmación.pdf
-            .assoc-doc-box
+                .assoc-doc-icons.flex.flex-justify-between
+                    i(tabindex='0', role='button').ico-show
+                    i(tabindex='0', role='button').ico-download
+            .assoc-doc-box.flex.flex-justify-between       
                 span.assoc-doc-name Operaciones Argentina_vto igual o posterior al 01112019(1).xml
-            .assoc-doc-box
+                .assoc-doc-icons.flex.flex-justify-between
+                    i(tabindex='0', role='button').ico-show
+                    i(tabindex='0', role='button').ico-download
+            .assoc-doc-box.flex.flex-justify-between
                 span.assoc-doc-name Operaciones Argentina_cancelaciones pendientes.pdf
-
+                .assoc-doc-icons.flex.flex-justify-between
+                    i(tabindex='0', role='button').ico-show
+                    i(tabindex='0', role='button').ico-download
         .modal-assoc-doc-content_footer          
-            .c-button.c-button--enabled
+            .c-button.c-button--enabled.cButtonClose
                 span Cerrar

@@ -3056,12 +3056,18 @@
                 <p class="c-modal-assoc-doc-title">Documentación asociada</p><span class="closeAssocDoc">×</span>
               </div>
               <div class="modal-assoc-doc-content_body">
-                <div class="assoc-doc-box"><span class="assoc-doc-name">Correo_de_confirmación.pdf</span></div>
-                <div class="assoc-doc-box"><span class="assoc-doc-name">Operaciones Argentina_vto igual o posterior al 01112019(1).xml</span></div>
-                <div class="assoc-doc-box"><span class="assoc-doc-name">Operaciones Argentina_cancelaciones pendientes.pdf</span></div>
+                <div class="assoc-doc-box flex flex-justify-between"><span class="assoc-doc-name">Correo_de_confirmación.pdf</span>
+                  <div class="assoc-doc-icons flex flex-justify-between"><i class="ico-show" tabindex="0" role="button"></i><i class="ico-download" tabindex="0" role="button"></i></div>
+                </div>
+                <div class="assoc-doc-box flex flex-justify-between">      <span class="assoc-doc-name">Operaciones Argentina_vto igual o posterior al 01112019(1).xml</span>
+                  <div class="assoc-doc-icons flex flex-justify-between"><i class="ico-show" tabindex="0" role="button"></i><i class="ico-download" tabindex="0" role="button"></i></div>
+                </div>
+                <div class="assoc-doc-box flex flex-justify-between"><span class="assoc-doc-name">Operaciones Argentina_cancelaciones pendientes.pdf</span>
+                  <div class="assoc-doc-icons flex flex-justify-between"><i class="ico-show" tabindex="0" role="button"></i><i class="ico-download" tabindex="0" role="button"></i></div>
+                </div>
               </div>
               <div class="modal-assoc-doc-content_footer">         
-                <div class="c-button c-button--enabled"><span>Cerrar</span></div>
+                <div class="c-button c-button--enabled cButtonClose"><span>Cerrar</span></div>
               </div>
             </div>
           </div>
@@ -4939,12 +4945,16 @@
   var modalAssocDoc = document.getElementById("mymodalAssocDoc");
   var btnAssocDoc = document.getElementById("myBtnAssocDoc");
   var spanAssocDoc = document.getElementsByClassName("closeAssocDoc")[0];
+  var cButtonAssocDoc = document.getElementsByClassName("cButtonClose")[0];
   btnAssocDoc.onclick = function() {
       modalAssocDoc.style.display = "block";
   }
   spanAssocDoc.onclick = function() {
       modalAssocDoc.style.display = "none";
   }
+  cButtonAssocDoc.onclick = function() {
+      modalAssocDoc.style.display = "none";
+  }    
   window.onclick = function(event) {
       if (event.target == modalAssocDoc) {
           modalAssocDoc.style.display = "none";
