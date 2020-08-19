@@ -61,14 +61,38 @@ button#myBtn {
     .modal-content_body {
       height: 390px;
       width: 670px;
-      overflow: auto;
+      //overflow: auto;
       border-bottom: 1px solid var(--fourth);
-      span {
+      textarea {
         color: var(--tertiary);
         font-family: "Benton Sans Light BBVA";
         font-size: 15px;
         letter-spacing: 0;
         line-height: 24px;
+        border-width: 0px;
+        outline: none;
+        background-color: white;
+        cursor: default;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        &::-webkit-scrollbar-track {
+          box-shadow: inset 0px 0px 4px grey;
+          border-radius: 10px;
+        }
+        &::-webkit-scrollbar-thumb {
+          background: rgb(24, 113, 181);
+          border-radius: 10px;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+          background: rgb(63, 163, 240);
+        }        
       }
     }
     .modal-content_footer {

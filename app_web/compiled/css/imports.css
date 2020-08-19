@@ -2752,15 +2752,35 @@ button#myBtn {
 .c-modal .modal-content .modal-content_body {
   height: 390px;
   width: 670px;
-  overflow: auto;
   border-bottom: 1px solid var(--fourth);
 }
-.c-modal .modal-content .modal-content_body span {
+.c-modal .modal-content .modal-content_body textarea {
   color: var(--tertiary);
   font-family: "Benton Sans Light BBVA";
   font-size: 15px;
   letter-spacing: 0;
   line-height: 24px;
+  border-width: 0px;
+  outline: none;
+  background-color: white;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.c-modal .modal-content .modal-content_body textarea::-webkit-scrollbar {
+  width: 4px;
+}
+.c-modal .modal-content .modal-content_body textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0px 0px 4px grey;
+  border-radius: 10px;
+}
+.c-modal .modal-content .modal-content_body textarea::-webkit-scrollbar-thumb {
+  background: #1871b5;
+  border-radius: 10px;
+}
+.c-modal .modal-content .modal-content_body textarea::-webkit-scrollbar-thumb:hover {
+  background: #3fa3f0;
 }
 .c-modal .modal-content .modal-content_footer {
   height: 120px;
