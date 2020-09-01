@@ -374,4 +374,19 @@
     border-left: 1px solid var(--tertiary);
   }
 }
+.file-card_footer {
+  p {
+    color: var(--tertiary);
+    font-family: 'Benton Sans Medium BBVA', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 20px;
+    span {
+      margin-left: 10px;
+      font-family: 'Benton Sans Light BBVA';
+      color: var(--seventh);
+      font-size: 13px;
+    }
+  }
+}
 /* END OF C-FILE-CARD COMPONENT */
