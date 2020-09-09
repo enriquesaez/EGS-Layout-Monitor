@@ -3108,6 +3108,66 @@ Suspendisse sodales imperdiet                </textarea>
       </div>
       <div class="row margin-bottom_40">
         <div class="col-12">
+          <h2 style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;">c-modal-cancel-file:</h2><!-- this "button#myBtn" down here is just for layout purpose -->
+<!-- must be deleted in develop -->
+          <button id="myBtncancelfile">Press me to render the modal</button>
+          <div class="c-modal-cancel-file" id="myModalcancelfile">
+            <div class="modal-cancel-file_content">
+              <div class="modal-cancel-file-content_header">
+                <p class="c-modal-cancel-file-title">Confirma que quieres cancelar el siguiente fichero</p><span class="closecancelfile">×</span>
+              </div>
+              <div class="modal-cancel-file-content_body">
+                <div class="cancel-file-files-ico flex flex-justify-center flex-column"><img src="../svg/cancel-file.svg" alt="">
+                  <p>BIOMTS4453</p><span>Repsol España - REYESMMXXX</span>
+                </div>
+                <div class="cancel-file-button-attach flex flex-justify-end" tabindex="0" role="button"><img src="../svg/attached.svg" alt=""><span>Adjuntar archivo        </span></div>
+                <div class="hr-table-customer"></div>
+                <table class="c-table-order">
+                  <tbody>
+                    <tr class="th-table">
+                      <th>
+                        <p>f. recibido</p>
+                      </th>
+                      <th>
+                        <p>f. ejecución</p>
+                      </th>
+                      <th>
+                        <p>destino</p>
+                      </th>
+                      <th class="last"> 
+                        <p>importe</p>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>16/09/20</p><span>12:34</span>
+                      </td>
+                      <td>
+                        <p>30/09/20</p>
+                      </td>
+                      <td>
+                        <p>Argentina</p>
+                      </td>
+                      <td class="last">
+                        <p class="amount">30.000,00 EUR</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-cancel-file-content_footer">
+                <div class="c-link" tabindex="0" role="button"><i></i>
+                  <label>Lorem ipsum</label>
+                </div>
+                <div class="c-button c-button--enabled"><span>Lorem Ipsum</span></div>
+              </div>
+            </div>
+          </div>
+          <hr class="margin-top_30">
+        </div>
+      </div>
+      <div class="row margin-bottom_40">
+        <div class="col-12">
           <h2 style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;">c-files-detail-activity-log:</h2>
           <div class="c-files-detail-activity-log">
             <div class="activity-log-title">Este fichero se procesó tras el correcto procesamiento de:</div>
@@ -4990,6 +5050,22 @@ Suspendisse sodales imperdiet                </textarea>
   window.onclick = function(event) {
       if (event.target == modalAssocDoc) {
           modalAssocDoc.style.display = "none";
+      }
+  }
+</script>
+<script>
+  var modalcancelfile = document.getElementById("myModalcancelfile");
+  var btncancelfile = document.getElementById("myBtncancelfile");
+  var spancancelfile = document.getElementsByClassName("closecancelfile")[0];
+  btncancelfile.onclick = function() {
+      modalcancelfile.style.display = "block";
+  }
+  spancancelfile.onclick = function() {
+      modalcancelfile.style.display = "none";
+  }
+  window.onclick = function(event) {
+      if (event.target == modalcancelfile) {
+          modal.style.display = "none";
       }
   }
 </script>

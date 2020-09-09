@@ -1,0 +1,15 @@
+script.
+    var modalcancelfile = document.getElementById("myModalcancelfile");
+    var btncancelfile = document.getElementById("myBtncancelfile");
+    var spancancelfile = document.getElementsByClassName("closecancelfile")[0];
+    btncancelfile.onclick = function() {
+        modalcancelfile.style.display = "block";
+    }
+    spancancelfile.onclick = function() {
+        modalcancelfile.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalcancelfile) {
+            modal.style.display = "none";
+        }
+    }

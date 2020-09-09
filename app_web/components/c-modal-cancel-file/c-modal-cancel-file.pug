@@ -1,0 +1,42 @@
+<!-- this "button#myBtn" down here is just for layout purpose -->
+<!-- must be deleted in develop -->
+button#myBtncancelfile Press me to render the modal
+#myModalcancelfile.c-modal-cancel-file
+    .modal-cancel-file_content
+        .modal-cancel-file-content_header
+            p.c-modal-cancel-file-title Confirma que quieres cancelar el siguiente fichero
+            span.closecancelfile ×
+        .modal-cancel-file-content_body
+            .cancel-file-files-ico.flex.flex-justify-center.flex-column
+                img(src="../svg/cancel-file.svg", alt="")
+                p BIOMTS4453
+                span Repsol España - REYESMMXXX
+            .cancel-file-button-attach.flex.flex-justify-end(tabindex='0', role='button')
+                img(src="../svg/attached.svg", alt="")
+                span Adjuntar archivo        
+            .hr-table-customer
+            table.c-table-order
+                tbody
+                    tr.th-table
+                        th
+                            p f. recibido
+                        th
+                            p f. ejecución
+                        th
+                            p destino
+                        th.last 
+                            p importe
+                    tr
+                        td
+                            p 16/09/20
+                            span 12:34
+                        td
+                            p 30/09/20
+                        td
+                            p Argentina
+                        td.last
+                            p.amount 30.000,00 EUR
+
+        .modal-cancel-file-content_footer
+            include ../c-link/c-link.pug
+            include ../c-button/c-button.pug
