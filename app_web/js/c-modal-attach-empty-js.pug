@@ -1,0 +1,15 @@
+script.
+    var modalattachempty = document.getElementById("myModalattachempty");
+    var btnattachempty = document.getElementById("myBtnattachempty");
+    var spanattachempty = document.getElementsByClassName("closeattachempty")[0];
+    btnattachempty.onclick = function() {
+        modalattachempty.style.display = "block";
+    }
+    spanattachempty.onclick = function() {
+        modalattachempty.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalattachempty) {
+            modal.style.display = "none";
+        }
+    }

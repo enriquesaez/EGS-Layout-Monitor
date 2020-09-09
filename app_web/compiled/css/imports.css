@@ -6336,3 +6336,121 @@ button#myBtncancelfile {
 }
 
 /* END OF C-MODAL-CANCEL-FILE COMPONENT */
+/* C-MODAL-attach-empty COMPONENT */
+/* this "button#myBtnattach-empty" down here is just for layout purpose
+   must be deleted in develop */
+button#myBtnattachempty {
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c-modal-attach-empty {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.c-modal-attach-empty .modal-attach-empty_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 384px;
+  width: 552px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: var(--first);
+  padding: 30px;
+  border-bottom: 1px solid;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_header {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  min-width: 480px;
+  min-height: 50px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_header .c-modal-attach-empty-title {
+  padding: 0;
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA", sans-serif;
+  font-size: 22px;
+  line-height: 29px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_header .closeattachempty {
+  color: var(--fifth);
+  font-size: 30px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_header .closeattachempty:hover, .c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_header .closeattachempty:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_body {
+  min-height: 150px;
+  width: auto;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_body .attach-empty-files-ico {
+  margin-bottom: 16px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_body .attach-empty-files-ico img {
+  margin-bottom: 10px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_body .attach-empty-files-ico p {
+  color: var(--tertiary);
+  font-family: "Benton Sans Book BBVA", sans-serif, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_body .attach-empty-button {
+  height: 55px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  margin-left: 10px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_body .attach-empty-button img {
+  height: 22px;
+  width: 15px;
+  margin-right: 10px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_body .attach-empty-button span {
+  color: var(--fifth);
+  font-family: "Benton Sans Medium BBVA", sans-serif;
+  font-size: 13px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_footer {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  justify-content: flex-end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_footer .c-link {
+  justify-content: unset;
+  align-items: unset;
+  margin-right: 22px;
+}
+.c-modal-attach-empty .modal-attach-empty_content .modal-attach-empty-content_footer .c-button {
+  width: 120px;
+  height: 48px;
+}
+
+/* END OF C-MODAL-attach-empty COMPONENT */
