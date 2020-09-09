@@ -142,6 +142,18 @@
       }
     }
   }
+  .info-message {
+    margin-left: 20px;
+    img {
+      margin: 0 4px 2px 0;
+    }
+    span {
+      color: var(--data-first);
+      font-family: "Benton Sans Light BBVA", sans-serif;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
   hr {
     margin-inline-start: 24px;
     margin-inline-end: 24px;
@@ -159,7 +171,7 @@
         justify-content: space-between;
         -ms-flex-pack: justify;
         -webkit-justify-content: space-between;
-        margin: 10px 24px 18px 24px;
+        margin: 2px 24px 8px 24px;
         .select-days {
           align-items: center;
           -ms-flex-align: center;

@@ -1248,6 +1248,18 @@ footer .footer__container .text span {
 .c-datepicker .row.calendar-container .col-6.calendar-1 .days .frame-day.active span, .c-datepicker .row.calendar-container .col-6.calendar-2 .days .frame-day.active span {
   color: var(--first);
 }
+.c-datepicker .info-message {
+  margin-left: 20px;
+}
+.c-datepicker .info-message img {
+  margin: 0 4px 2px 0;
+}
+.c-datepicker .info-message span {
+  color: var(--data-first);
+  font-family: "Benton Sans Light BBVA", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
 .c-datepicker hr {
   margin-inline-start: 24px;
   margin-inline-end: 24px;
@@ -1262,7 +1274,7 @@ footer .footer__container .text span {
   justify-content: space-between;
   -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
-  margin: 10px 24px 18px 24px;
+  margin: 2px 24px 8px 24px;
 }
 .c-datepicker .row .col .calendar-nav .select-days {
   align-items: center;
