@@ -2,20 +2,388 @@ doctype html
 html(lang='en')
   head
     include components/head-content/head-content.pug
-  body
-    header
-      include components/c-header/c-header.pug
-    section.subHeader
-      include components/c-subheader/c-subheader.pug
+  body(style='background: #f9f9f9;')
+    header(style='height: 120px;')
+      //-include components/c-header/c-header.pug
+      section.app__container
+        h1(style="font-family: 'Benton Sans Medium BBVA'; font-size: 2.4em; padding-top:1em; text-align: center; color: white;") 
+            | Monitor One Bank 
+            span(style="font-family: 'Benton Sans Light BBVA';") | Templates HTML &amp; SCSS
     section.app__container
-      //- include components/c-header-accordion/c-header-accordion.pug
-      //- include components/c-accordion/c-accordion.pug
-      //- include components/c-header-accordion-files/c-header-accordion-files.pug
-      //- include components/c-accordion-files/c-accordion-files.pug
-      //- include components/c-table-order/c-table-order.pug
-      //- include components/c-file-card/c-file-card.pug
-      //- include components/c-table-gscf-suppliers/c-table-gscf-suppliers.pug
-    include components/c-footer/c-footer.pug
+      .row.margin-bottom_40(style='margin-top:40px;')
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") C-BADGE:
+          include components/c-badge/c-badge.pug
+          include components/c-badge/c-badge.pug
+          include components/c-badge/c-badge.pug
+          include components/c-badge/c-badge.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") C-BUTTON:
+          .flex.flex-justify-around
+            .c-button.c-button--enabled
+              span Lorem Ipsum
+            .c-button.c-button--disabled
+              span Lorem Ipsum
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") C-BUTTON-FILTER:
+          include components/c-button-filter/c-button-filter.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") C-CHECKBOX:
+          .flex.flex-justify-around
+            include components/c-checkbox/c-checkbox.pug
+            include components/c-checkbox/c-checkbox.pug
+            include components/c-checkbox/c-checkbox.pug
+            include components/c-checkbox/c-checkbox.pug
+            include components/c-checkbox/c-checkbox.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") C-DATE-FILTER:
+          include components/c-date-filter/c-date-filter.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") C-DATEPICKER:
+          //-div(style="height:400px") down here is only necessary to see correctly this component here
+          div(style="height:400px")
+            include components/c-datepicker/c-datepicker.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") C-dropdown:
+          .quarter-width
+            include components/c-dropdown/c-dropdown.pug                                
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-files-receive:
+          include components/c-files-receive/c-files-receive.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-files-status:
+          include components/c-files-status/c-files-status.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-filter-dropdown:
+          include components/c-filter-dropdown/c-filter-dropdown.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-filter-selected:
+          include components/c-filter-selected/c-filter-selected.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-footer:
+          include components/c-footer/c-footer.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-global-counter:
+          include components/c-global-counter/c-global-counter.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-input:
+          .fifth-width
+            include components/c-input/c-input.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-link:
+          include components/c-link/c-link.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-pagination:
+          include components/c-pagination/c-pagination.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-search:
+          include components/c-search/c-search.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-select:
+          .quarter-width
+            include components/c-select/c-select.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-subheader:
+          include components/c-subheader/c-subheader.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-tab-menu:
+          div(style='background-color:#072146; padding: 1em 0 1em 1em')
+            include components/c-tab-menu/c-tab-menu.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-table:
+          include components/c-table/c-table.pug
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-table-header:
+          include components/c-table-header/c-table-header.pug
+          hr.margin-top_30
+
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-tag:
+          .c-tag.tag--integrated
+            span LOREM IPSUM
+          .c-tag.tag--development
+            span LOREM IPSUM
+          .c-tag.tag--production
+            span LOREM IPSUM
+          hr.margin-top_30
+
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-update:
+          include components/c-update/c-update.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-header-accordion:
+          include components/c-header-accordion/c-header-accordion.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-accordion:
+          include components/c-accordion/c-accordion.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-header-accordion-files:
+          include components/c-header-accordion-files/c-header-accordion-files.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-accordion-files:
+          include components/c-accordion-files/c-accordion-files.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-accordion-country:
+          include components/c-accordion-country/c-accordion-country.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-accordion-response:
+          include components/c-accordion-response/c-accordion-response.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-accordion-bill-gscf:
+          include components/c-accordion-bill-gscf/c-accordion-bill-gscf.pug
+          hr.margin-top_30            
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-output-files:
+          include components/c-output-files/c-output-files.pug
+          hr.margin-top_30         
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-files-detail:
+          include components/c-files-detail/c-files-detail.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-file-data:
+          include components/c-file-data/c-file-data.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-file-card-single:
+          include components/c-file-card-single/c-file-card-single.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-file-card:
+          include components/c-file-card/c-file-card.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-menu-traceability:
+          include components/c-menu-traceability/c-menu-traceability.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-alert:
+          include components/c-alert/c-alert.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-alert-modifier:
+          include components/c-alert-modifier/c-alert-modifier.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-history-traceability:
+          include components/c-history-traceability/c-history-traceability.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-no-data:
+          include components/c-no-data/c-no-data.pug
+          hr.margin-top_30
+      //- Windows modals
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal:
+          include components/c-modal/c-modal.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-generic:
+          include components/c-modal-generic/c-modal-generic.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-attach:
+          include components/c-modal-attach/c-modal-attach.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12          
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-modify-ejec-date:
+          include components/c-modal-modify-ejec-date/c-modal-modify-ejec-date.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-confirm-order:
+          include components/c-modal-confirm-order/c-modal-confirm-order.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-select-report:
+          include components/c-modal-select-report/c-modal-select-report.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-assoc-doc:
+          include components/c-modal-assoc-doc/c-modal-assoc-doc.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-cancel-file:
+          include components/c-modal-cancel-file/c-modal-cancel-file.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modal-attach-empty:
+          include components/c-modal-attach-empty/c-modal-attach-empty.pug
+          hr.margin-top_30          
+      //- End Windows modals
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-files-detail-activity-log:
+          include components/c-files-detail-activity-log/c-files-detail-activity-log.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-datepicker-simple:
+          //-div(style="height:400px") down here is only necessary to see correctly this component here
+          div(style="height:400px")
+            include components/c-datepicker-simple/c-datepicker-simple.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-contextual-dropdown:
+          //-div(style="height:200px") down here is only necessary to see correctly this component here
+          div(style="height:200px")          
+            include components/c-contextual-dropdown/c-contextual-dropdown.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-card-dashboard:
+          include components/c-card-dashboard/c-card-dashboard.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-tooltip:
+          //-div down here is only necessary to see correctly this component here
+          div(style="height:100px;")
+            include components/c-tooltip/c-tooltip.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-order-selected:
+          include components/c-order-selected/c-order-selected.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-table-order:
+          include components/c-table-order/c-table-order.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-notifications:
+          //-div down here is only necessary to see correctly this component here
+          div(style="height:400px;")
+            include components/c-notifications/c-notifications.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-confirm-modify-ejec-date:
+          include components/c-confirm-modify-ejec-date/c-confirm-modify-ejec-date.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-clients-management:
+          include components/c-clients-management/c-clients-management.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-modif-date-auth:
+          include components/c-modify-date-auth/c-modify-date-auth.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-spinner:
+          .flex.flex-justify-center
+            include components/c-spinner/c-spinner.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-traceability-customer:
+          include components/c-traceability-customer/c-traceability-customer.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-traceability-country:
+          include components/c-traceability-country/c-traceability-country.pug
+          hr.margin-top_30
+      .row.margin-bottom_40
+        .col-12
+          h2(style="font-size:1.5em; font-weight: 700; margin-bottom:1em; text-transform: uppercase;") c-traceability-response:
+          include components/c-traceability-response/c-traceability-response.pug
+          hr.margin-top_30          
+
+
+
+
+include js/c-modal-js.pug
+include js/c-modal-generic-js.pug
+include js/c-modal-attach-js.pug
+include js/c-modal-modify-ejec-date-js.pug
+include js/c-modal-confirm-order-js.pug
+include js/c-modal-select-report-js.pug
+include js/c-modal-assoc-doc-js.pug
+include js/c-modal-cancel-file-js.pug
+include js/c-modal-attach-empty-js.pug
+include js/c-contextual-dropdown-js.pug
 include js/c-select-js.pug
 include js/c-dropdown-js.pug
 include js/c-accordion-js.pug
