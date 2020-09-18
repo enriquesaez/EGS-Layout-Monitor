@@ -15,10 +15,43 @@
   </head>
   <body style="background: #f9f9f9;">
     <header style="height: 120px;">
-      <section class="app__container">
-        <h1 style="font-family: 'Benton Sans Medium BBVA'; font-size: 2.4em; padding-top:1em; text-align: center; color: white;">
-           Monitor One Bank <span style="font-family: 'Benton Sans Light BBVA';">| Templates HTML &amp; SCSS</span></h1>
-      </section>
+      <div class="header__container">
+        <div class="left inline-flex">
+          <div class="logo"><img src="svg/bbva_logo.svg" alt=""></div>
+          <div class="tab__menu flex flex-align-center margin-top_5">
+            <ul class="c-tab-menu">
+              <li class="first">
+                <button>Menu tabs</button>
+                <div class="c-tab-menu-border"></div>
+              </li>
+              <li class="li--active">
+                <button>Menu tabs</button>
+                <div class="c-tab-menu-border"></div>
+              </li>
+              <li>
+                <button>Menu tabs</button>
+                <div class="c-tab-menu-border"></div>
+              </li>
+              <li class="last">
+                <button>Menu tabs</button>
+                <div class="c-tab-menu-border">               </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <ul class="header__menu">
+            <li class="first header__search"><i class="ico-search"></i></li>
+            <li class="header__notifier"><i class="ico-alarm"></i>
+              <div class="dot-notified"></div>
+            </li>
+            <li class="user-profile">
+              <div class="bground-text"><span>JS</span></div>
+            </li>
+            <li class="last header__button-dropdown"><i class="ico-tiled-view"></i></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <section class="app__container">
       <div class="row margin-bottom_40" style="margin-top:40px;">

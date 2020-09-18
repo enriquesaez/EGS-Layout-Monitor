@@ -4,11 +4,7 @@ html(lang='en')
     include components/head-content/head-content.pug
   body(style='background: #f9f9f9;')
     header(style='height: 120px;')
-      //-include components/c-header/c-header.pug
-      section.app__container
-        h1(style="font-family: 'Benton Sans Medium BBVA'; font-size: 2.4em; padding-top:1em; text-align: center; color: white;") 
-            | Monitor One Bank 
-            span(style="font-family: 'Benton Sans Light BBVA';") | Templates HTML &amp; SCSS
+      include components/c-header/c-header.pug
     section.app__container
       .row.margin-bottom_40(style='margin-top:40px;')
         .col-12
