@@ -21,3 +21,7 @@
 - `git add .`
 - `git commit -m "comentario del commit"`
 - `git push`
+
+**Subir al repo una nueva rama creada en Visual Studio**
+
+- `git push --set-upstream origin NOMBRE_RAMA`
