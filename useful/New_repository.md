@@ -21,6 +21,9 @@
 - `git add .`
 - `git commit -m "comentario del commit"`
 - `git push`
+- `git branch`
+- `git brach nombre-nueva-rama`
+- `git brach -d nombre-rama-para-borrar`
 
 **Subir al repo una nueva rama creada en Visual Studio**
 
