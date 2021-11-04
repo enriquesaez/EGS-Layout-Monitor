@@ -28,3 +28,7 @@
 **Subir al repo una nueva rama creada en Visual Studio**
 
 - `git push --set-upstream origin NOMBRE_RAMA`
+
+**Identificarse al hacer un commit**
+
+- `global user.email "you@example.com"`
