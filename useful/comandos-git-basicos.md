@@ -58,3 +58,7 @@ Borra del repositorio remoto una rama.
 ### Identificarse al hacer un commit y su usuario quede registrado como autor del commit
 
 - `global user.email "you@example.com"`
+
+## Guía completa sobre GIT y control de versiones en Español:
+![Book Git]([https://git-scm.com/book/es/v2)
+
