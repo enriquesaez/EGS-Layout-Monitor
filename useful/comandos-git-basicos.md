@@ -24,12 +24,9 @@
 ![Clonar un repositorio](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-clone-repository.png)
 
 - Introducimos la url del repositorio proporcionada por Github
-
-
-
+&nbsp;
 ## Trabajo con repositorios
-
-
+&nbsp;
 - `git status` 
 Muestra el estado del directorio de trabajo local y el área del entorno de ensayo. 
 Permite ver los cambios realizados y los archivos en los que Git no va a realizar el seguimiento. 
@@ -62,7 +59,7 @@ Borra del repositorio remoto una rama.
 ### Subir al repositorio remoto una nueva rama creada
 
 - `git push --set-upstream origin NOMBRE_RAMA`
-
+&nbsp;
 ### Identificarse al hacer un commit y su usuario quede registrado como autor del commit
 
 - `global user.email "you@example.com"`
