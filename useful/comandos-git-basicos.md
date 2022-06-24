@@ -1,5 +1,6 @@
 
-# Trabajo con repositorios GIT usando Visual Studio Code y Github
+# Guia breve sobre principales comandos GIT 
+## Trabajo con repositorios GIT usando Visual Studio Code y Github
 ### En Github, elegimos la opción "Nuevo" y creamos el nuevo repositorio: http://github.com/new
 
 ![Crear un repositorio](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
