@@ -8,21 +8,21 @@
 
 
 
-**Usando Visual Studio Code - Crear entorno GIT desde cero**
+## Usando Visual Studio Code para crear un entorno GIT desde cero
 
-- `git init` (solo una primera vez) Esto crea y configura un espacio de trabajo GIT
+- `git init` (solo se ejecuta una primera vez) Esto crea y configura un espacio de trabajo GIT
 
-- `git remote add origin http://[URL del repositorio].git` Con este comando clonamos un proyecto / directorio GIT remoto en nuestro entorno local.
+- `git remote add origin http://[URL del repositorio].git` Con este comando clonamos, hacemos una copia en nuestro local de un proyecto remoto.
 
 - `git push -u origin master` Este comando carga nuestro primer contenido desde el repositorio local al repositorio remoto.
 
-**Crear un nuevo repositorio en Visual Studio Code:**
+## Crear un nuevo repositorio en Visual Studio Code:**
 
 - Opción Clonar Repositorio
 
 ![Image text](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-clone-repository.png)
 
--Introducimos la url del repositorio de Github
+- Introducimos la url del repositorio proporcionada por Github
 
 
 
@@ -58,10 +58,10 @@ Crea una rama nueva a partir de una copia actual del repositorio principal o de 
 - `git brach -d nombre-rama-para-borrar`
 Borra del repositorio remoto una rama.
 
-**Para subir al repositorio remoto una nueva rama creada se ejecuta el comando:**
+## Subir al repositorio remoto una nueva rama creada
 
 - `git push --set-upstream origin NOMBRE_RAMA`
 
-**Para que un colaborador se identifique al hacer un commit y su usuario quede registrado como autor del commit**
+## Identificarse al hacer un commit y su usuario quede registrado como autor del commit
 
 - `global user.email "you@example.com"`
