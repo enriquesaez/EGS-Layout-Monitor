@@ -1,9 +1,7 @@
 
 # Trabajo con repositorios GIT usando Visual Studio Code y Github
 	
-**En Github, opción "Nuevo" y creamos el nuevo repositorio**
-
-**En http://github.com/new >>**
+**En Github, opción "Nuevo" y creamos el nuevo repositorio: http://github.com/new >>**
 
 ![Image text](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
 
@@ -22,12 +20,11 @@
 
 ![Image text](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-clone-repository.png)
 
--Introducimos la url del repositorio en Github
-
+-Introducimos la url del repositorio de Github
 
 **Trabajo con repositorios**
 
-- `git status -s`
+- `git status -s` El comando git status muestra el estado del directorio de trabajo y del área del entorno de ensayo. Permite ver los cambios que se han preparado, los que no y los archivos en los que Git no va a realizar el seguimiento. El resultado del estado no muestra ninguna información relativa al historial del proyecto.
 - `git add nombre_archivo`
 - `git add .`
 - `git commit -m "comentario del commit"`
