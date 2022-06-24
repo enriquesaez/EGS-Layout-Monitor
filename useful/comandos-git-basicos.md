@@ -62,8 +62,8 @@ Borra del repositorio remoto una rama.
 ### Guía completa sobre GIT y control de versiones en Español:
 
 **Enlace Web**
-**[Guía - Libro de Git](https://git-scm.com/book/es/v2)**
+- **[Guía - Libro de Git](https://git-scm.com/book/es/v2)**
 
 **Descarga en PDF**
-[Guía -Libro de Git](https://github.com/progit/progit2-es/releases/download/2.1.23/progit.pdf).
+- [Guía -Libro de Git](https://github.com/progit/progit2-es/releases/download/2.1.23/progit.pdf).
 
