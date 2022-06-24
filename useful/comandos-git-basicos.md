@@ -1,9 +1,11 @@
 
 # Trabajo con repositorios GIT usando Visual Studio Code y Github
 	
+
 **En Github, opción "Nuevo" y creamos el nuevo repositorio: http://github.com/new >>**
 
 ![Image text](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
+
 
 
 **Usando Visual Studio Code - Crear entorno GIT desde cero**
@@ -23,7 +25,9 @@
 -Introducimos la url del repositorio de Github
 
 
+
 ## Trabajo con repositorios
+
 
 - `git status` 
 Muestra el estado del directorio de trabajo local y el área del entorno de ensayo. 
@@ -41,18 +45,23 @@ Con este comando se realiza una captura, una instantánea de los cambios realiza
 Previamente a ello siempre habrá que realizarse la opción "git add".
 
 - `git push`
-Genera, sube al repositorio remoto todos los cambios producidos en nuestro repositorio local.
+Sube al repositorio remoto todos los cambios producidos en nuestro repositorio local.
 La diferencia básica entre **git commit** y **git push** es que el alcance de git commit es el repositorio local, y el de git push es el repositorio remoto. 
 El comando git push siempre viene después de ejecutar el comando git commit.
 
 - `git branch`
-- `git brach nombre-nueva-rama`
-- `git brach -d nombre-rama-para-borrar`
+Muestra las ramas existentes en nuestro repositorio GIT. Normalmente los miembros de un equipo trabajan con una versión (rama o branch) local del repositorio para después subir el trabajo a una rama remota, que finalmente se fusionará (merge) con el repositorio remoto principal.
 
-**Subir al repo una nueva rama creada en Visual Studio**
+- `git brach nombre-nueva-rama`
+Crea una rama nueva a partir de una copia actual del repositorio principal o de otra rama.
+
+- `git brach -d nombre-rama-para-borrar`
+Borra del repositorio remoto una rama.
+
+**Para subir al repositorio remoto una nueva rama creada se ejecuta el comando:**
 
 - `git push --set-upstream origin NOMBRE_RAMA`
 
-**Identificarse al hacer un commit**
+**Para que un colaborador se identifique al hacer un commit y su usuario quede registrado como autor del commit**
 
 - `global user.email "you@example.com"`
