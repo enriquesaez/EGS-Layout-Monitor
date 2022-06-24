@@ -22,13 +22,29 @@
 
 -Introducimos la url del repositorio de Github
 
-**Trabajo con repositorios**
 
-- `git status -s` El comando git status muestra el estado del directorio de trabajo y del área del entorno de ensayo. Permite ver los cambios que se han preparado, los que no y los archivos en los que Git no va a realizar el seguimiento. El resultado del estado no muestra ninguna información relativa al historial del proyecto.
+##Trabajo con repositorios
+
+- `git status` 
+Muestra el estado del directorio de trabajo local y el área del entorno de ensayo. 
+Permite ver los cambios realizados y los archivos en los que Git no va a realizar el seguimiento. 
+
 - `git add nombre_archivo`
+Añade al entorno virtual un archivo de nuestro repositorio local, ya sea uno nuevo o un archivo modificado. 
+El comando "git add" realiza una puesta en escena ("stage") de los cambios. 
+
 - `git add .`
+Añade al entorno virtual todos los ficheros nuevos o modificados de nuestro proyecto local.
+
 - `git commit -m "comentario del commit"`
+Con este comando se realiza una captura, una instantánea de los cambios realizados actualmente en el proyecto. 
+Previamente a ello siempre habrá que realizarse la opción "git add".
+
 - `git push`
+Genera, sube al repositorio remoto todos los cambios producidos en nuestro repositorio local.
+La diferencia básica entre **git commit** y **git push** es que el alcance de git commit es el repositorio local, y el de git push es el repositorio remoto. 
+El comando git push siempre viene después de ejecutar el comando git commit.
+
 - `git branch`
 - `git brach nombre-nueva-rama`
 - `git brach -d nombre-rama-para-borrar`
