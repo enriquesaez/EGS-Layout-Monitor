@@ -60,10 +60,34 @@ Crea una rama nueva a partir de una copia actual del repositorio principal o de 
 - `git brach -d nombre-rama-para-borrar`
 Borra del repositorio remoto una rama.
 
-## Subir al repositorio remoto una nueva rama creada
+### Subir al repositorio remoto una nueva rama creada
 
 - `git push --set-upstream origin NOMBRE_RAMA`
 
-## Identificarse al hacer un commit y su usuario quede registrado como autor del commit
+### Identificarse al hacer un commit y su usuario quede registrado como autor del commit
 
 - `global user.email "you@example.com"`
+
+# RAW
+## Creates 2 Lines that CAN be selected as text
+## -------------------------------------------------
+### The non-breaking space ASCII character
+&nbsp;
+&nbsp;
+
+### HTML <(br)/> tag
+<br />
+<br />
+
+## Creates 2 Lines that CANNOT be selected as text
+## -------------------------------------------------
+### HTML Entity &NewLine;
+&NewLine;
+&NewLine;
+
+### Backticks with a space inside followed by two spaces
+`(space)`(space)(space)
+`(space)`(space)(space)
+#### sample:
+` `  
+` `
