@@ -4,7 +4,7 @@
 
 **En Github, opción "Nuevo" y creamos el nuevo repositorio: http://github.com/new >>**
 
-![Image text](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
+![Crear un repositorio](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
 
 
 
@@ -20,7 +20,7 @@
 
 - Opción Clonar Repositorio
 
-![Image text](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-clone-repository.png)
+![Clonar un repositorio](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-clone-repository.png)
 
 - Introducimos la url del repositorio proporcionada por Github
 
