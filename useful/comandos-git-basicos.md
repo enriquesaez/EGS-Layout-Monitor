@@ -1,15 +1,16 @@
 
 # Trabajo con repositorios GIT usando Visual Studio Code y Github
-	
-
+&nbsp;
+&nbsp;
+&nbsp;
 **En Github, elegimos la opción "Nuevo" y creamos el nuevo repositorio: http://github.com/new >>**
 
 ![Crear un repositorio](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
-
-
+&nbsp;
 
 ## Usando Visual Studio Code para crear un entorno GIT desde cero
-
+&nbsp;
+&nbsp;
 ### Accedemos a Terminal de Visual Studio Code y ejecutamos lo siguiente:
 
 - `git init` (solo se ejecuta una primera vez) Esto crea y configura un espacio de trabajo GIT
@@ -67,27 +68,3 @@ Borra del repositorio remoto una rama.
 ### Identificarse al hacer un commit y su usuario quede registrado como autor del commit
 
 - `global user.email "you@example.com"`
-
-# RAW
-## Creates 2 Lines that CAN be selected as text
-## -------------------------------------------------
-### The non-breaking space ASCII character
-&nbsp;
-&nbsp;
-
-### HTML <(br)/> tag
-<br />
-<br />
-
-## Creates 2 Lines that CANNOT be selected as text
-## -------------------------------------------------
-### HTML Entity &NewLine;
-&NewLine;
-&NewLine;
-
-### Backticks with a space inside followed by two spaces
-`(space)`(space)(space)
-`(space)`(space)(space)
-#### sample:
-` `  
-` `
