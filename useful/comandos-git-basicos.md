@@ -60,5 +60,10 @@ Borra del repositorio remoto una rama.
 - `global user.email "you@example.com"`
 
 ### Guía completa sobre GIT y control de versiones en Español:
+
+**Enlace a la guía**
 **[Guía - Libro de Git](https://git-scm.com/book/es/v2)**
+
+**Descarga en PDF**
+[Guía -Libro de Git](https://github.com/progit/progit2-es/releases/download/2.1.23/progit.pdf).
 
