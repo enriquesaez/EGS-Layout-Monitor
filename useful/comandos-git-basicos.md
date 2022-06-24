@@ -23,7 +23,7 @@
 -Introducimos la url del repositorio de Github
 
 
-##Trabajo con repositorios
+## Trabajo con repositorios
 
 - `git status` 
 Muestra el estado del directorio de trabajo local y el área del entorno de ensayo. 
