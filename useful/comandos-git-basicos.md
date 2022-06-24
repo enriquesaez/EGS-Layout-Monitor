@@ -1,14 +1,11 @@
 
 # Trabajo con repositorios GIT usando Visual Studio Code y Github
-&nbsp;
-&nbsp;
-**En Github, elegimos la opción "Nuevo" y creamos el nuevo repositorio: http://github.com/new >>**
+### En Github, elegimos la opción "Nuevo" y creamos el nuevo repositorio: http://github.com/new >>**
 
 ![Crear un repositorio](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
 &nbsp;
 
 ## Usando Visual Studio Code para crear un entorno GIT desde cero
-&nbsp;
 ### Accedemos a Terminal de Visual Studio Code y ejecutamos lo siguiente:
 
 - `git init` (solo se ejecuta una primera vez) Esto crea y configura un espacio de trabajo GIT
@@ -24,9 +21,7 @@
 ![Clonar un repositorio](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-clone-repository.png)
 
 - Introducimos la url del repositorio proporcionada por Github
-&nbsp;
 ## Trabajo con repositorios
-&nbsp;
 - `git status` 
 Muestra el estado del directorio de trabajo local y el área del entorno de ensayo. 
 Permite ver los cambios realizados y los archivos en los que Git no va a realizar el seguimiento. 
