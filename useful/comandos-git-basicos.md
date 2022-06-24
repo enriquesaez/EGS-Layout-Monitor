@@ -5,7 +5,7 @@
 
 **En http://github.com/new >>**
 
-![Image text]([https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
+![Image text](https://github.com/enriquesaez/EGS-Layout-Monitor/blob/master/useful/img-create-repo.png)
 
 
 **Usando Visual Studio Code - Crear entorno GIT desde cero**
