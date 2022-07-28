@@ -1,10 +1,10 @@
 
 # Iniciar nuevo repositorio con Github y Visual Studio Code
 	
-**En Github >>**
-Utilizar la opción de *Crear repositorio*
+**Directamente en la herramienta web de Github:**
+- Utilizar la opción de *Crear repositorio*
 
-**En VS Code**
+**En consola de comandos Git Batch o en Terminal de Visual Studio Code**
 
 - `git init` (solo una primera vez)
 - `git remote add origin http://[URL del repositorio].git`
@@ -31,7 +31,6 @@ Utilizar la opción de *Crear repositorio*
 
 - `git push` <- *Sube todo el trabajo al repositorio remoto (origin, master)*
 - `git status` <- *Volvemos a comprobar que los cambios se han subido correctamente al remoto*
-- 
 
 # Trabajando con ramas (branches)
 
