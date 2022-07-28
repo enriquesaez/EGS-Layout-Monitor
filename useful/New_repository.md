@@ -11,7 +11,7 @@
 - `git push -u origin master`
 
 **O bien, crear un repositorio a través de la interfaz de Visual Studio Code:**
-- Clone repository > *url del repositorio en Github
+- Clone repository > *url del repositorio en Github*
 
 # Trabajando con comandos GIT
 
