@@ -45,9 +45,11 @@
 - `git push --set-upstream origin NOMBRE_RAMA`
 
 
-**Consideraciones sobre ramos:**
+**Consideraciones sobre ramas:**
 
-Las ramas creadas en nuestro proyecto local y cuyos cambios ya han sido "comiteados", subidos con `git push` al repositorio remoto y cuyos cambios se requiere ser fusionados, incluídos en nuestro repositorio remoto, necesitan fusionarse mediante la opción "merge" al repositorio remoto, para lo cual se efectua una *Pull Request* y una confirmación posterior de dichos cambios que van a fusionarse el en repositorio.
+Las ramas generadas en nuestro proyecto local y cuyos cambios ya han sido "comiteados", subidos con `git push` a una rama remota del repositorio remoto, pueden añadirse finalmente, fusionarse al repositorio remoto. Esta fusión (merge) se efectua mediante una *Pull Request*, una petición en la que solicitamos incluir la copia de nuestro trabajo y los cambios producidos al repositorio remoto principal. 
+
+Además, se necesitará una confirmación posterior de los mencionados cambios que van a fusionarse el en repositorio. Una vez aprobada y confirmada esta petición *pull request*, los cambios ya deberían estar consolidados y verse reflejados en el repositorio remoto: el commit o commits de los que se componga el trabajo realizado, los ficheros afectados, la fecha de inclusión y el usuario del proyecto autor de estos cambios.
 
 Dependiendo de la configuración del proyecto y los privilegios que disponga determinado usuario, esta confirmación de la pull request podrá hacerse efectiva directamente por el propio usuario, o bien necesitará de aprobación y confirmacion de un usuario administrador del repositorio.
 
