@@ -16,7 +16,7 @@
 
 **Trabajo basico con repositorios:**
 
-- `git status` Vemos el estado de nuestro repositorio respecto al repo en origen (origin, master...)
+- `git status` <- *Vemos el estado de nuestro repositorio respecto al repo en origen (origin, master...)*
 - `git add nombre_archivo`
 - `git add .`
 - `git commit -m "comentario del commit"`
