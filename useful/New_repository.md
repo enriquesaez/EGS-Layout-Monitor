@@ -10,9 +10,8 @@
 - `git remote add origin http://[URL del repositorio].git`
 - `git push -u origin master`
 
-**O bien, crear repo directamente en VS Code:**
-- Clone repository > introducir url del repositorio en Github
-
+**O bien, crear un repositorio a través de la interfaz de Visual Studio Code:**
+- Clone repository > *url del repositorio en Github
 
 # Trabajando con comandos GIT
 
