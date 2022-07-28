@@ -2,7 +2,7 @@
 # Iniciar nuevo repositorio con Github y Visual Studio Code
 	
 **En Github >>**
-*Crear repo*
+Utilizar la opción de *Crear repositorio*
 
 **En VS Code**
 
