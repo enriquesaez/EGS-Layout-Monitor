@@ -47,11 +47,11 @@
 
 # Consideraciones sobre la subida de ramas y Pull Request
 
-Las ramas generadas en nuestro proyecto local y cuyos cambios ya han sido "comiteados", subidos con `git push` a una rama remota del repositorio remoto, pueden añadirse finalmente, fusionarse al repositorio remoto. Esta fusión (merge) se efectua mediante una *Pull Request*, una petición en la que solicitamos incluir la copia de nuestro trabajo y los cambios producidos al repositorio remoto principal. 
+Las ramas generadas en nuestro proyecto local y cuyos cambios ya han sido "comiteados", subidos con `git push` a una rama remota del repositorio remoto, pueden añadirse finalmente, fusionarse, al repositorio remoto. Esta fusión (merge) se efectua mediante *Pull Request*, una petición que puede realizarse facilmente en entornos web como GitHub o GitLab, en la que, a través de la interfaz de estas herramientas online, solicitamos incluir una rama con la copia de nuestro trabajo y los cambios producidos, en el repositorio remoto principal. 
 
-Además, se necesitará una confirmación posterior de los mencionados cambios que van a fusionarse el en repositorio. Una vez aprobada y confirmada esta petición *pull request*, los cambios ya deberían estar consolidados y verse reflejados en el repositorio remoto: el commit o commits de los que se componga el trabajo realizado, los ficheros afectados, la fecha de inclusión y el usuario del proyecto autor de estos cambios.
+Además, se necesitará una confirmación posterior de los mencionados cambios que van a fusionarse el en repositorio. Una vez aprobada y confirmada esta petición *pull request*, los cambios ya deberían estar consolidados y verse reflejados en el repositorio remoto, es decir: el commit o commits de los que se componga el trabajo realizado, los diferentes ficheros afectados, los nuevos ficheros o directorios añadidos, el código fuente añadido o editado, la fecha de inclusión y el usuario autor de estos cambios.
 
-Dependiendo de la configuración del proyecto y los privilegios que disponga determinado usuario, esta confirmación de la pull request podrá hacerse efectiva directamente por el propio usuario, o bien necesitará de aprobación y confirmacion de un usuario administrador del repositorio.
+Dependiendo de la configuración del proyecto y los privilegios que disponga determinado usuario, esta confirmación de la pull request podrá hacerse efectiva directamente por el propio usuario (nuevamente a través de GitHub o GitLab) en el caso de que dicho usuario disponga de los permisos pertinentes. En el caso de que las aprobaciones de pull request en un proyecto estén sujetas a una aprobación superior de un usuario administrador del repositorio, será dicho usuario administrador el que revisará y aceptará (o rechazará) la petición de la inclusión del trabajo en el repositorio remoto.
 
 **Identificarse al hacer commit:**
 
