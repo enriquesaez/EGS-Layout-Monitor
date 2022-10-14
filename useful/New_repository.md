@@ -55,4 +55,4 @@ Dependiendo de la configuración del proyecto y los privilegios que disponga det
 
 **Identificarse al hacer commit:**
 
-- `global user.email "you@example.com"`
+- `git config --global user.email "you@example.com"`
